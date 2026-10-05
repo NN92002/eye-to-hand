@@ -12,7 +12,7 @@ Run:
     cd /home/neaf6000pro/isaacsim
 
     ./python.sh \
-    /home/n/ur5e_camera_ws/isaac_sim/ur5e_camera_scene.py
+    /home/n/eye-to-hand/isaac_sim/ur5e_camera_scene.py
 """
 
 from pathlib import Path
@@ -72,7 +72,7 @@ from isaacsim.core.rendering_manager import ViewportManager
 # ============================================================
 
 WORKSPACE_ROOT = Path(
-    "/home/n/ur5e_camera_ws"
+    "/home/n/eye-to-hand"
 )
 
 SOURCE_URDF = (
@@ -735,7 +735,7 @@ def import_ur5e():
     - References the resulting USD into the current scene under /World/UR5e.
     """
     source_urdf = Path(
-        "/home/n/ur5e_camera_ws/isaac_sim/ur5e_robotiq_2f140.urdf"
+        "/home/n/eye-to-hand/isaac_sim/ur5e_robotiq_2f140.urdf"
     )
     if not source_urdf.exists():
         raise FileNotFoundError(
@@ -744,7 +744,7 @@ def import_ur5e():
         )
 
     mesh_root = Path(
-        "/home/n/ur5e_camera_ws/src/universal_robot"
+        "/home/n/eye-to-hand/src/universal_robot"
     )
     if not mesh_root.exists():
         raise FileNotFoundError(
@@ -754,14 +754,14 @@ def import_ur5e():
     # The expanded URDF still contains package://ur_description/...
     # Resolve those URLs so the standalone Isaac Sim process does not need ROS.
     resolved_urdf = Path(
-        "/home/n/ur5e_camera_ws/isaac_sim/ur5e_robotiq_2f140_isaac_resolved.urdf"
+        "/home/n/eye-to-hand/isaac_sim/ur5e_robotiq_2f140_isaac_resolved.urdf"
     )
     urdf_text = source_urdf.read_text()
     urdf_text = urdf_text.replace(
         "package://ur_description/",
         mesh_root.as_posix().rstrip("/") + "/",
     )
-    robotiq_mesh_root = Path("/home/n/ur5e_camera_ws/src/robotiq_ros/grippers/robotiq_description")
+    robotiq_mesh_root = Path("/home/n/eye-to-hand/src/robotiq_ros/grippers/robotiq_description")
     if not robotiq_mesh_root.exists():
         raise FileNotFoundError(f"Robotiq description directory not found: {robotiq_mesh_root}")
     urdf_text = urdf_text.replace(
@@ -780,7 +780,7 @@ def import_ur5e():
     resolved_urdf.write_text(urdf_text)
 
     output_dir = Path(
-        "/home/n/ur5e_camera_ws/isaac_sim/generated_ur5e_robotiq_2f140_nomimic_v17"
+        "/home/n/eye-to-hand/isaac_sim/generated_ur5e_robotiq_2f140_nomimic_v17"
     )
     output_dir.mkdir(parents=True, exist_ok=True)
 

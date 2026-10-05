@@ -54,7 +54,7 @@ Run:
 
 
 
-    /home/n/ur5e_camera_ws/isaac_sim/ur5e_camera_scene.py
+    /home/n/eye-to-hand/isaac_sim/ur5e_camera_scene.py
 
 
 

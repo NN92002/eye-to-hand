@@ -6,7 +6,7 @@
   <!-- Existing expanded UR5e                                 -->
   <!-- ====================================================== -->
 
-  <xacro:include filename="/home/n/ur5e_camera_ws/isaac_sim/ur5e.urdf"/>
+  <xacro:include filename="ur5e.urdf"/>
 
   <!-- ====================================================== -->
   <!-- Robotiq 2F-140                                         -->

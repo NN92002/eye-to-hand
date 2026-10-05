@@ -77,7 +77,10 @@ def load_calibration(path):
         ground_truths.append(validate_rigid_transform(np.load(gt_file, allow_pickle=False)))
     # LRBO JSON refers to captures containing the actual base/camera GT.
     for scan in metadata.get("scans", []):
-        capture = Path(scan["capture"])
+        original_capture = Path(scan["capture"])
+        # Prefer this repository's copied evidence over historical absolute paths.
+        local_capture = path.parent.parent / "captures" / original_capture.name
+        capture = local_capture if local_capture.is_file() else original_capture
         if capture.is_file():
             with np.load(capture, allow_pickle=False) as data:
                 gt = data.get("T_base_camera_GT")

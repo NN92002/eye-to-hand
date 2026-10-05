@@ -1,9 +1,9 @@
 import sys,json,collections
 from pathlib import Path
 import numpy as np
-sys.path.insert(0,'/home/n/ur5e_camera_ws/isaac_sim/lrbo_eye_to_hand')
+sys.path.insert(0,str(Path(__file__).resolve().parent.parent))
 from calibration_comparison import load_calibration
-root=Path('/home/n/ur5e_camera_ws/isaac_sim/lrbo_eye_to_hand')
+root=Path(__file__).resolve().parent.parent
 groups=collections.defaultdict(dict)
 for p in sorted((root/'comparisons/edge_paths').glob('edge_path_20261004*.json')):
  d=json.loads(p.read_text())
@@ -18,7 +18,7 @@ for pair in groups.values():
  i=len(rows)//2+1
  pair_cameras=[]
  for source in ('OpenCV','LRBO'):
-  p,d=pair[source]; est=np.array(d['estimated_endpoints_base']);ideal=np.array(d['ideal_subsegment_base']);gt=np.array(d['T_base_camera_GT']);saved=load_calibration(d['calibration_file'])['matrix'];cam=transform(np.linalg.inv(saved),est);idealcam=transform(np.linalg.inv(gt),ideal);uv=np.array(d['pixels']);k=np.array(d['intrinsics']);rays=np.column_stack(((uv[:,0]-k[0,2])/k[0,0],(uv[:,1]-k[1,2])/k[1,1],np.ones(2)))
+  p,d=pair[source]; est=np.array(d['estimated_endpoints_base']);ideal=np.array(d['ideal_subsegment_base']);gt=np.array(d['T_base_camera_GT']);saved=load_calibration((root.parent/'calibration' if d['calibration_source']=='OpenCV' else root/'results')/Path(d['calibration_file']).name)['matrix'];cam=transform(np.linalg.inv(saved),est);idealcam=transform(np.linalg.inv(gt),ideal);uv=np.array(d['pixels']);k=np.array(d['intrinsics']);rays=np.column_stack(((uv[:,0]-k[0,2])/k[0,0],(uv[:,1]-k[1,2])/k[1,1],np.ones(2)))
   pair_cameras.append(cam)
   rgb_only=rays*idealcam[:,2,None];rgb_vec=rgb_only-idealcam;depth_vec=cam-rgb_only
   a,b=np.array(d['ideal_full_edge_base']);direction=b-a;points=est[0]+np.linspace(0,1,101)[:,None]*(est[1]-est[0]);t=np.clip((points-a)@direction/(direction@direction),0,1);near=a+t[:,None]*direction
