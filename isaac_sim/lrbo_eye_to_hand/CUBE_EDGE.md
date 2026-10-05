@@ -6,7 +6,7 @@
 
 ```bash
 /home/neaf6000pro/isaacsim/python.sh \
-  /home/n/ur5e_isaac_calibration_ws/isaac_sim/lrbo_eye_to_hand/run_lrbo_cube_edge.py
+  /home/n/eye-to-hand/isaac_sim/lrbo_eye_to_hand/run_lrbo_cube_edge.py
 ```
 
 方塊為 12 cm，啟動時隨機 XY 與 Z 軸旋轉。Home、手動關節與夾爪沿用原場景；此入口已移除錄製介面並停用錄製寫入。
@@ -38,7 +38,7 @@ OpenCV 匯出將 parent 寫成 `base`，LRBO 使用機器人 prim 路徑。只�
 
 ```bash
 python3 -m unittest discover \
-  -s /home/n/ur5e_isaac_calibration_ws/isaac_sim/lrbo_eye_to_hand \
+  -s /home/n/eye-to-hand/isaac_sim/lrbo_eye_to_hand \
   -p test_cube_edge_comparison.py -v
 ```
 
@@ -93,7 +93,7 @@ Tip world XY 範圍是目前桌面內縮 5 mm；Z 為桌面上方 2 mm 到 0.80 
 
 ```bash
 python3 -m unittest discover \
-  -s /home/n/ur5e_isaac_calibration_ws/isaac_sim/lrbo_eye_to_hand \
+  -s /home/n/eye-to-hand/isaac_sim/lrbo_eye_to_hand \
   -p test_edge_tip_path.py -v
 ```
 
@@ -119,7 +119,7 @@ Hough 常只找到完整稜邊的一部分，所以參考依 pixel endpoints 作
 
 每次 preview 自動將端點、兩組路徑、誤差與來源參數另存 `comparisons/edge_paths/edge_path_*.json`。理想幾何與 camera GT 只用於比較，不修正相機估計、不覆蓋校正檔、不改变實際控制路徑。這項比較不量測機器人實際走出的 tracking trajectory；沒有執行機器人也能評估。
 
-純數學測試：`python3 -m unittest discover -s /home/n/ur5e_isaac_calibration_ws/isaac_sim/lrbo_eye_to_hand -p test_edge_path_evaluation.py -v`
+純數學測試：`python3 -m unittest discover -s /home/n/eye-to-hand/isaac_sim/lrbo_eye_to_hand -p test_edge_path_evaluation.py -v`
 
 碰撞頂點直接讀取原 URDF 的 collision STL／box、origin 與 scale，再使用同一套 FK 轉換；不從 USD 視覺 mesh 回推 link 幾何，避免匯入／姿態快取造成錯位。接近路徑先嘗試 80 mm，再嘗試 160／240 mm；所有候選仍檢查 workspace、IK、幾何。沿邊 clearance 保持 20 mm。
 

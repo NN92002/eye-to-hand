@@ -41,7 +41,7 @@ ur5e_camera_ws/
 
 ```bash
 cd /home/neaf6000pro/isaacsim
-./python.sh /home/n/ur5e_isaac_calibration_ws/isaac_sim/ur5e_robotiq_d435_live_v16.py
+./python.sh /home/n/eye-to-hand/isaac_sim/ur5e_robotiq_d435_live_v16.py
 ```
 
 首次匯入與相機初始化需要等待模型及渲染資源載入。完成後可看到整體場景、D435 相機視窗，以及 `UR5e + Robotiq 2F-140 LIVE Control` 控制面板。關閉 Isaac Sim 主程式即可結束，程式會清理 OpenCV 視窗。

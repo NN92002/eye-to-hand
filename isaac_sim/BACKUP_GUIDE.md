@@ -1,6 +1,6 @@
 # 獨立 repository 更新
 
-此文件下方為原工作區整理紀錄。現在獨立 repository 位於 `/home/n/ur5e_isaac_calibration_ws`，沒有設定 origin；原遠端只屬原工作區。最新備份與推送步驟以根目錄 README 為準。
+此文件下方為原工作區整理紀錄。現在獨立 repository 位於 `/home/n/eye-to-hand`，沒有設定 origin；原遠端只屬原工作區。最新備份與推送步驟以根目錄 README 為準。
 
 # Isaac Sim 專案備份整理
 

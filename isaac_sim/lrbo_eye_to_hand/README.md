@@ -4,7 +4,7 @@
 
 ```bash
 /home/neaf6000pro/isaacsim/python.sh \
-  /home/n/ur5e_isaac_calibration_ws/isaac_sim/lrbo_eye_to_hand/run_lrbo_isaac.py
+  /home/n/eye-to-hand/isaac_sim/lrbo_eye_to_hand/run_lrbo_isaac.py
 ```
 
 更新後請關閉舊程式並重啟。固定相機、機器人底座和手臂姿態，讓底座與肩部
@@ -33,7 +33,7 @@
 
 ```bash
 /home/n/miniforge3/envs/lrbo-predator-gpu/bin/python -m unittest discover \
-  -s /home/n/ur5e_isaac_calibration_ws/isaac_sim/lrbo_eye_to_hand -p test_lrbo.py -v
+  -s /home/n/eye-to-hand/isaac_sim/lrbo_eye_to_hand -p test_lrbo.py -v
 ```
 
 ## Version 3: pose-aware robot CAD target
