@@ -36,3 +36,6 @@ venv/
 # Isaac recordings (keep calibration samples/results and comparison reports)
 /isaac_sim/recordings/
 /isaac_sim/lrbo_eye_to_hand/recordings/
+
+# Launcher diagnostic logs
+/logs/

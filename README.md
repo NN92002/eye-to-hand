@@ -28,3 +28,14 @@ Isaac Sim 安裝、`/home/n/LRBO` 的客製內容與 PREDATOR 權重、Conda 環
 git remote add origin <新 repository URL>
 git push -u origin main
 ```
+
+## 建議啟動方式
+
+```bash
+cd /home/n/eye-to-hand
+./run_isaac.sh edge     # 偵測與路徑執行
+# ./run_isaac.sh opencv # OpenCV 校正
+# ./run_isaac.sh lrbo   # LRBO 校正
+```
+
+Launcher 先切換至 Isaac 安裝目錄，清除外部 Python/native 路徑並跳過未使用的 ROS 初始化；完整 stdout/stderr 存於本 repo 的 `logs/`（不加入 Git）。可用 `ISAAC_PATH` 更改安裝位置。這些措施降低環境衝突，不能保證修復所有 exit 139，仍需完整啟動 log 判斷。
