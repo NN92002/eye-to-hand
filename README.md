@@ -8,11 +8,33 @@
 | LRBO 校正 | `isaac_sim/lrbo_eye_to_hand/run_lrbo_isaac.py` |
 | 邊緣偵測與路徑執行 | `isaac_sim/lrbo_eye_to_hand/run_lrbo_cube_edge.py` |
 
-在本 repository 根目錄執行（選一個入口）：
+## 啟動指令
+
+以下三個入口已在目前環境測試正常。先進入專案，每次只啟動一個：
 
 ```bash
-/home/neaf6000pro/isaacsim/python.sh isaac_sim/lrbo_eye_to_hand/run_lrbo_cube_edge.py
+cd /home/n/eye-to-hand
 ```
+
+OpenCV eye-to-hand 校正：
+
+```bash
+./run_isaac.sh opencv
+```
+
+LRBO eye-to-hand 校正：
+
+```bash
+./run_isaac.sh lrbo
+```
+
+邊緣偵測與路徑執行（可選已儲存的 OpenCV／LRBO 校正參數）：
+
+```bash
+./run_isaac.sh edge
+```
+
+Launcher 先切換至 Isaac 安裝目錄，清除外部 Python/native 路徑，並跳過未使用的 ROS 初始化。完整啟動紀錄保存在 `logs/`，不加入 Git。預設 Isaac 位於 `/home/neaf6000pro/isaacsim`，其他安裝位置可用 `ISAAC_PATH` 指定。
 
 共用場景使用本 repository 的模型、校正資料與輸出資料夾，不再從原工作區載入。校正檔案內記錄的歷史路徑與證據維持原樣。
 
@@ -22,20 +44,10 @@
 
 Isaac Sim 安裝、`/home/n/LRBO` 的客製內容與 PREDATOR 權重、Conda 環境屬外部依賴，尚未包含在此 repo；清單見 `backup/external_dependencies.txt` 與 `backup/lrbo_python_packages.json`。原始檔案校驗清單見 `backup/source_copy_manifest.json`。
 
-本機 Git 已初始化；尚未設定遠端。建立新的空 GitHub repository 後可執行：
+## Git 備份
+
+遠端 repository：<https://github.com/NN92002/eye-to-hand>，分支為 `main`。
 
 ```bash
-git remote add origin <新 repository URL>
-git push -u origin main
+git push origin main
 ```
-
-## 建議啟動方式
-
-```bash
-cd /home/n/eye-to-hand
-./run_isaac.sh edge     # 偵測與路徑執行
-# ./run_isaac.sh opencv # OpenCV 校正
-# ./run_isaac.sh lrbo   # LRBO 校正
-```
-
-Launcher 先切換至 Isaac 安裝目錄，清除外部 Python/native 路徑並跳過未使用的 ROS 初始化；完整 stdout/stderr 存於本 repo 的 `logs/`（不加入 Git）。可用 `ISAAC_PATH` 更改安裝位置。這些措施降低環境衝突，不能保證修復所有 exit 139，仍需完整啟動 log 判斷。
