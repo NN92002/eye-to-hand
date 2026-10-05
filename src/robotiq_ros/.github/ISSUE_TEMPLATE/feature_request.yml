@@ -1,0 +1,23 @@
+name: Feature request
+description: Propose a feature or a change to the launch or action surface
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What you are trying to do that the packages don't support today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What you would like to happen — and whether you intend to implement it yourself.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility notes
+      description: Does this touch package, controller, topic or action names, or the xacro macro arguments? Those are a compatibility surface — see the constraints in CONTRIBUTING.md.

@@ -1,0 +1,3154 @@
+[
+  {
+    "path": ".gitignore",
+    "source_sha256": "98cfdb75e444c3f45432e66594205e75902ec00308772d5c714b515db791e927"
+  },
+  {
+    "path": "backup/external_dependencies.txt",
+    "source_sha256": "d6aec58bd210ad0c1224854c57b3fdd1ce4c83c3c506ae3d9505d58ef2be7816"
+  },
+  {
+    "path": "backup/lrbo_python_packages.json",
+    "source_sha256": "47e89ae4a4ba4d1a102162bb95d3c4b5b1298f7716e83aeed06ec8533152ef28"
+  },
+  {
+    "path": "backup/pending_isaac_files.json",
+    "source_sha256": "a5264eb304c111f3399a382d711465e7ce9a0e0b90668183fd416414ef1d62b8"
+  },
+  {
+    "path": "isaac_sim/BACKUP_GUIDE.md",
+    "source_sha256": "89ae5bae4471f8839deec1999b869bda3e2295e0341e41677c500c7f64b0960c"
+  },
+  {
+    "path": "isaac_sim/README.md",
+    "source_sha256": "1d8784ca8562779ba606551990546e774e1cf7424af564e5b5dd725377517287"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_133340.yaml",
+    "source_sha256": "23aeb0b7de9e93a7f01765cb8390e4117918fe3748961da9b66161ee87b9770c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_133340_T_base_camera.npy",
+    "source_sha256": "75a8d0b2d66359b8e3fb75578ef7343907b561c6ab8d32783d23a722d88360f6"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_133340_T_base_camera_GT.npy",
+    "source_sha256": "db0a10ebe04c349ae72c788a7de81872e18fdc461accdff1fb56410bbdae134c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_133340_samples.npz",
+    "source_sha256": "4f69c3335c8c90a7709a1e674d2a25b7cbe831572516ba93ac0b55ed77c0b8e9"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142722.yaml",
+    "source_sha256": "fc0219ee85919d14ecd6d1e76257ecefcfac6745e3c1eb583dc78e4726c20946"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142722_T_base_camera.npy",
+    "source_sha256": "7df8e3e9b589b32e07097e45ec474c369b4e2973b7f7057d073d7044cd853033"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142722_T_base_camera_GT.npy",
+    "source_sha256": "db0a10ebe04c349ae72c788a7de81872e18fdc461accdff1fb56410bbdae134c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142722_samples.npz",
+    "source_sha256": "bc67a5ee7862b23ed5a02aea0c7e8ce56fca847eb12999a5113c9d2d4e512d90"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142914.yaml",
+    "source_sha256": "86deff21446949032b019e8026546c1a4e34479e94a693853cd21a3d73cc4eda"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142914_T_base_camera.npy",
+    "source_sha256": "9bb7e4279e46845a842409e04b3636cb3936ad5b9a45c4a1d2d938c3458ba3ee"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142914_T_base_camera_GT.npy",
+    "source_sha256": "db0a10ebe04c349ae72c788a7de81872e18fdc461accdff1fb56410bbdae134c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142914_samples.npz",
+    "source_sha256": "1061eec565624330831ffb2a452922a425f3aed08a4b260e687151e110afb220"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_143515.yaml",
+    "source_sha256": "c5a22969697fa4accef270675628dcf37dffb58b2f45b099c17aca93ef3e1f7b"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_143515_T_base_camera.npy",
+    "source_sha256": "b36d068e3a889bab486fea1f2b4fc0b5528d52374875ea4446cc97c5a2f52884"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_143515_T_base_camera_GT.npy",
+    "source_sha256": "db0a10ebe04c349ae72c788a7de81872e18fdc461accdff1fb56410bbdae134c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_143515_samples.npz",
+    "source_sha256": "e6e5a69b57d17432e7c96c54391e960aff55f85581b0397d6a6584f19fbe77f6"
+  },
+  {
+    "path": "isaac_sim/charuco_board.png",
+    "source_sha256": "8ec14fb98705e0092ccfc4879f0350f8d3921ab2eb93a49c683972eede9db8f7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/CUBE_EDGE.md",
+    "source_sha256": "778f5a4a02de830ddaa4f9c3e4880b3b20e2bd7e1abe5d0d1dda1587cef8cbff"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/README.md",
+    "source_sha256": "707455a8c16cb6d766e94a4280a2f0059936d45c02f548d0d772ef8f09c3c75f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/calibration_comparison.py",
+    "source_sha256": "5606f43078afabd63ab4109247436df65716ce5294d1a2a52dbf69336ab5bd0d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150826_062892.npz",
+    "source_sha256": "f4b8b66b7c9f52f32eabab83a75c84070b324182888987f63f659c8fe3221ca8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150841_763310.npz",
+    "source_sha256": "9ef3bd922b8b705bb5b2dfd1df376b8ef79a0665b35d10b22dd877108159d0d8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150852_255081.npz",
+    "source_sha256": "bc7a317c340ed4bafff5d39358550bc649fce4b7e54f498277c358642eb52214"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150930_626869.npz",
+    "source_sha256": "cb11968d77521ce9acbbe4f640bd2fa04951917ff74d99f7f57a5ce73c696373"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150943_985190.npz",
+    "source_sha256": "c79be2a48d4f06c2541a83f2100c5a0a7da1f750b2a269d88168abb560a0bd78"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151027_106255.npz",
+    "source_sha256": "3baa2f93f39767ab50f49449d38b5652e2a2945992ba38e1561d899a58dcd6b1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151036_844761.npz",
+    "source_sha256": "3baa2f93f39767ab50f49449d38b5652e2a2945992ba38e1561d899a58dcd6b1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151646_103707.npz",
+    "source_sha256": "75920c6d4ec9eb42c346dacf2569b17a7d6ebb45f4a785a10655302b82c91a98"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151920_442977.npz",
+    "source_sha256": "7ac36ed8c4d49269509443c6b086437981f66764c3a9bdd1e3589acef06fd39e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151947_854256.npz",
+    "source_sha256": "e6e68c4eb42599ba1b5fa2fe481f4090f0651a73f8c4b18fc868943d48139d87"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_152007_457693.npz",
+    "source_sha256": "24458b2f7c3ac4c211d06be826e4d3f39b4d50ffea9e8b94ebbad5d061b2226c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_152028_135363.npz",
+    "source_sha256": "87a0d290b9917e81dd95e84edfc8baa13e832fd4710befe1236a8bacfc83c5eb"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154134_204170.npz",
+    "source_sha256": "75920c6d4ec9eb42c346dacf2569b17a7d6ebb45f4a785a10655302b82c91a98"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154210_639472.npz",
+    "source_sha256": "139d8090ad53274a45516ac976cc264af99a8abb0672510230aa14d05b984a5e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154232_708448.npz",
+    "source_sha256": "dc7436a43e144259c169a6f6011744ce2bd3ceb66cc0936b747a4ead03cddf6d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154247_495119.npz",
+    "source_sha256": "d008c6d08388b03fd6979689347a24955806294e304509d8ac84d364104d3e1f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154327_268207.npz",
+    "source_sha256": "c97aaee2821ab7e3f677297f218697f91c74b40efe01e09a09be65dc42c30574"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164538_133941.npz",
+    "source_sha256": "f545f6044a17fa23e57de754e389240a461dcd195678c5287e3be0a093dafa9b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164650_838790.npz",
+    "source_sha256": "fe263a5444ed44fb675d62d9110180539458fe58abfdc5931110f5e2accf2b03"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164707_897593.npz",
+    "source_sha256": "3330576d2c37718cf3fd17c833541b1da1c8c11c71433b5cfe0b4295bea15cf9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164738_625128.npz",
+    "source_sha256": "5d2579ed100227bba984cef6a4201ba2c75d4eb95ede5a6405e7d166e564bf61"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164801_947564.npz",
+    "source_sha256": "844f72da421a7ee73b8a9daa78160eb2d9ea35f0fa69ae9a24957aca378febd1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165210_720795.npz",
+    "source_sha256": "69d5d5be7189ed2e37633b3577de7bde962b8b2cf5b04d74e825ca6982b99282"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165240_625260.npz",
+    "source_sha256": "66268bc2178faf7d2924b599b5696ab3b5eb17f1daa6620441001970f5d5683b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165315_423248.npz",
+    "source_sha256": "3ea4cb6871e1b9fd1dc21e182ca5be6cb1434f2a82a94222dd7491191d591f77"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165341_010224.npz",
+    "source_sha256": "7e0407b8daa324558862d54cbfa4bcbab8abc31e1e08f295ed6e6bb58753be67"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165400_458720.npz",
+    "source_sha256": "60d2966d3cbf0f6ee82652dd4f87f0b77aabb828a1bac07f76de25e52d8339ce"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_194821_526906.npz",
+    "source_sha256": "af8e39008d4041e040dea15272def41f67804769e9d9e5d962f7edf27330514a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_194940_437801.npz",
+    "source_sha256": "d06cf238b1bb71756edda0657e309d0a52a3169bb82f0ba65accb355ddc74b53"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195025_779908.npz",
+    "source_sha256": "be76c26333be6404802a23aa414a45ed38898d988d88f8f9aea592806b100658"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195102_060198.npz",
+    "source_sha256": "7f583d265e1b87c47f4603eb22d367f4c2e86b973aee7a85bc94794032ea09b9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195105_376863.npz",
+    "source_sha256": "ce5bced68ec7cd460b16b3a61b7d5bc1d85b2354f81149fee6c7a5389a9fa343"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195138_093659.npz",
+    "source_sha256": "9ee30bef9887114df15e891c52c3a1b09eb40d3b5bfc2417c43e47ef04ee6112"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195422_553229.npz",
+    "source_sha256": "e9221034ea5069b2a24bf65697edb4eca57ea588dffb797599a1cdb6d0d21761"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195452_808715.npz",
+    "source_sha256": "574d10c2db8b939d32a0e0557de58a9d746fd9acc96b9bec5c624241498c4a9d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195535_366845.npz",
+    "source_sha256": "812285295518002eca5cc51769170dbfda1b83c62af2c737c7d48a706d95333f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_203921_292019.npz",
+    "source_sha256": "2061cc5bbb34bdd1739e6d92f8731bb5ae24cfe9b7d8d5edd2e2095c04d95e1f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_203934_450717.npz",
+    "source_sha256": "951c8cbc07212d68fdc6d20ade1363f7cd33477affc4d95f7f9894c94edde71d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204004_693756.npz",
+    "source_sha256": "5288485e63815668ce5418662927475be47acc57d345aac62f8904be16577b69"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204040_222567.npz",
+    "source_sha256": "5bda619f5c459249b6fd20a7d699ad1f49ab4f1fdae2a1bdb8fd8d35b7ddbb86"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204051_929150.npz",
+    "source_sha256": "57977e67443fd7249d849b204c64a49d3b023672f44953b6eb03be537e8da6b9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204128_891875.npz",
+    "source_sha256": "465c6a52e7800d95a1d5aa6bfa3dbcb731239a181ae0ed6743df9f5f6327e7f1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204133_807548.npz",
+    "source_sha256": "9bc33d0bda1999cdacaee786187e2657527ca9b7eb08a9f6c6d03b54f3d57851"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204139_096997.npz",
+    "source_sha256": "d55bb68454869202b021c7f522d5f752a4b0615269e496e8314f0fc5bf1b7cdf"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204143_123554.npz",
+    "source_sha256": "ccfd0cdf04dd35a94ee8f9265634c883179fbc0f10acb814f97f2518c18ff0b3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204154_311451.npz",
+    "source_sha256": "f0c3e03055de49ba9e44881437078ea5274902f881fd5d5b1367fb47bbb473d6"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205116_813877.npz",
+    "source_sha256": "1eb13db7a1603abf08b49060c9648cbe1dda8a3c20f163740886f8b8d943817c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205135_577037.npz",
+    "source_sha256": "62f8b2aad6ab9edf2e8874b9314fd75fe51325db4d9a80152cf0e22256153488"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205140_863755.npz",
+    "source_sha256": "91ba7027a2400b128509683357decef5463b9461066cd64146b2c869ca2c2805"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205216_684037.npz",
+    "source_sha256": "7a7d076cddcaa42d884dbe916650a6944adcbb2ccebda2d46ad1186cdd25fed9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205241_289714.npz",
+    "source_sha256": "746a4cee9b78e6d0594af9b6692f6779e4212a5126219a32edef21c01d76ee1f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205406_486580.npz",
+    "source_sha256": "e47cc7e0fd5eb1e4097387f070ae63b8f7b9ce7ffd6dfede0a5367689ea52f57"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205418_211241.npz",
+    "source_sha256": "747984adf5a32f405c2a2229ea29d02ad2b3c0cb73aee3fe4b9ea94754f7fab2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205441_261791.npz",
+    "source_sha256": "cd6cc832d8177c0c0d65f8c8d99a1355ae715058de73fbae1372f9e9d14605c9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205505_545241.npz",
+    "source_sha256": "af8e00eabb32e911a58d4a9d7e30807eb0685ea90eb8315b53c9916a00d75cc5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205512_142388.npz",
+    "source_sha256": "998fdc9df9954ba66967a85c9e28f5f3964547cbb12dba08ec08b632e819b1ba"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205709_424969.npz",
+    "source_sha256": "478b90022f0bd323098bd9f3aa5def1da4512f4cbaaddfdfecb98a23df2efa89"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205735_728924.npz",
+    "source_sha256": "4d121a35ba15334b0bc28a49ac04acce1cedc93d64df2cbdd135ca574dc919c6"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205755_154753.npz",
+    "source_sha256": "24778aca8e2e5fa9bc4642bdec537548de2fa02b13b0f04c6d943ce422f508d4"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205825_988672.npz",
+    "source_sha256": "91480c994dcf19772d5a97d1369780a19085f37657c65523cadf33e54150e49c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205846_716374.npz",
+    "source_sha256": "efe9291d2fa0ce52310160cd593e0da3545d7bee9ce17a493cfab392f9033bda"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/analyze_cube_edges_20261004.py",
+    "source_sha256": "0f492f43394234e5ad82672a55fa7fd12475e04e64bb05560ab5246185b495e5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_error_analysis_20261004.json",
+    "source_sha256": "7f44731032436a4db137daea51f3b7c186d9a3b1dff520d33c13b520e1965266"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_error_analysis_20261004.md",
+    "source_sha256": "1af1cd0385a79a0466b16cb76771fe3118410f3e71d3e5c6dba90e31c2345fbf"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_error_new_samples_20261004.json",
+    "source_sha256": "426293f0e089f6705b9904bb8eb43be4f41d8e4ba085570e7cbcec32dacc126e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_161858_288395.json",
+    "source_sha256": "5cf28ac0ed6953de2cd3d42c56ef869bcc6b04dee32967cd1c267b1558b38cf3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_161905_734452.json",
+    "source_sha256": "5cf28ac0ed6953de2cd3d42c56ef869bcc6b04dee32967cd1c267b1558b38cf3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163913_004030.json",
+    "source_sha256": "05802a885940b7a1fc595e3efdc8d65799671afea203380f8755895a0e43360c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163923_695168.json",
+    "source_sha256": "620da5dcdbfe8d6926ad9e7817563d4c9864f45b8b404a85bc73ed8a50d3b6f7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163935_309102.json",
+    "source_sha256": "c09227847832a11bf39fca528c39e68eff4258ac44b7c1151c60f1e5cd2dd54f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163938_951808.json",
+    "source_sha256": "39cb3ae011719ddc6efbd2d0f43eeda7c50dc691f0ee6fdb9144609aec2e4b0f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163940_025419.json",
+    "source_sha256": "656b3686dc01e280be1e0d6eb0dd4506cd24a9dc34cef527e17b0b4aa30f321b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163940_903045.json",
+    "source_sha256": "c4d3874a0f03b7195d747f893cb48d2d06334af2b1ebea1b6dc7ad4daa16c1d9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163946_408065.json",
+    "source_sha256": "c4d3874a0f03b7195d747f893cb48d2d06334af2b1ebea1b6dc7ad4daa16c1d9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_164953_646023.json",
+    "source_sha256": "6c3065698b77c2fb681f263e48bd577067cda65152d05a848a7cce0dafd38176"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_165219_695498.json",
+    "source_sha256": "5b7a44d3eda64a4fbfa332ebb65d1eb275ce00fabe222751720d3df19a85d11f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_165225_160224.json",
+    "source_sha256": "5b7a44d3eda64a4fbfa332ebb65d1eb275ce00fabe222751720d3df19a85d11f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170010_066242.json",
+    "source_sha256": "26227b4c094e29978764d3177135d020e152d1a51ae48634b440e3df83e716d7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170012_889945.json",
+    "source_sha256": "f96fef5625dfee2c287f8e45211b6f96681d9e21a2efc9ffb6e8835c06ccfc0f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170013_861454.json",
+    "source_sha256": "42eecf1b7cbe1e174dcaeee2c21bab8a3086c6c41e41691aa98e32bcd05c7f66"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170020_592070.json",
+    "source_sha256": "3b895b671241aba8426d10afa3299a7b652b1e7f03ce0df12c41bad50678046e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170028_251395.json",
+    "source_sha256": "a91e9eb60d8ee19faf2d8b8b7cb87535b463b1bb273895cabcbaaf15fb649076"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170035_487598.json",
+    "source_sha256": "a91e9eb60d8ee19faf2d8b8b7cb87535b463b1bb273895cabcbaaf15fb649076"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_175810_170972.json",
+    "source_sha256": "66aeee3d57ee2fad1de375d069e11a5cb6578dea8e4419a8401647b86276fce7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_175839_531268.json",
+    "source_sha256": "66aeee3d57ee2fad1de375d069e11a5cb6578dea8e4419a8401647b86276fce7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180356_718768.json",
+    "source_sha256": "adba37150b002d0360c424d816c2f1a11a3484983e8ebb7cf0b7c02684123f01"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180402_397701.json",
+    "source_sha256": "adba37150b002d0360c424d816c2f1a11a3484983e8ebb7cf0b7c02684123f01"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180933_034313.json",
+    "source_sha256": "cfe2d06f02565eec8cfabcb98b5a655a77f1273eab93b0f6ba5a7abd0e8015b5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180940_463836.json",
+    "source_sha256": "98169976a37788edb95212c40b755f3241cc54145b84ecbf05740cc690fc78c8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180945_206038.json",
+    "source_sha256": "98169976a37788edb95212c40b755f3241cc54145b84ecbf05740cc690fc78c8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_181631_866271.json",
+    "source_sha256": "daf6fb9fe1ec6a0b7339b6aac61629e59984bc158d2db146d0d7be474a60baa3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_181703_675051.json",
+    "source_sha256": "daf6fb9fe1ec6a0b7339b6aac61629e59984bc158d2db146d0d7be474a60baa3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_181737_112455.json",
+    "source_sha256": "daf6fb9fe1ec6a0b7339b6aac61629e59984bc158d2db146d0d7be474a60baa3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_182258_681109.json",
+    "source_sha256": "82d16b22e3907a418971d11945232cdd8c8f35ca5c230a2341fd2859e8fd374d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_182307_364554.json",
+    "source_sha256": "82d16b22e3907a418971d11945232cdd8c8f35ca5c230a2341fd2859e8fd374d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_183048_725109.json",
+    "source_sha256": "1cb91d272cea156044356e846776ad491a6d3c87cc57c5e4dfa0fcb4df26c995"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_183058_310979.json",
+    "source_sha256": "1cb91d272cea156044356e846776ad491a6d3c87cc57c5e4dfa0fcb4df26c995"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_184213_628537.json",
+    "source_sha256": "8d5eb0fcd4b9fb20be2ab9eb92bccbdc13443e78896355b99797b1f5c7238b13"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_184223_572444.json",
+    "source_sha256": "8d5eb0fcd4b9fb20be2ab9eb92bccbdc13443e78896355b99797b1f5c7238b13"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204609_954806.json",
+    "source_sha256": "947c84c3bdb8d6197701a752c2ab2c63a174aa1a6fff0227297f6a59ce714b02"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204629_405517.json",
+    "source_sha256": "697dce404ca9507f78dd063d8ec7732f017cb8b00623cdd89f439f5bfac7470a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204632_169025.json",
+    "source_sha256": "54841de5fab920ff29b4a5a01bdbf2d3007990f1bd4d65367a51bcb39222ab25"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204633_151169.json",
+    "source_sha256": "4a8df25795f4784782ae702217ae51895b87862828be1fccb022b07972238f24"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204634_389292.json",
+    "source_sha256": "3a90c0161e250ce6b7ff61f63e50573bc5874b644aa1ee63427c82247b4f24ef"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204639_800334.json",
+    "source_sha256": "3a90c0161e250ce6b7ff61f63e50573bc5874b644aa1ee63427c82247b4f24ef"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205240_086117.json",
+    "source_sha256": "3a90c0161e250ce6b7ff61f63e50573bc5874b644aa1ee63427c82247b4f24ef"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205548_245402.json",
+    "source_sha256": "3e73b9d64396aa1b0a51550aef10adba2624afa67e39a0a6fd35887be52fa512"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205549_173800.json",
+    "source_sha256": "a506dfcf19d78d31451000057cbf8574912429c967ee013099cbc70a8bd0fbbd"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205549_930792.json",
+    "source_sha256": "5d44534665b9267e1dd1afa213ba554686a4fba583641880aec3610b6b78acc5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205550_568497.json",
+    "source_sha256": "0983d8b99978a8a15792d67f8a8d27071f2cf0824ed79afef605ba87624c7f55"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205551_198120.json",
+    "source_sha256": "6e9fcddf8211468e62cb2dd0bd4e73143cf3ca97fd67f49e3d492d63e0b7c3f3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205551_943563.json",
+    "source_sha256": "7fa3d6563ef149f14dfc6af4001fada762de33c98a7d0756ed07545db91e9361"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205552_645475.json",
+    "source_sha256": "81cf21c018e9d2d39238bef19e2b6257059928aafa10342d8fd3aa3c5d1ece29"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205553_749028.json",
+    "source_sha256": "b656a9cb0562f1c6c543c85de0ab346d145687e3a5c13eb32788006ec3a7669e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205554_519142.json",
+    "source_sha256": "08056db07a4aafd35baf6bd23abb53fcfdfced8ce4109aa2877b456561b4f94e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205555_324181.json",
+    "source_sha256": "da77fe1cd7784fc62b9751b6e8697dd561671a1e878f4e89f2101be48f607f1c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205625_753590.json",
+    "source_sha256": "da77fe1cd7784fc62b9751b6e8697dd561671a1e878f4e89f2101be48f607f1c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205626_824276.json",
+    "source_sha256": "da77fe1cd7784fc62b9751b6e8697dd561671a1e878f4e89f2101be48f607f1c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210110_585344.json",
+    "source_sha256": "aa4e8c76586344a8f29631e092f918ad692d61149eb86b72123aee3421cfc250"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210111_732043.json",
+    "source_sha256": "0f45460c92374f2066319c5dd6e057d572ca5394f1c6c23f2c4f279c6f6efd3a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210112_730776.json",
+    "source_sha256": "73a6ec1875277c6e17912ac7bb879a876107e45a214e18f9a2527ace52abc21b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210113_482851.json",
+    "source_sha256": "bc3541e9b0a950845669b76f83afe6df2a632ef38ff8474797f6af5318f3c305"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210114_082620.json",
+    "source_sha256": "994aea609ecc00e17a08746c2b307c715d2768b63c9136f2db4d38fd5e1322e2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210115_273945.json",
+    "source_sha256": "1c94712f245a9fd282efd7ed2b4ab0b82ef337ed34e8e498808fa015c88f9d22"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211035_834128.json",
+    "source_sha256": "1c5dd27c5ffc3b6be70c11a8de6d74135553c1d1fbde2fcfd07d26e24fa57f4d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211048_520578.json",
+    "source_sha256": "1c5dd27c5ffc3b6be70c11a8de6d74135553c1d1fbde2fcfd07d26e24fa57f4d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211236_191718.json",
+    "source_sha256": "b76dbdf9e911444ce213559bac0b452be065053d114a7a23ea3d2e048004f21c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211249_898075.json",
+    "source_sha256": "292d98a84195acd13a19bbfdd3d10464496cdcf0a3209981ea06168ac727d1ff"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211250_949956.json",
+    "source_sha256": "9a8bb40137e355e2e9e80c54dd09e6a13f332b648d1bf1cd5680c92af62d85e1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211302_826720.json",
+    "source_sha256": "92ac91ceab211a27368e98e36b71f5a38ca13f0d179db77b3d0709ed785a8161"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211359_474382.json",
+    "source_sha256": "683858fb0f8e7a10654bf0f5f4ae9cc638487059c035b0b1b09318151e1b33ec"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211400_615862.json",
+    "source_sha256": "f6223519ae0a4e19c621bfbf3aee112283285f19ad1e7b9b78b2b6e30cde7eff"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211409_289386.json",
+    "source_sha256": "f2a14201d21730432c0c8eaba068b5a2fd0f9b78e0604325ce37b562eca30414"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211430_691599.json",
+    "source_sha256": "f2a14201d21730432c0c8eaba068b5a2fd0f9b78e0604325ce37b562eca30414"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_175842_174037.jsonl",
+    "source_sha256": "9058bc15c5f7e6d059643523b290ac78366486c8c2f912b555273200c4157412"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_175913_302294.jsonl",
+    "source_sha256": "a9135857e114e6c10f2c904434d5b24cdc4ea6fbd570ce71e313c2a4bd473d59"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_175924_437528.jsonl",
+    "source_sha256": "9f89c8fc856da3923eefec7ab5fa483e502274ebef8376cb34711ad83d0e6f88"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_180405_341335.jsonl",
+    "source_sha256": "9058bc15c5f7e6d059643523b290ac78366486c8c2f912b555273200c4157412"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_180428_286349.jsonl",
+    "source_sha256": "9f89c8fc856da3923eefec7ab5fa483e502274ebef8376cb34711ad83d0e6f88"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_180949_030474.jsonl",
+    "source_sha256": "7e44642ae0554c289a0f6442fd9887983d355208a0d1d46c76e2b362f345d4a5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_181711_335046.jsonl",
+    "source_sha256": "02ef41b03c7774afef5e951b5d56abef251cd5c44560332e0c89efe239277485"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_181738_238871.jsonl",
+    "source_sha256": "b43b2ebee6e48a16aa7c61de742b37e9bb6a0eaba24c78e91123e5540f648f8a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_182317_043692.jsonl",
+    "source_sha256": "733e2ebba2c5e80054e4b4a0368f58d5f7edff616b207d78217c63d6c980aab6"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_183104_483022.jsonl",
+    "source_sha256": "d9382ad3f9b4f030fa356a39a3a99a956f739ddb0f634bff5ef77774562fee66"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_183231_069109.jsonl",
+    "source_sha256": "2d7cbc5e714fa87dcd2b76822d9f1ddcadb786109a82d7dd7ef33201f9c235fd"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_184225_218012.jsonl",
+    "source_sha256": "511b31dadaad57e3721114d08ee54a0e6940c57045f86474f95c1acc34a5113e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_184523_794230.jsonl",
+    "source_sha256": "a9337b30bce112bd6504e2df8d1625a5fc36fd6c59931f5e75849604fed29082"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_184756_517168.jsonl",
+    "source_sha256": "7a921f743fee31b1eb2f1f79ae44f86c395df5e8f6bb91145f063de858bc6355"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_204648_133185.jsonl",
+    "source_sha256": "2d22bfe20e0abe0027aa8f977195dcba2b4049181c305c12320d453916bdfa26"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_205311_205849.jsonl",
+    "source_sha256": "d95fb23cee7da24d223435336c4ae772f3a6ee50dd9b997aa767fdafda907ef5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_205630_102332.jsonl",
+    "source_sha256": "40b2d858c43d27debeed50748827eded00ba24fd1a4b0f22a33ba3d0f0b1754e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_205846_690276.jsonl",
+    "source_sha256": "e4d52b4fc356806ee5e2f319c29e69ad2c47fdef08f7134bd8b4418f96522af5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_211054_485061.jsonl",
+    "source_sha256": "1363f3870d53b5733933f785bdda7ef9aa0585386f7fe5f0ba8dff3383c4edcc"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_211324_243066.jsonl",
+    "source_sha256": "dace7fccf2beb92b79f41bb330788a626afc8b9515899759ee70b37fb71237bc"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_211436_931700.jsonl",
+    "source_sha256": "3422de8deeca204bc987d548e2849e389b0e71b06a05a1c2ad404b289a0e1078"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261003_144849_642845.json",
+    "source_sha256": "21fe7c9558136962c2029cdbcae6cc7640f96ff9b5273b9cbe401414c04ba516"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261003_150137_184265.json",
+    "source_sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261004_210040_398500.json",
+    "source_sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261004_211244_449951.json",
+    "source_sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261004_211316_077495.json",
+    "source_sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261004_211419_348165.json",
+    "source_sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/path_comparison_20261004.md",
+    "source_sha256": "aa729ddba0128b2ba77c6159159d1f8689dfddbf48e515fef2178ca0037c07c9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/diagnostics/five_scan_review.json",
+    "source_sha256": "c3c9426714ffa97d302e576f99a4242cf4c115e3324d88e75010b79b5f523356"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/diagnostics/later_results_review.json",
+    "source_sha256": "fc184c5b412ddb09bee426648158990680373fd36905766725528a9cfccd549e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/diagnostics/lrbo25_vs_opencv.json",
+    "source_sha256": "e3bf5568951bd76a040ef34493937a1fb801fb4a1b984e8370029dd1ac96cb4c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/diagnostics/three_scan_height_review.json",
+    "source_sha256": "37a0d3861c887494597d1b0c9ba7b73642827582693a91d24d7a4cc94be21601"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/edge_path_evaluation.py",
+    "source_sha256": "ccfcf6904249f959ec4d17b0d9591b9296321cef9c3f6e8d44afbb1fea5503f2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/edge_surface_depth.py",
+    "source_sha256": "b1131285536e154656548e8d53db198655a93c802663ee56767cb0cd774c9d54"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/edge_tip_path.py",
+    "source_sha256": "a4212bfd2f68076f2bf1e1872aa7a8b4f37c76b57d2f6eaeaa517e339a882306"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/kernels/dispositions/k_015_center_3D.ply",
+    "source_sha256": "583cc2a44a94f3d57b7e2633bc3dbcd1b83fe03b13f1e4f4122c567dda0500f2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/lrbo_core.py",
+    "source_sha256": "ea9be8f64dbac9cb5ae08fa67dfc3799bbd3adf7b628b34789dfd15a3b9cab3d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/predator_worker.py",
+    "source_sha256": "d3c2bea41fa11511123a822cb4f3197eef88cdf21d11c44d5061bb59593b839a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_195436_454693.json",
+    "source_sha256": "c271c98d5d8ddabeb3881b8c5d6fcd406e4962a41741ab84664a6a21766f1b2e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_195436_454693_T_base_camera.npy",
+    "source_sha256": "7f70fad0522c2ba93e6a0154a28c9e5c6049792ff353b39560370acea41f3ffa"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_195515_956453.json",
+    "source_sha256": "31fae8c91cc57cfa92881e55c0a9f24db62189cb0b24d65b4e825cb677cad9ae"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_195515_956453_T_base_camera.npy",
+    "source_sha256": "7dc4b7f6959a4e03278b8f3da76389cf23fd8523d7b0cee0eb6d2d496304f086"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204015_234157.json",
+    "source_sha256": "06b44f588f93b526af2844e6b62581f5a1ecccf4cd84a9e2c326c7960c8c2616"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204015_234157_T_base_camera.npy",
+    "source_sha256": "c460def0586340a7697e2b38ae73a415e5703d30e61031578b23bd492bbd5b5a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204104_387195.json",
+    "source_sha256": "e71417ee7c77db1f5eaf9596fd73c4b875e2fd247220dfebb36e29f6ae756a66"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204104_387195_T_base_camera.npy",
+    "source_sha256": "3fe620bbedda9cd72b06f84afaf519df84f409ed39c2baf621a598399f846849"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204204_921092.json",
+    "source_sha256": "a4c6865632c6aff3254eb9d9076efde8e691bb6f994b02f2aba5965eea3b8207"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204204_921092_T_base_camera.npy",
+    "source_sha256": "4f3c6d519384ebbb41375fed9d9344462b3743db549dacd3c222bc6f0c0f768f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_210826_822078.json",
+    "source_sha256": "1682088a3d12c9c7324ff028f4022db6c28e365b655c0d10d29f94c894b5e4d8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_210826_822078_T_base_camera.npy",
+    "source_sha256": "bc5c7a831388ee2ac5d98130ea9586913da68c4d23b4d9dad1f5af88f167bdaf"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/run_lrbo_cube_edge.py",
+    "source_sha256": "106df60fdc71bf6f962710de0ecdd84198a5e31ba20903a4f7ea92a7b11fc216"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/run_lrbo_isaac.py",
+    "source_sha256": "d8f61f785994c7eb89d6d6b0247fc03012c4465c5a3e664cb058b6ba0b31a24a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_calibration_source.py",
+    "source_sha256": "5cd39515808d9df0b1a3d7d94d3c5b2ee6e0316f78767294dccb74dd8ec400a6"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_cube_edge_comparison.py",
+    "source_sha256": "b1e28e3ff3318a479a97c9fda0b5bdf813871490c1f2c11d3e5c7fd5a505b15b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_edge_collision_geometry.py",
+    "source_sha256": "ce4d38a0be644c3a7704b9204719a34bb52ac5778fb00132bdafcf13acd0dff8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_edge_path_evaluation.py",
+    "source_sha256": "797bb7886ef23e5c98927a352c653ccf15a28367c31ab167666a04a8adcc4f39"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_edge_surface_depth.py",
+    "source_sha256": "7a89dca9f37670a0dd017e38b229ea64d70ab9b5a96533134f3515a1ba2fc25c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_edge_tip_path.py",
+    "source_sha256": "0cfe2d9ead6a7efeb41c5a4dd3344bedf7ab7c80b9773eac283887a553b54497"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_lrbo.py",
+    "source_sha256": "c4c46e33bbb8b1ee45223617fce3547c7b34f4a01b85ab7b7b2efe40493c5dac"
+  },
+  {
+    "path": "isaac_sim/setup_scene.py",
+    "source_sha256": "857f51222c4ebbdd8591b64d0e8883644858df4d28299c0ff51f22a8c0eb0f6a"
+  },
+  {
+    "path": "isaac_sim/test_ur5e.py",
+    "source_sha256": "bd26ba0ceef676212554f47a2490cbe273c3f4187b5ea229e6df9f0d23dc38d7"
+  },
+  {
+    "path": "isaac_sim/ur5e.urdf",
+    "source_sha256": "22c472f096a2781ce3c80ad8807802dfadf215417c7703e997fd821de0cbf0dc"
+  },
+  {
+    "path": "isaac_sim/ur5e_camera_scene.py",
+    "source_sha256": "31e5a1a2a3ea3add1c766aeaba6f969a562a06dfceae3eb48153684f55cc2145"
+  },
+  {
+    "path": "isaac_sim/ur5e_camera_scene_charuco_calibration.py",
+    "source_sha256": "517c4060a038d32c95717a914a6f0cf11eb6e6334a47c052d300a1dbd25ad037"
+  },
+  {
+    "path": "isaac_sim/ur5e_robotiq_2f140.urdf",
+    "source_sha256": "d1d1e1e5e4d0d76f02b52eb6df430032eaeee536c537796a52c8dd689367927a"
+  },
+  {
+    "path": "isaac_sim/ur5e_robotiq_2f140.xacro",
+    "source_sha256": "31780e95627b8c564f446a4fcd877cad0347504a3b1dc7306b6ab218ad7cb043"
+  },
+  {
+    "path": "isaac_sim/ur5e_robotiq_d435_live_v16.py",
+    "source_sha256": "c75651898bda8e0333d132a6d5431696da4e5a2d94c0484f744e36716555f6b8"
+  },
+  {
+    "path": "src/robotiq_ros/.clang-format",
+    "source_sha256": "0474408b67f41d00b2dffa63c6c5c43d26273cc5c7d9803f48b3e0fb5c220e7c"
+  },
+  {
+    "path": "src/robotiq_ros/.dockerignore",
+    "source_sha256": "194746ab59e48295d08b2b54b1a91229f135b3f8fc27a57d3c0f127d185b5613"
+  },
+  {
+    "path": "src/robotiq_ros/.flake8",
+    "source_sha256": "3eda374af4c883433707280beedd76de21c05f48fcc0c0eff514ee6803b2edbe"
+  },
+  {
+    "path": "src/robotiq_ros/.git-blame-ignore-revs",
+    "source_sha256": "583b398f61d23fa2f3d5e69dd44d4d030110deff39573a850024e35ed87575bb"
+  },
+  {
+    "path": "src/robotiq_ros/.github/ISSUE_TEMPLATE/bug_report.yml",
+    "source_sha256": "7e5db0aa7a7d49b59c0431fe35b2973b7d2bad7f3ffbba17ca90fd6b1687b6ef"
+  },
+  {
+    "path": "src/robotiq_ros/.github/ISSUE_TEMPLATE/feature_request.yml",
+    "source_sha256": "f1155eb1de2a58e537008652edde0a7fa30e974619c089070c299d2f199d4612"
+  },
+  {
+    "path": "src/robotiq_ros/.github/workflows/ci-format.yml",
+    "source_sha256": "92c6299d50a08745bb9ff1fc9faed74cb3cd0a6859c277145d9f6902d9ad05dd"
+  },
+  {
+    "path": "src/robotiq_ros/.github/workflows/ci-ros-build-test.yml",
+    "source_sha256": "cdbf3540b31db63a05e623015b32377063c9132323424653cc638eed68bb1f17"
+  },
+  {
+    "path": "src/robotiq_ros/.github/workflows/ci-ros-lint.yml",
+    "source_sha256": "db745e766ded29c5b40785a5fc5e4e2ee2464d7b4ae82916c91d05a5e26b7072"
+  },
+  {
+    "path": "src/robotiq_ros/.gitignore",
+    "source_sha256": "c7d523d421c242834f58e6ba28ad3afb86321c91b803ded4c4ef73c39fbc1438"
+  },
+  {
+    "path": "src/robotiq_ros/.gitmodules",
+    "source_sha256": "cb5892ef8515fa45e85fe21673c15bcbfbb4761f71052daf750345eb1ebc6549"
+  },
+  {
+    "path": "src/robotiq_ros/.pre-commit-config.yaml",
+    "source_sha256": "3f8d186d73b2df3d64f29f0bcfbf5917902f24a05105f111bdaf5169f9465fe2"
+  },
+  {
+    "path": "src/robotiq_ros/CONTRIBUTING.md",
+    "source_sha256": "8d4f3363a30886691ba8b691ef5f49f46fccab35c0383e2d6e1ec7b7b6293b21"
+  },
+  {
+    "path": "src/robotiq_ros/LICENSE",
+    "source_sha256": "376150a80f36fc6ca750935fb74f99b6a77b9942f1c6c5bf1d51a2adc853b096"
+  },
+  {
+    "path": "src/robotiq_ros/README.md",
+    "source_sha256": "501f340aa9d883f0c0114a3ef175b1e5ac24a8ce06de4ea01fe738fd1faea648"
+  },
+  {
+    "path": "src/robotiq_ros/VERSION",
+    "source_sha256": "bfbace6fd9be623749f3722606be8487bd16cc83c54c86dcd2ee482fbfc9cde3"
+  },
+  {
+    "path": "src/robotiq_ros/dev/CMakeLists.txt",
+    "source_sha256": "116826d9b20807e5fd7e26ead1a7d7b87602ef965995d912ffd6d871f97ae395"
+  },
+  {
+    "path": "src/robotiq_ros/dev/CMakePresets.json",
+    "source_sha256": "0b771521203c16f5b884f29860b26696d1dd666d5bb0f9a1b2f15cf3ae6fdc84"
+  },
+  {
+    "path": "src/robotiq_ros/dev/COLCON_IGNORE",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/robotiq_ros/dev/version.py",
+    "source_sha256": "50ade0310f5e1ed6369c5ebb06d7ad7588640274d517dcbe69bab3040425ce1b"
+  },
+  {
+    "path": "src/robotiq_ros/docker/Dockerfile",
+    "source_sha256": "efefae0d575c2245a4c7a18f585ccee89ba472ee3f1bae154cac86a2c2f841bc"
+  },
+  {
+    "path": "src/robotiq_ros/docker/Dockerfile_TSF85_ROS2",
+    "source_sha256": "c9cc61268780b303f7f6fbaced5b8a74cfe03e52e3e02adb80cc3971d6abfcf5"
+  },
+  {
+    "path": "src/robotiq_ros/docker/build_launch_docker_ros2.sh",
+    "source_sha256": "52c2ecdabd94cc399c1ea1fd69c3e1b8913185418a2b1032023f3a23b85be767"
+  },
+  {
+    "path": "src/robotiq_ros/docker/run.sh",
+    "source_sha256": "f0ebba81b103a8db1567d1ba9ae363221d4e073a1be2f442d17c344f5a2a82a8"
+  },
+  {
+    "path": "src/robotiq_ros/extern/COLCON_IGNORE",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/.clang-format",
+    "source_sha256": "0474408b67f41d00b2dffa63c6c5c43d26273cc5c7d9803f48b3e0fb5c220e7c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/.github/workflows/ci.yml",
+    "source_sha256": "5c20e07f5d4ec09860cda9940ee9ff02bbaadd8c06e964b1c310e592691bdb43"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/.gitignore",
+    "source_sha256": "3959160c03268e4841481b2cccd54f4a7bb60dfb2f5cdc3c1f65301a3bd8c280"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/LICENSE",
+    "source_sha256": "de69c40674132f43f41449d6a285ed0b65e0ba158455a40f4f58dacb53963c17"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/README.md",
+    "source_sha256": "ed3b6c871af95095841e4a6ec05138979d739021d977beae18439e7d138fd1e7"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/docs/01-environment-setup.md",
+    "source_sha256": "7e6dce5e03362495a8ce681c6385eacaa5fd6718878c378ed4e953fae78c68e0"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/docs/02-quick-start.md",
+    "source_sha256": "48366031788eea8267576317c00c33c06e4541814c3f7f69dcdda91783c4e173"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/docs/03-how-it-works.md",
+    "source_sha256": "dcb55830fce950d1b05ed8f069d9a805b05dbc1b5b174516c910d3990ef1dd87"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/docs/04-robust-example-walkthrough.md",
+    "source_sha256": "5624f94457b7e2eb5c0b92862438271e9b4da63b5051acc9104147e99698415f"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/docs/05-embedded-builds.md",
+    "source_sha256": "6ef9a51853d3f46e9484984079bf03d5b4e13683728b94afb02d2a73933bc40d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/CMakeLists.txt",
+    "source_sha256": "81d69a54b37369abf2f5eaa693a4b37a1ab96d93710451f497eb8773613f2098"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/Doxyfile",
+    "source_sha256": "abf19502ce132fbe9c18474e3ab87e96965239dba8fbc57cea6e93c72a9f59c8"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/cmake/Findserialport.cmake",
+    "source_sha256": "32fe0c7603c6b8b410ec6c2e18ef7f6197604eacbff6018c0e7a8bdf173e8ee6"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/cmake/grippers-config.cmake.in",
+    "source_sha256": "b6c58b0d5aae9dd5b8378023c7ce6e068cdaa6bd46a53617608540daab4b140c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/examples/CMakeLists.txt",
+    "source_sha256": "936782d68cd3e1416bca27fe943df49e5c43353543511d09724e82ab72b89bf1"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/examples/README.md",
+    "source_sha256": "a1a13c41fb780ea3bd22fd54b665a061e1f05bf8ca76a40573f345075723b65e"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/examples/exchange_rate_probe.cpp",
+    "source_sha256": "6108c1b0043e2ee79a53f8ff7b1922158bf2f6a4134f3e229141a009fe2773e3"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/examples/move_gripper.cpp",
+    "source_sha256": "1615d70c0af4c9161f610010a5f20bdfeaea7929a591b3186eaf2a48de61ad64"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/examples/quick_start.cpp",
+    "source_sha256": "d60503cd8350939b432585051b246bd994c40ce19362a2b90d6227d3b11ed12d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/examples/snippets.cpp",
+    "source_sha256": "ec3cbe847fa5a3e6d98d9a6e614c4ab46d9f052257d2f2625829f3afce940a81"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/CMakeLists.txt",
+    "source_sha256": "e22fb424893163857ae04834bd3ba3cb5e3871123a92150d4d11862df30b4b18"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/byte_packing.hpp",
+    "source_sha256": "52b21b992660d58d6b301674fcf20f01ca7cfe803f529496b8a70dd47c588e86"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/config.hpp",
+    "source_sha256": "b8cc5c39299a2e911938b187d3762557727dc6ed457ea27ec2b4def59cbecca5"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/default_logger.hpp",
+    "source_sha256": "5c7a4b6757ae81b4508afa6fab48d9916fa66bbf197612de7f67ab9253e9b2d0"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/default_serial.hpp",
+    "source_sha256": "92c1811a2c7f07ee134ef675be0a260458b005a921df06901496e14e6359bb4b"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/gripper_modbus_client.hpp",
+    "source_sha256": "20d5d5a582fa27705145f87703e7dca0d393a23d50128af8dae793724aa08db0"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/modbus_constants.hpp",
+    "source_sha256": "250a387f719d87e2374c94ae2665d5a5fccc46ddbc321ee9c3240326d726e4c7"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/named_bit_array.hpp",
+    "source_sha256": "26b1b150c823d4eb3c92827e83b64582f3b9950336e8dd7a036503868f17d3c8"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/register_map.hpp",
+    "source_sha256": "c28adc84a0e629a1cf9ddbfc050175b09a5a9e153b9aee1393f0add6e9d7b72c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/detail/throttle.hpp",
+    "source_sha256": "29131c8218c4289770bb6b27de0a328bda0bcc2cfdf94e8c12e6e3cdb6ec4ed4"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper.hpp",
+    "source_sha256": "22ae2be3900272317f18b9a9be4bab4ddfd81db784931d8473cdadf29d210716"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/activation_result.hpp",
+    "source_sha256": "d897eda25b41a42bcd35c9d93f93149c8b3cb767eb67241f3410b8e0f216f58d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/command.hpp",
+    "source_sha256": "1a9707f1770405aeaa32dd40e1feb1fa20323c98394dc1f0b9675d137678ec01"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/connection_config.hpp",
+    "source_sha256": "cfae93a8ceb121cb2078a0f845db786f314ba7ff6a8aab967b7f10a9a84b08b8"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/connection_state.hpp",
+    "source_sha256": "7cbc89189475a8b22f69645a14c935176dd108be4449a111f309ff41c9b1e5a7"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/device_profile.hpp",
+    "source_sha256": "c780399ac506faa376234ede0567d7b7b6c74c3b091d658149df88c48cdb573a"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/driver_exception.hpp",
+    "source_sha256": "cb064626434b95b323f03ce8545539ebc5552a4c20d896df233e8c552fa20c17"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/fake/gripper_factory.hpp",
+    "source_sha256": "b4865aebac2356eb351d0d3c4e41f8cacbe93fcb0bae96617eed17274fbeb624"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/fault_status.hpp",
+    "source_sha256": "9c839a9cde9134d37a5417005183c38f54523813b8b9c86c44ceaee3c8024222"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/logger.hpp",
+    "source_sha256": "46ebab2d9dfe100dd1528acef35a5cd6d420ff28bb9b902ed0a71b28d44e1219"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/modbus_client.hpp",
+    "source_sha256": "f0704d11cc0178ee407a6314e7725cc9ec03038d0be91c1fcf94da53a99eb6dd"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/platform.hpp",
+    "source_sha256": "39edc7580aead606355759474586be443709a70bf5d6482786c1a69442ddf09f"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/register_map.hpp",
+    "source_sha256": "7177600447b61d943ce4d7f9baf87b9171c3650cacb7982284556230cec31fcd"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/serial.hpp",
+    "source_sha256": "61c4c96e247973d645eb4f42f305c0b0f1ad5ddae86f8da54d812b10750cece5"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/serial_config.hpp",
+    "source_sha256": "3f01ed8f1d243b3845dec60e353ae417145bda1990d21632b95d94b2732de43e"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/serial_io_exception.hpp",
+    "source_sha256": "c8c5aed23e8c9f956e8b57dbb63bc51e373775ce30d1e599fa2f8e5beb708bf0"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/status.hpp",
+    "source_sha256": "d3cc3fdf1bca26f286e526b16ecfa90926c41d909b5b9d9948bba55b8b549222"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/stderr_logger.hpp",
+    "source_sha256": "90b86e588218974d2f1b6bd478bf4c2387eb4994d71938ccb004277b980a942b"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/to_string.hpp",
+    "source_sha256": "2a2fdb3e6e7201afcc94c901d6e3092a34c719d9e9b6ecbe3e9dbe9d90d6fc28"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/units.hpp",
+    "source_sha256": "92fbae06e734d25dcb186a6d725066975916df949899971ca2eeb09a35fe5f3c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/gripper/wait.hpp",
+    "source_sha256": "b3b14873e47a0e30cfb923d234aeaace8a053e553076aef7e7f44afaa6670089"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/include/Robotiq/groups.dox",
+    "source_sha256": "8f034997b8fe5ea74925001eadc3b293aa7403d45b42c08cb2e9c9fe7260fb89"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/ports/threadx/compile_stub/tx_api.h",
+    "source_sha256": "d98f01a10fda90323e5b19ac7fab4c810b94eb186732eb3b06306d5823a58bc3"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/ports/threadx/link_test/main.cpp",
+    "source_sha256": "3c86f22197b2a73e7ea94102a9ff5b40f9d60d2c4cc3cd4d5f17bd52953bf4ff"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/ports/threadx/link_test/newlib_glue.c",
+    "source_sha256": "dbd1cf6239bb110a6c1018ca28449bed9c22c9b436115faa46b61b0b09fc0e10"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/ports/threadx/link_test/threadx_cortex_m55.cmake",
+    "source_sha256": "7171f7f32c55675a9bd3b0e06acf331da5ee622deaf6459fb4ef55a93978a909"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/ports/threadx/threadx_platform.hpp",
+    "source_sha256": "9fa51431ebd9bfc61add5026ab0ab49382ef684b532875b943326f38d4c0e889"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/CMakeLists.txt",
+    "source_sha256": "9a4d218ce6e6d8e4d83eb2ee3de4951dab6715771bd1eea2059410ee431b6e5c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/default_serial_factory.cpp",
+    "source_sha256": "13631c65b546ba81de6ad8afe1d9cbf192563eb51e72177f8be6a6cadb53ece5"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/detail/default_serial.cpp",
+    "source_sha256": "b9905c8b9f9de393b4c9ced9c8cb0f756df6608c46abe01ff37dd02c7a2a687d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/exchange_period.hpp",
+    "source_sha256": "bb7379035329df345b62b75217fdddcbc3df77cd34ce3c381a232ee35f26f68c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/gripper_factory.cpp",
+    "source_sha256": "a9cdbb9e8218aafd2e96f9c5a103a96bdbbae6ff63ac9a197fe78c1e833814bf"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/gripper_serial.cpp",
+    "source_sha256": "dca4b2818ee45f9ee5ba63237c23b8bf14c8b9acfb11bdf68c740f72e745f130"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/gripper_serial.hpp",
+    "source_sha256": "2f1dc34b4f6b0c1c71ef4fda770fb34eed7057649334f1d8b8b7d77ce3b557f5"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/gripper_server.cpp",
+    "source_sha256": "bbf139b767e3bb7a3b0b874aabd0bf7f037314841707430fb81a441f81fd418d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/gripper_server.hpp",
+    "source_sha256": "4f6020316c7418ed25865648c56fe8be000101961b5deba7be60980a87a3e54d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/register_model.cpp",
+    "source_sha256": "d8074acb1d808a697c3765bd5874bb84004fdc0f61a3fa9826be66d5dac3abf6"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/register_model.hpp",
+    "source_sha256": "722c67dbf917b4fc48303f47d99eabd3ef1d48c2c2ad960c9cdd64156eabaefc"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/status_writer.cpp",
+    "source_sha256": "9de133564bc192a9f7e192247c19a74d93ffdc41ea4cf13a1b308547d340e062"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/fake/status_writer.hpp",
+    "source_sha256": "7bfcfabf5656def33c5952fdd561be299ac0a595ffe38270ba431db67a6e86d7"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/freestanding/default_logger.cpp",
+    "source_sha256": "ab6cb90470a64ddc6f9e140426b5cec5be5a6f89670cfdd3c581104e948c0d5f"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/frequency.hpp",
+    "source_sha256": "e780e531599545466abe0c2d931f3c516666316938921c1e7155e0ff62df9afe"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/gripper.cpp",
+    "source_sha256": "7fb89947f90ddf8bcae10b8fa0d6d95cd6f07acf4e883a55c86c07917c37aed1"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/gripper_state.cpp",
+    "source_sha256": "2b11308dda0579fadb25326eff07872550061f6682457046207fa46c68ffd588"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/gripper_state.hpp",
+    "source_sha256": "42982d44aaf1fd48502e92bd24880259e92402e10b417d0222d198e204086c7d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/hosted/std_platform.cpp",
+    "source_sha256": "4cd0ed830370235e811534e5530f964f043dd79d300ea383f8471a25f12832d2"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/hosted/stderr_logger.cpp",
+    "source_sha256": "6d562542ecffa7121bf1b321a0b2b2f59fc4f76e8718c583f1972ebb54507fd4"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/logger.cpp",
+    "source_sha256": "0d24fd8a336a8b969cb9ab317f76e0762ca3b5e3808fd2f4001154d716e1286c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/modbus_client.cpp",
+    "source_sha256": "a600bc4675afa6aa1a1c32a0d8c0a28535ed4be2fc4bbff21b49982a64011092"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/to_string.cpp",
+    "source_sha256": "83898130e117f3c77e04081acc8e71863bf8bf413da14d44dc73f7ac8de1870b"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/src/units.cpp",
+    "source_sha256": "2044d4bf713c04ace6e27448433c9d0a7485af4e0247b8eee6a0c810d82d80f8"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/CMakeLists.txt",
+    "source_sha256": "9e2d1087edd7359dcbf5adf609df754ff95478c1ffb7710fea7a03ad9e00bd95"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/fake_gripper_fixture.cpp",
+    "source_sha256": "ba72e0efe267c8ec7783673d591d5c9529611f1467b5c2b1b78e58492692462c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/fake_gripper_fixture.hpp",
+    "source_sha256": "fbe5eb8dd75b37a36c029cda2434801d8f4a6852462b9cdd837dadd20b21b2b9"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/grippers_objects/CMakeLists.txt",
+    "source_sha256": "c6956fb5196bf725596e7cc7b24357ca954d96b3b82191ee576578f2564fdf06"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/grippers_objects/caller.cpp",
+    "source_sha256": "061a84ddd71d06b1079b094bd4a37a1f7e1d0434edd46710ce584110b8f5206b"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/grippers_objects/consumer.cpp",
+    "source_sha256": "8e86daf73dc06ae6273452754fe2c73304c88a0b47151887d0650c92707a79fa"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/mock/mock_serial.hpp",
+    "source_sha256": "5839589036289c62ef30da5d16e847a24280c267af1ae52ff2c2d69e2e597db1"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_byte_packing.cpp",
+    "source_sha256": "d24ed60890389f994b873ffc816ade049fad18e32d6a16f7d98a17e6142e0321"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_default_serial.cpp",
+    "source_sha256": "41da2e32cd45501d46d90c9a9d3115311d9f17c8b038bf4d2cf02ab60676df31"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_exchange_period.cpp",
+    "source_sha256": "1b18af60ec1759c265ea98ceba9fdd6a036ddb2465914dde42a4437729068041"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_fake_gripper_server.cpp",
+    "source_sha256": "fc6e6b9ff363ad1871aff38da368ea579d7702b0d9d2edfb7529b09644f4f3e8"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_frequency.cpp",
+    "source_sha256": "aa280c31047c381f294ee26415e6f97cc2404b5e04a81424d87d97a0f543b8bf"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_gripper.cpp",
+    "source_sha256": "9afc74948d5bec4ceea0ade90cac9f3d2ed6b7d58072165eb864193f68219832"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_gripper_modbus_client.cpp",
+    "source_sha256": "084f54b0630f07474380a6a67fb2cd092e3fde42a21453751c1095d892077336"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_logger.cpp",
+    "source_sha256": "9b380e10ea87f09e20719f2da8c04a5e2213b40a9c8254dc504d9df4ab26d585"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_make_fake_gripper.cpp",
+    "source_sha256": "2e60e04e0181d3edb1e05ef8560e5d79e54a88d6b3ed67cb751d9aa41ee20aa8"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_std_platform.cpp",
+    "source_sha256": "b71ed7c2d70bebec4b21d64c382a4d34e7fac390664b6dec8aba856d64c71173"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_to_string.cpp",
+    "source_sha256": "a44cbcd391d21387a4f6c1c2f77477137c7c55804aa254369bf414ffa1b32532"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_typed_layers.cpp",
+    "source_sha256": "5b69d7fb52a2f2426df172dfe9d89bbc18500e428bf602fb3d2067b7c0cc73ba"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_units.cpp",
+    "source_sha256": "b8e5278203844bd65091dbc94eb590a9fb575805d48f4af90fd9f7bdd2fa61d7"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_utils.hpp",
+    "source_sha256": "4a35a0a23a2ef6f5e16cfc6840d286abcee322c9258dff6255dec456ca0dad0f"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tests/test_wait.cpp",
+    "source_sha256": "834a4d074ec3c54c684e22ea87ca23d843de7066e002fa2c5d7b5f4192781b73"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/third_party/nanomodbus/CMakeLists.txt",
+    "source_sha256": "c663a4b498eec2e64bf6a0563e847480ef88ebe433fe46a05be58504e3058e12"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/third_party/nanomodbus/LICENSE",
+    "source_sha256": "71dbcbe7db7eaa62696df30dc58a24e283b126435e49558d3282d13d1a3ea4b2"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/third_party/nanomodbus/VERSION.md",
+    "source_sha256": "32c89ad20ea0e188a1475f00b788bfb867d9345c8e7c3ccf0dcd49b1da912c14"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/third_party/nanomodbus/nanomodbus.c",
+    "source_sha256": "5037b93817a787136472e551e3e5fd749bd5249d76da42bfa3725a3fce03bceb"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/third_party/nanomodbus/nanomodbus.h",
+    "source_sha256": "169d0960b64848b4c3bedd3a1bf6bfe3a08b12f58c0fb47172e521af88b65740"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tools/README.md",
+    "source_sha256": "c3b77d86df7a4746d1540f07136e12f90b12917199ff0b5487b68678518253bd"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tools/check_doc_groups.py",
+    "source_sha256": "08ad6af303b51e9749eecb41e1e68d306b86d3e4965fe171a8959cd509c744db"
+  },
+  {
+    "path": "src/robotiq_ros/extern/grippers/sdk_cpp/tools/check_doc_snippets.py",
+    "source_sha256": "b386120f6230118b5eef818b8f4df0dcc78878438fd6a2db3309c1c135a82d4f"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/.gitignore",
+    "source_sha256": "76af8b0e679df2e724bad918bbdc89aab337697489c6b4b3b88efcdad44081ab"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/LICENSE",
+    "source_sha256": "d7ddd400822d034df3df6b8268b74d59f1ccaae40f40b61e7f8b3133b1d4b844"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/README.md",
+    "source_sha256": "3a391cedf749e26fa05143958cccc35a3a258f27d537edf37f07fc9afda1a4ec"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/firmware/README.md",
+    "source_sha256": "fe20d207400a0f8fe8b8843dd6efade40a484e2d60253495d12c39c60dd03f1b"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/firmware/bin/Master_hub_1.1.8.cyacd",
+    "source_sha256": "227b0d336d04b0139f915363f0efdd15f5c2d8e12888155eea9db679dde9286e"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/firmware/bootloader_host.py",
+    "source_sha256": "9853ac870f9521209445a38dffeb78fc0ad831841e0353d601d99a16904223f6"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/.gitignore",
+    "source_sha256": "0249af8e698314b4320b6bdf555245fa0a60ac03c731148a59543ae8e22cc539"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/CMakeLists.txt",
+    "source_sha256": "b2fa81b9ba0ae1cf3606b36a502b0387f9c4ec5b2bbf22509baf8b7daac4f79a"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/Quick_start.cpp",
+    "source_sha256": "1a3ca59829e097e8c45571c500323fba4fb2220bb7092c45cf5ae7a63d4906aa"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/README.md",
+    "source_sha256": "634223ad4ac0e2663ab376cedd64c32fc8b9fa1cb51bb5c8abeebfec31097de4"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/RobotiqTactileSensor.cpp",
+    "source_sha256": "fb9878f22d65e07fb277f251007cfb5ef7828fb814fc522b58dbf73f0633b4c6"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/RobotiqTactileSensor.h",
+    "source_sha256": "408f152f7f95b9a48b158edb492a6b780322bb1bba1d1710e72416a7f4967352"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/circular_buffer.h",
+    "source_sha256": "1fd3d2a44fd157eaf8fd2e57b926d8c523f99689df6a87c71f3162bbf7db20c4"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/finger_data.h",
+    "source_sha256": "7f52466b276add745032b9fb4f9cfbe535a3bb9291ab48e9f40ed844163ff6ee"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/setup_and_run.sh",
+    "source_sha256": "257087d60b29e094518b92b2063beb5558ed961f9f6c5ec0bf5f29b613f9ccef"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/test_data_flow.cpp",
+    "source_sha256": "87fa54a6ae2efc99b7b5cfadc3ae6b2e8f2639b99cb8f492e596ab25df1b16ab"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sdk_cpp/test_packet_analysis.cpp",
+    "source_sha256": "11964f2780cccfde4685609a074b623848770682c25ccff8a854c558bf1ae912"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/.gitignore",
+    "source_sha256": "d1a9e3718e594bcbabd4cbfe2fd4c0612a91120438e427df38d2af7fb12723f7"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/README.md",
+    "source_sha256": "9c7a3d1a3c17c8c1e67b175ec383006e8ee759532407007879f67d21e5ab1c1f"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/protocol.py",
+    "source_sha256": "33d18e0e97ba7b0590bbd0bdca76048ec371ff97d6e8609ee4bbb500280897fb"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/quick_connect.py",
+    "source_sha256": "ac592a6afa294eb2bc924b3e0051f93d02987906a579129b26fe7e1fd9b6b22a"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/record_data.py",
+    "source_sha256": "c763bdd28e0ead76f852fa1c6251249b78b612bb5edab14e5a0d0f7a1a4354f5"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/requirements.txt",
+    "source_sha256": "b3561d288efc384fc6037983edeec18d209a836de438e8165227846ca1f65bac"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/run_quick_connect.bat",
+    "source_sha256": "5b827a732308f8464ff8e19af68fe165729331f23071bfd1b0263744fb12b304"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/run_quick_connect.sh",
+    "source_sha256": "e5c44347b97e7749e4000e5c68f978184af134dab029ab81d53e201f5221441c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/run_web_viewer.bat",
+    "source_sha256": "c986e72d8b2e1dca57c81fbcb1144dbe34d07366b52eae9f41158b6a653987fe"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/run_web_viewer.sh",
+    "source_sha256": "6f9e3ba28e213cc1fc4b09a73f2f8756ab432cd988ee6d6d00aa0d78c1fb053a"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/web/app.js",
+    "source_sha256": "9ed5a28504e1817dcf1d668b84b861ba2c5a5c9ce56993f120d38da318cd11fa"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/web/index.html",
+    "source_sha256": "df9d8e30aad6cd4d83e558573ee38bec9afa629cb68ce54209e071341a0b846f"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/web/style.css",
+    "source_sha256": "a003c26de185e2ba793caf22060fd93d779e98e3ba5f1d4303a8de4d49ec3ab4"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/sensor_quickstart/web_viewer.py",
+    "source_sha256": "224a0af42c9e0a74774c94c1a893d9eb3ead76da31c1223716fa382e7c378ffa"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/scripts/apply_udev_rule.sh",
+    "source_sha256": "156412c71a6988ac63a58408d49ae84bd653bbce17873041a8f8bb61ae67084d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/scripts/ensure_docker.sh",
+    "source_sha256": "32b78021e5ffc7321be85924a93c9db5dc54984071a5a299bff51a1c5d2c950a"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/scripts/ensure_docker_image.sh",
+    "source_sha256": "c5d2ac9911d7b0620263d114b4d06445277bd8ca54c6f9062fc6e4775828abd2"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/scripts/find_sensor_devices.sh",
+    "source_sha256": "4ee081dfccbd8fb6f1171075d210bdf9ee77c1238103b0736f900e6efb8a8b43"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/scripts/set_sensor_permissions.sh",
+    "source_sha256": "b7ebc23ab856ace5aabf724d1a2455155aea0b69044975d4bc23088b5411444d"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/scripts/setup_xhost.sh",
+    "source_sha256": "3a06fb5e6ff0147c15875cf738645b6f5c548638a09026dc112ef7c6cce9954c"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/udev/99-rq-tsf85.rules",
+    "source_sha256": "c967bff402cbe9285f13b6751a5f31a0edd9b61620052304442aacf139070048"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/windows/attach_usb_to_wsl.bat",
+    "source_sha256": "dc2653414563037f0431bb8f123b7128c448467421a39b5b682d1ee0a15b2c24"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/windows/ensure_docker_desktop.bat",
+    "source_sha256": "e84d9fa3ded548b21184bf58bf4a576314b40fa97447dcdbbc25754bd1de16fe"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/windows/ensure_hypervisor.bat",
+    "source_sha256": "87850d3d554cab91575e7a6a02ae57e95be39618b607b2bc661acf8bd49ddc5b"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/windows/ensure_usbipd.bat",
+    "source_sha256": "f178d732720973ea017b193213575a999132b3405f79bd57e48aa86b143a0086"
+  },
+  {
+    "path": "src/robotiq_ros/extern/tactile_sensors/utils/windows/ensure_wsl.bat",
+    "source_sha256": "9467937429d9990323f18d92d06cac4cd58b66adf6f1012cc590162eaedefcce"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/LICENSE",
+    "source_sha256": "a47544ef0ad645c587e46348dc10e68b89c3e74732bd124c005cfcd8ede3b3b8"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/CMakeLists.txt",
+    "source_sha256": "65036d05bc25817ddf51d17ebc32b08c3a6d67b6a8418146dc1b9e250ea302fa"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/controller_plugins.xml",
+    "source_sha256": "7ee120c927f99e3a0d678fcee09aa8f9c03ecdfaf8297f13d80cb1226fb68d29"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/include/robotiq_controllers/gripper_status.hpp",
+    "source_sha256": "2682a69c359361cd99bbec85fdf8425e6bf6c9914f3f2b06fdafc5ef55aef75d"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/include/robotiq_controllers/gripper_status_broadcaster.hpp",
+    "source_sha256": "b91f5e75519a0077fbbaf981e79e7fe3c5e260706d88d7a5eb1d5dd03fc8c32d"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp",
+    "source_sha256": "3ec32c743729fba49c6370d5fcf7ae32dfe397f17512fe6c9a2bc2e0029856d4"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/include/robotiq_controllers/ros2_control_compat.hpp",
+    "source_sha256": "68a7dd361657830a9a233e61f8f5a9bc5e883a740f2d7d632c2812978f9d627c"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/package.xml",
+    "source_sha256": "74fbdbe16852857e4a20eb161a358d2107ba502154163283e3a0146b53c1dbe7"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/src/gripper_status.cpp",
+    "source_sha256": "29cab5a24fd968fd3e72572e9352ecb6d8703088af7515344a77955c2d914288"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/src/gripper_status_broadcaster.cpp",
+    "source_sha256": "6da834203d65cac56d599107de3e50f8a8d5ff9f88cd07c71e9f90a838158a25"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/src/robotiq_activation_controller.cpp",
+    "source_sha256": "d56ae5b1bd635d6f22d1bc5f883c4aef7eda42f961b3eb99e587930b9a269903"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/test/CMakeLists.txt",
+    "source_sha256": "f34181ff7e7cbea8e1bff03f7b8b15cb4553869628e4d0bc331c18519101251e"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/test/controller_test_compat.hpp",
+    "source_sha256": "0cb2ae40366b9a8351b5dfd3489dae9cbcc1766563984784b19e1414dd02d397"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/test/test_gripper_status.cpp",
+    "source_sha256": "767ef693559f67c772fd6d882fc14e8e401491e294379e08cc8be01980104bbf"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/test/test_gripper_status_broadcaster.cpp",
+    "source_sha256": "6df0f921e281c8e9a330697a940bfcfde4383afd78d90148b7448c5046de1bc0"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_controllers/test/test_ros2_control_compat.cpp",
+    "source_sha256": "eab127ecea268bfa623eee908a0f9071b4f449eb9a95ec8bbc1584fec21040ce"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/CMakeLists.txt",
+    "source_sha256": "24930e2fb5fc156856bab25afb5d480cd79da59ddbf865abdd6c2afecf82b43d"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/config/robotiq_controllers.humble.yaml",
+    "source_sha256": "75dd6a3d991cf76b784894b94fe36d15650f85f893888aa452dd761726b3e9e0"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/config/robotiq_controllers.topic_based.humble.yaml",
+    "source_sha256": "549c69484005030584d2f753adfc57a4abacb8fcbdc7837ec9a8333d84e0489a"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/config/robotiq_controllers.topic_based.yaml",
+    "source_sha256": "bf356ea16af1b91298a71a41f991c1bbf77fb142dc10ab731280161c56cf2682"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/config/robotiq_controllers.yaml",
+    "source_sha256": "c6c64a080010a75fae5685bf90a1bf9c29c9bf88e63cd328962e2704a51c5872"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/launch/robotiq_control.launch.py",
+    "source_sha256": "36b5b33693add289882c92735cac94942ce8ec9e1472de6e547c675d678221a4"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/launch/view_gripper.launch.py",
+    "source_sha256": "b0ea93ff44dda96dd908bbb90e92d9f84169027968aaea210a602bbafad00a27"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl",
+    "source_sha256": "111e37f13a664989dd54226f80f521b32ea0b71c975282a16696b14be7cc9249"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl",
+    "source_sha256": "5ca9ffc28ed04193854b005358599dd9c3dc6fa92c8403e661fda94732d9ac25"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl",
+    "source_sha256": "043901d9c22b38d09b30d11326108ab3ef1445b4bd655ef313f94199f25f57ed"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl",
+    "source_sha256": "d341d986aa8aca7262565c039c04fb6b4c0f2f5c93443519eb7ca9bfc67ba17c"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl",
+    "source_sha256": "bd7da1b31b73f1aa1d61b26a582cea10f16f17396d54b8937890fa51547d26b0"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl",
+    "source_sha256": "37c1779f71fb5504a5898048a36f9f4bfce0f5e7039ff1dce53808b95c229777"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/left_finger.stl",
+    "source_sha256": "f39a50be121122fc1c53c588a762ad1da8a0f64d39bc6f299cbe9b0597e7257b"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl",
+    "source_sha256": "9d90031cd99106a8be63609f8ff78580638d91cc4167bf66c09198329f2e65cf"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl",
+    "source_sha256": "f250a3fea49be4d1bb2383d9980172c59fc44031193ef2293ca540f756f6c1e6"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/left_knuckle.stl",
+    "source_sha256": "b7ec787f57a7db5b2b14e64ffbedaac28739e38f14aac8afa8b575bac941feb7"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/right_finger.stl",
+    "source_sha256": "1d018fa2f0b50aca5941778d78810b211b1abfc8637c7953451d76d4833ba6f8"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl",
+    "source_sha256": "126f1559f2f7dca62449a6ca926c609fbdaa93ca66df805ff7c069bb206e3d10"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl",
+    "source_sha256": "c936d951ede875b91c180bd41d45b22ae23f8a39d9c3e09e29066453a8e863ef"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/right_knuckle.stl",
+    "source_sha256": "d151fb38f59748f1e6e627312e2ede96f2c98ba267bf722091665b20c78e7a8d"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/robotiq_base.stl",
+    "source_sha256": "ede5cd7d7846c051b88645f33d6bbb5ed9b36bbef404a19a46557639bfab7060"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl",
+    "source_sha256": "e5b4eaba7f75c4071c9c0213281af4798098c971891808d87e948383cd2b9aa9"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl",
+    "source_sha256": "74a62de75ae10cf77c60f2c49749b5d11f4c265f8624bbe7697a941fa86f6b3b"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl",
+    "source_sha256": "4281e83002a25c20dc07c68b8d77da30a13e9a8401f157f6848ed8287d7cce44"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl",
+    "source_sha256": "be21c5e18c901d4747cbc8fa1a2af15dad7173ff701482a8517e33278432bb21"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl",
+    "source_sha256": "d61e9c5304d8015333856e4a26d99e32b695b6ada993253986b1afe8e396ab11"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl",
+    "source_sha256": "666a92ee075f6f320ffb13b39995a5b374657cee90ded4c52c23ede20a812f34"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl",
+    "source_sha256": "f042edc44ede9773e7cad00f7d7354d0b7c1c6a6353fe897b2ca2e6ac71107fc"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/left_finger.dae",
+    "source_sha256": "5fb9e5659c735e48eb55269da431cf61b3b7a6745922c1932a7adefb1db86dc3"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae",
+    "source_sha256": "785ec7a83b4fc6357c211a39bb117833b1cfd4e9bccbef2efc7f35aeb2fdb92e"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae",
+    "source_sha256": "2df009ef28868c90a4904370f5f4995c74ec84e0b8ca1371044e0ea669edcd71"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/left_knuckle.dae",
+    "source_sha256": "1b82214363d9548f3562be70e25cd23217a304c72ccd37bc1551cf1a3a64029d"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/right_finger.dae",
+    "source_sha256": "3b2245b5537eb596d7f8a4c64b12e3aedea46e365fc589019184d3b4200e664f"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae",
+    "source_sha256": "568371d25ddbcee8e432c0610bdcc7afcd1393d48d973eed92168e353eb4edf5"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae",
+    "source_sha256": "4cc6de99e177773ba755805b58b67537c3af24b2fd8f3a1bf4bbced87d6240a5"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/right_knuckle.dae",
+    "source_sha256": "532b6f6f8794883ff34995701036ca392461f26127757f92003db127693bc57c"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/robotiq_base.dae",
+    "source_sha256": "761a79d586a48d367d60f146ca77ef7d2821ad790f7b1b1c93b061ac59799267"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae",
+    "source_sha256": "ed326c745df2942d2efb8dd902ecfafa84c692d360a7c03ce9276ad491614ac4"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/package.xml",
+    "source_sha256": "b7533413f546e4c70a9e6fbaaad10be6ba862f397ee80805b188b7f36f100b0d"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/rviz/view_urdf.rviz",
+    "source_sha256": "ac051800a2076afcdff664ac9b7cf6fa8ad4662e6789bf88ec094b4ae78235f3"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/test/test_controller_config.py",
+    "source_sha256": "f09d11a0745c82e5f695389e8cd8cd2e5608539a8eaa3bdb7372e1615f45e661"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/test/test_ros2_control_urdf.py",
+    "source_sha256": "874ec6524d21640ed73aa11723970d5dfff058458a8914e49f33095feea999d1"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/2f_140.ros2_control.xacro",
+    "source_sha256": "3621bd109793e2f04477b4e57b3daeedbd63e54a0cd9e9e5bc606e3a7f84eca9"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/2f_85.ros2_control.xacro",
+    "source_sha256": "a0d097f1753cc040f4f6778bdaa1da9c10c6c0e85afe8292c42fe103353e48fe"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/2f_common.ros2_control.xacro",
+    "source_sha256": "edc7d3d444cbf5683d43852b53a6bcaf6dad39357ca65b71f1254bd7d3e6616d"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/robotiq_2f_140.xacro",
+    "source_sha256": "76ea141c7b545ffaf22df3ef222eb38b097df6d076b59eb93205e887c6a66aa0"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro",
+    "source_sha256": "fe819d1eaa55791d787c66a498c9bb615c78cdc98be96ac1cdd6719fa4024f51"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro",
+    "source_sha256": "d95b387b1e1f7c181da3a0bb0cba0b75168dacef88d817fb68d8e7ddf91599fb"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro",
+    "source_sha256": "9542d470a17a06830142ec57022b76c5fffd05464f4411ae8a54d74c738c74a1"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro",
+    "source_sha256": "bfa97d612cf0df29079ab1d0bdcb5f6a8d14fc1563230eb2758008d8a12dc36b"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/robotiq_2f_gripper.urdf.xacro",
+    "source_sha256": "1827b5ef12cd9606f10e236e2289d045c30110c9da11e355cbab1257aa2f227e"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro",
+    "source_sha256": "3d52ae3dbe23c20cea598c816fcc745acaed55b77c9e41b92ad55f0623d3d1d7"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/CMakeLists.txt",
+    "source_sha256": "0e686d97db4fa06d03e6e2ad9fd3d5aa877204bdc45927923edd57d4d8a55ff0"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/hardware_interface_plugin.xml",
+    "source_sha256": "d5810dba90c8e2521bc2fffc23758e22ad8f65d22a86195f546709393fa96013"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/crc_utils.hpp",
+    "source_sha256": "a6f5b7e283fec8066db484ac75250afa1dd2aa53d57b71da9b01d1cfa04e04b3"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/data_utils.hpp",
+    "source_sha256": "a837fded6ddb70b9485965baede79e323e92ff8ffd8d472481fea834f415856b"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/default_driver.hpp",
+    "source_sha256": "70baae8c16639bd28ea2b17f2512025b00e6733e078b0f91eca48c776694bb7f"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/default_driver_factory.hpp",
+    "source_sha256": "3342681b349f0d7e5445a9f23fdec4720182947a28026dd2f4b4ff0a90ce9931"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/default_serial.hpp",
+    "source_sha256": "70c518539f760d3e7571ac9b2cbf0003a3012a03c506da7c88d47ea0f09b54b7"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/default_serial_factory.hpp",
+    "source_sha256": "4aa34dd35b96a29fec8ca2dadacaf614790a3799d0b25b0baa3a0a25a4b42398"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/driver.hpp",
+    "source_sha256": "5f565687f2fb053bb7bad25f5619965cc2cb93f827c16aee097e8eed147e3206"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/driver_exception.hpp",
+    "source_sha256": "cc87f1a730697fbe93fbb1c2d16b535fcd4c1ef1cf5449f0c27ab75080e8ba8b"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/driver_factory.hpp",
+    "source_sha256": "0721a0fa4e2e64450e46c9fd5e420a9297a1abe85c74044b70dcaaf7d41fc980"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/fake/fake_driver.hpp",
+    "source_sha256": "b10027118de1e10242579825a98fbad391d383fa77cd12fdfb9cc159e193c9d0"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/gripper_scaling.hpp",
+    "source_sha256": "24ab4293a63f038c388260d18e4c025faa20d60ad2011bf266eb8c3d777b99c9"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/hardware_interface.hpp",
+    "source_sha256": "70ec94c8ef0f72271ee07c01d21f1e7c05d29a8918ac30202e697b7b54c62d11"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/hardware_parameters.hpp",
+    "source_sha256": "479bbb3e8e177e2fd68bd0754a73c50cba9c23cf7e445fb18d03663d5a62a03b"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/rclcpp_logger.hpp",
+    "source_sha256": "44fb28fd8ae82be51dc8e7bc27abe36874830675683f72e13e54f44ecc65edbd"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/ros2_control_compat.hpp",
+    "source_sha256": "ad5e462f75db95e128390c861829ed2de36e1a3ec688325b2cfe06ac45e01872"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/serial.hpp",
+    "source_sha256": "41fc5530482c82a978e9923b2dda8c62e8a0b2921b9eb31353e29e45c65ae6dc"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/serial_factory.hpp",
+    "source_sha256": "79c59aa08736b351f140aaee9ca09895268229bd4f159ab5fb5f41dfce5e7ea9"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/include/robotiq_driver/visibility_control.hpp",
+    "source_sha256": "dc8ea952552c9c637195453583e0a031efebc5e6446742d4a0d6acf698a645bc"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/package.xml",
+    "source_sha256": "af6a8e1765db24d3347d9624a1546779a2784205d22c09b61c8b6419e840c3c9"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/src/hardware_interface.cpp",
+    "source_sha256": "82a853154dbddf47e5f0e1467df92a75fd4b3a532cc7be016b44fb95a8ee5229"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/src/hardware_parameters.cpp",
+    "source_sha256": "796ee563d33a1e7d2b4b1d98136a7291de5db575a44d50a21a8a7f6ad8d1f1d9"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/src/rclcpp_logger.cpp",
+    "source_sha256": "d72e800a3476dc88bf52857bf279d81b59abc6e327a7c4da1e2762f3037c6e70"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/tests/CMakeLists.txt",
+    "source_sha256": "e4c6616fc93d6667452bdc2badefd204609840dd090649b49ec15aaf2fd8db1d"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/tests/ros2_control_compat.hpp",
+    "source_sha256": "30b5ce1d076699f56c13eb1a8aaebde3d7ed8ff20090c006e31b019e513ecf5b"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/tests/test_gripper_scaling.cpp",
+    "source_sha256": "eac06a98bc34c9ef3e791fbb80c7962865ed3aaeb85600881deaa1d8808fda03"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/tests/test_hardware_parameters.cpp",
+    "source_sha256": "3943295e20e99a6e53d8d296934506c204e8679f6ba6d3e816dee3ddaf16cc11"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/tests/test_rclcpp_logger.cpp",
+    "source_sha256": "ddae6fb9a6f6d36c6fc3ceb92f9b71671ee004e7cb793e41056d9d8e0d0b2be7"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_driver/tests/test_robotiq_gripper_hardware_interface.cpp",
+    "source_sha256": "607e86ff7355d087a33f716866b921ed6061c2f290f711b0328b6142dc5ea423"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_hardware_tests/CMakeLists.txt",
+    "source_sha256": "d4142b5992d085370ca65bce5a7c01afe513aa3a06f3a4027a002d17a5222c52"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_hardware_tests/package.xml",
+    "source_sha256": "7dd2e2b63ca119dd0a58a4b4471eed29ec927cbbc0bfdad2ab50f096201fd34e"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_hardware_tests/src/command_line_utility.cpp",
+    "source_sha256": "0c73e18bdcac7080b558e646288ca33aa04c53fabe34d3b6382baeed152c0790"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_hardware_tests/src/command_line_utility.hpp",
+    "source_sha256": "480ccce2a56f7def65ad6c336a4bab7d56ff5ccf8e499b81525ba034acf4fee9"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_hardware_tests/src/gripper_interface_test.cpp",
+    "source_sha256": "99436c26b034706396d0ea0de9c522351142b19eb0670583f1afdf82854f8d81"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_msgs/CMakeLists.txt",
+    "source_sha256": "8c9ac5afb7c2463ff8003d2378332a1f0f7aedde8ddc64c9e4eb30ba568649d1"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_msgs/msg/GripperStatus.msg",
+    "source_sha256": "b773fd3d27bf3046945bd6709d260821a32a0ed5db464819c7d378cb07007bdb"
+  },
+  {
+    "path": "src/robotiq_ros/grippers/robotiq_msgs/package.xml",
+    "source_sha256": "4ed3a674bd199805dc372db95d87d52e4061e859f466cfbacb5181b9af32ee0c"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/CMakeLists.txt",
+    "source_sha256": "8b2bfe9b8ea0a691747db74b8cdb176c0c92920193ff45f0e18033ad86ad1a89"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/LICENSE",
+    "source_sha256": "376150a80f36fc6ca750935fb74f99b6a77b9942f1c6c5bf1d51a2adc853b096"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/include/robotiq_tsf/MadgwickAHRS.h",
+    "source_sha256": "0b21bf9864a5b9e81558ca021224c262cd05f74783ab55998f7ae98f142b8049"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/include/robotiq_tsf/device_autodetect.hpp",
+    "source_sha256": "26ef70d358a88b66de6f70bcbd41afd8b8f496d8c611f37725055e9b0592553e"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/include/robotiq_tsf/fusion.hpp",
+    "source_sha256": "37978cac3b04988bbcd9774668cbcdb461593bc8a5f2cf1b259e12bed9630f67"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/include/robotiq_tsf/poll_data_sdk_node.hpp",
+    "source_sha256": "aee1e70208fa039574621c1aaa03fa46d2aebcaaf157e435e119147922460888"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/include/robotiq_tsf/sdk_bridge.hpp",
+    "source_sha256": "3a189f43cd4335e82b06979035adf55fc60ab72e0595d9b3fbe9be0bec8a5706"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/launch/gripper_tactile_viz.launch.py",
+    "source_sha256": "9a4053c7f35798652cfee0515f640e227814f0ddbe6a4336c40470f06a370ccc"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/launch/tactile_viz.launch.py",
+    "source_sha256": "33fe905960701462d0870e017cb61b6a2edbc3a5230159924f25f17024c67a66"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/launch/tsf_driver.launch.py",
+    "source_sha256": "78e838a41d89c0a76fec6ce6a8ae944e3159044db91fd90d59bb7b5a86c74866"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Accelerometer.msg",
+    "source_sha256": "4286f0adedbf8646e140dfdae0d90e836433795b2889dd2134594509d4b59bad"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Data1.msg",
+    "source_sha256": "840a2caeee2f186f81f97b9682a7a2e67830ce722ae408f34add9c694f456a04"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Data3.msg",
+    "source_sha256": "1508790f1753f2efb818ce85bb6eb42fb50c7f0cac4e692d07013c5f7fc3d5af"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Data3f.msg",
+    "source_sha256": "80e3fd0a19ef4d2bc8b260c6bcf92847ff94b6eb94cb2835dcb8b913f467271e"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Data4f.msg",
+    "source_sha256": "8906706e58ca62d482b25cf5330296dbbe8bb27d2283490b2d7e129029563937"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Dynamic.msg",
+    "source_sha256": "d59142029732b0c6d91b8bb1c28b7bc5c82d830975c6dc434a7ad2ae6dfc7265"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/EulerAngle.msg",
+    "source_sha256": "ef833268f2ef128e797f76ba33276d67dd23a47ba15fbc1217002dc640a8da23"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Gyroscope.msg",
+    "source_sha256": "4286f0adedbf8646e140dfdae0d90e836433795b2889dd2134594509d4b59bad"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Quaternion.msg",
+    "source_sha256": "347789f98b7b3e1d5f1caa44650063eeaa1835ccf35281f5f0acd78c093f65dd"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Sensor.msg",
+    "source_sha256": "100bf7a63171438fc633104a2454826f84fd6241902ee6474a80619fdbf40c49"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/StaticData.msg",
+    "source_sha256": "c877921bf952152ce80da20e4b92788a1325a3696bc243c1e3eaea354dc4b346"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Taxels.msg",
+    "source_sha256": "f68759c298cb1559fcaccb7c7084a5c242bc527518533150ed9bbf69bd31e36d"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/msg/Timestamp.msg",
+    "source_sha256": "3ec62c64ee1bfc01844f64ce9381b2f13df3e17fc409f11674e12576583fa90d"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/package.xml",
+    "source_sha256": "8ca000a8da2b784aa78c93c8bbd09cc683389eae34afcd4fa7e501bc2fb4d22e"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/resource/robotiq_tsf",
+    "source_sha256": "3372e72bb871d3e03b9b9e953574d9afc03f9d9f2d0f83b150e2ae8262dcd449"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/rviz/gripper_tactile.rviz",
+    "source_sha256": "c9b4e6cc2acb79f204a006ed86baca721ec09395d371e03ad04467c94e7d46a1"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/rviz/tactile_viz.rviz",
+    "source_sha256": "fb099311167441f9b6673f15ed652ee0cd4689140de3b509cff72f733411b269"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/scripts/tactile_viz_node",
+    "source_sha256": "ab96e50553c89cfb108dfdac28f4975d4e48733233d10bb862fd46ff5d459e07"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/src/MadgwickAHRS.cpp",
+    "source_sha256": "4f02697bbc2c907ea38048f89cab92d2e34ad6255eb92719a2291c92a5f3b107"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/src/device_autodetect.cpp",
+    "source_sha256": "a9e71de19068415c6bb7db6a2747f148d584da5dd643048ff3af7603a35c33d4"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/src/poll_data_sdk.cpp",
+    "source_sha256": "fa6ef2bbb15e37e56096bfe564f389dc44bb4265625a9d9bfb436be3a6720041"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/src/poll_data_sdk_main.cpp",
+    "source_sha256": "3127c03f6f6e68e0f6c4cc5ce83045b52537051fd65646ba9df35bc9f1e82d38"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/src/sdk_bridge.cpp",
+    "source_sha256": "e8963cbff450193621e39393f41f69e59c78273b533339f988af1d37c4218129"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/src/tactile_total_sum.cpp",
+    "source_sha256": "11c9a661fe6ca45047e5e9e43af1ff950a8339a2cf677d2f05018e21ca2242e5"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/srv/TactileSensors.srv",
+    "source_sha256": "a98c70ee0b3676f884ed248ab293c9b0cafc001de64378b00be511f4d4514274"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/test/CMakeLists.txt",
+    "source_sha256": "5bc1be283cc6abd3e018c07478c1ec88216099c7ba3e4d08df4bdf56656bc7f4"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/test/eigen_test_utils.hpp",
+    "source_sha256": "ac47785d7ab4189dd86d326db9d8c7885f77bb2c508377261dbd25d1e9093f8e"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/test/test_device_autodetect.cpp",
+    "source_sha256": "6169bbbce7c50b92ef0e1bfd58cdfbc6414e6e6e0b842a037791d56b0590d15b"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/test/test_fusion.cpp",
+    "source_sha256": "daf0237efcd70f1ce22c8e8e8cbbe6906e0044acfcb39b55236c2312341642ad"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/test/test_madgwick_ahrs.cpp",
+    "source_sha256": "8a6eb72f39cf294a7653efe7f080973d7bb96a06ae0106783a6d1f25aa83c37c"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/test/test_poll_data_sdk_node.cpp",
+    "source_sha256": "8431afe964bb08a7d688a966d003039f54139868318e5f90724dc88e09cdbabc"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/test/test_sdk_bridge.cpp",
+    "source_sha256": "9839b3ee7d6f3cb6f5330d341927b32ddbf1bbcb90db55d116c5f38532955fdd"
+  },
+  {
+    "path": "src/robotiq_ros/robotiq_tsf/test/test_tactile_viz.py",
+    "source_sha256": "95f6d43ec1a6eec56e277c7a3c1e04e0dbb24259a47eed93b978a3ea00732aa8"
+  },
+  {
+    "path": "src/robotiq_ros/sensor_install.sh",
+    "source_sha256": "c0069f257b25a65839c0872d45d07889503e7fbe8a4db17560de9bb5e665d768"
+  },
+  {
+    "path": "src/universal_robot/.github/workflows/ci-format.yml",
+    "source_sha256": "b606e58be1ce3ecb1ea66bd89c009fafa22affc11d5c46b1637e5cf636bfe081"
+  },
+  {
+    "path": "src/universal_robot/.github/workflows/ci-ros-lint.yml",
+    "source_sha256": "bc88ab0f755cc1385ab2999fa2f76e4ec39b7cf42a96ce4311dc8ff3dadc9363"
+  },
+  {
+    "path": "src/universal_robot/.github/workflows/humble-binary-main.yml",
+    "source_sha256": "b381626ed747ac0b873a18ae6636c1b4044a2ec100d4d6191c14fe224518d40d"
+  },
+  {
+    "path": "src/universal_robot/.github/workflows/humble-binary-testing.yml",
+    "source_sha256": "d1a04c55ed13e688e106da79a5ab697f1f74ca0c55de3a448c448d65b493a63b"
+  },
+  {
+    "path": "src/universal_robot/.github/workflows/reusable_ici.yml",
+    "source_sha256": "4a24afe274efc520fd9116625d70ddb0640b6d748d0b82e541069cdc0b884959"
+  },
+  {
+    "path": "src/universal_robot/.gitignore",
+    "source_sha256": "e59d79a8f5ef625245dc20f7b60f26c836478d092e62d75d63de8ebe9f802d65"
+  },
+  {
+    "path": "src/universal_robot/.pre-commit-config.yaml",
+    "source_sha256": "3b20e12c8fdc14c398a9efe8510455e04964113738e7ce3bcce080df2c48a980"
+  },
+  {
+    "path": "src/universal_robot/CHANGELOG.rst",
+    "source_sha256": "a069a6f3d2e6540fab0a941d5308c4b656d9bef6e90b3c41f6d53797a33cf500"
+  },
+  {
+    "path": "src/universal_robot/CMakeLists.txt",
+    "source_sha256": "41ec279522f9a45d2579f2c21bb9964b7fb00266e4a1c18bd010f4d0253907a0"
+  },
+  {
+    "path": "src/universal_robot/CONTRIBUTING.md",
+    "source_sha256": "edcbfb7dafe536440d0de55f872a41571afd7bbafec45e3a6124f4ceca9ee4d3"
+  },
+  {
+    "path": "src/universal_robot/LICENSE",
+    "source_sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8"
+  },
+  {
+    "path": "src/universal_robot/README.md",
+    "source_sha256": "a62b4a5b7d95f255d0dd1534df00e53b633972e42e82a2a39448bc570be43119"
+  },
+  {
+    "path": "src/universal_robot/ci_status.md",
+    "source_sha256": "b1340879b575d4e4402eb54aac1c5881110b77dc08514b7bcccb32916b10648e"
+  },
+  {
+    "path": "src/universal_robot/config/initial_positions.yaml",
+    "source_sha256": "19456f7115a4f319ed415c327f19d2834745a6167deaa45efc357c6945d6b5d9"
+  },
+  {
+    "path": "src/universal_robot/config/ur10/default_kinematics.yaml",
+    "source_sha256": "efc60b796682f31b350a30884c01137b743786e4d1d077a7d7958b4483b7f6c1"
+  },
+  {
+    "path": "src/universal_robot/config/ur10/joint_limits.yaml",
+    "source_sha256": "9ebaa1369cf430da76683c38d0cafb101aa27b33997454a3c510046e8aa8a50c"
+  },
+  {
+    "path": "src/universal_robot/config/ur10/physical_parameters.yaml",
+    "source_sha256": "6041455f82803a99f8806beb32eef4a6bb82d11e86705918ff6a4c622b699110"
+  },
+  {
+    "path": "src/universal_robot/config/ur10/visual_parameters.yaml",
+    "source_sha256": "876473f6cc4ab56d492f9edafc4b76c57a4dadb730d4387da702422413178a6d"
+  },
+  {
+    "path": "src/universal_robot/config/ur10e/default_kinematics.yaml",
+    "source_sha256": "4bf9a0dfdeb73d7a8b43171fd8a2cedffa9eaf6e342857df44229380e4ad2e49"
+  },
+  {
+    "path": "src/universal_robot/config/ur10e/joint_limits.yaml",
+    "source_sha256": "de6b27680ef8ca8930d1902fc6869f49b9295dabbb40048eaa538f9d4796bc4b"
+  },
+  {
+    "path": "src/universal_robot/config/ur10e/physical_parameters.yaml",
+    "source_sha256": "8cd32e5a38bcef6c6de59556e752bc2cc05ffe4247019d9591d6a9474eb27928"
+  },
+  {
+    "path": "src/universal_robot/config/ur10e/visual_parameters.yaml",
+    "source_sha256": "34b3187f5af1b4345236986b0cc50480db79d85a9d12a4b638a7c42da1a11199"
+  },
+  {
+    "path": "src/universal_robot/config/ur12e/default_kinematics.yaml",
+    "source_sha256": "4bf9a0dfdeb73d7a8b43171fd8a2cedffa9eaf6e342857df44229380e4ad2e49"
+  },
+  {
+    "path": "src/universal_robot/config/ur12e/joint_limits.yaml",
+    "source_sha256": "de6b27680ef8ca8930d1902fc6869f49b9295dabbb40048eaa538f9d4796bc4b"
+  },
+  {
+    "path": "src/universal_robot/config/ur12e/physical_parameters.yaml",
+    "source_sha256": "8cd32e5a38bcef6c6de59556e752bc2cc05ffe4247019d9591d6a9474eb27928"
+  },
+  {
+    "path": "src/universal_robot/config/ur12e/visual_parameters.yaml",
+    "source_sha256": "34b3187f5af1b4345236986b0cc50480db79d85a9d12a4b638a7c42da1a11199"
+  },
+  {
+    "path": "src/universal_robot/config/ur15/default_kinematics.yaml",
+    "source_sha256": "5f3d566874194178e7aa153a99b622ca7c19f18866a8379d0ac3ccf4706aed8f"
+  },
+  {
+    "path": "src/universal_robot/config/ur15/joint_limits.yaml",
+    "source_sha256": "9f7d3294303f0bea7ed368f7d56eda27a59e088646527f3b792bdfe047780cfa"
+  },
+  {
+    "path": "src/universal_robot/config/ur15/physical_parameters.yaml",
+    "source_sha256": "076ebd23abc34978531ea848f97e73f9f405418b1f1789595e254eac652b7660"
+  },
+  {
+    "path": "src/universal_robot/config/ur15/visual_parameters.yaml",
+    "source_sha256": "59edaa847e8a3b50c172b901cf4ad327660690c7941f69107254ef6f6cc22892"
+  },
+  {
+    "path": "src/universal_robot/config/ur16e/default_kinematics.yaml",
+    "source_sha256": "20fb7f133426c7182d0eee6442d4cbad4cc733fa9ce2ef1924620961c44c1d81"
+  },
+  {
+    "path": "src/universal_robot/config/ur16e/joint_limits.yaml",
+    "source_sha256": "05d9279f87942504c1d7af4be1c9d30ac447c18f98be2f57307565c519182e3d"
+  },
+  {
+    "path": "src/universal_robot/config/ur16e/physical_parameters.yaml",
+    "source_sha256": "aab905394d0038e573ce6db39fa8cd18c23caae2124daab021cabd12bfb302d3"
+  },
+  {
+    "path": "src/universal_robot/config/ur16e/visual_parameters.yaml",
+    "source_sha256": "27e067f038e17c0601d0a86cc1318830a656354d283adc310c104cd422161337"
+  },
+  {
+    "path": "src/universal_robot/config/ur18/default_kinematics.yaml",
+    "source_sha256": "72a628a5ae0cd2ccdac49d881d69bd7ad233c7593e6575654022e93bde65a510"
+  },
+  {
+    "path": "src/universal_robot/config/ur18/joint_limits.yaml",
+    "source_sha256": "9f7d3294303f0bea7ed368f7d56eda27a59e088646527f3b792bdfe047780cfa"
+  },
+  {
+    "path": "src/universal_robot/config/ur18/physical_parameters.yaml",
+    "source_sha256": "881bd2b71abd1ad0e1192e8360a1bf2a423a943e1f938902f7b6e039ef3baea5"
+  },
+  {
+    "path": "src/universal_robot/config/ur18/visual_parameters.yaml",
+    "source_sha256": "a098529178aecf72c1134d8c73bcb893e628d8a084c75280738e8181e8070a8b"
+  },
+  {
+    "path": "src/universal_robot/config/ur20/default_kinematics.yaml",
+    "source_sha256": "2328a839f0cbf3e55aa420110f1f708f64f37e7f65b5d6b8994eb4860b5991bb"
+  },
+  {
+    "path": "src/universal_robot/config/ur20/joint_limits.yaml",
+    "source_sha256": "ba2be7ecf42ee235d83aa572ca3743532c45577affef0d75b65d9f0cd40aed66"
+  },
+  {
+    "path": "src/universal_robot/config/ur20/physical_parameters.yaml",
+    "source_sha256": "c6fe550ad20d1025041c5c375051506c298d073b55b70c871bb319fcb66f1b35"
+  },
+  {
+    "path": "src/universal_robot/config/ur20/visual_parameters.yaml",
+    "source_sha256": "719b0b0ce3d30c81dabe845ce34458f27d98a3673e910dfce91689d366a7da8f"
+  },
+  {
+    "path": "src/universal_robot/config/ur3/default_kinematics.yaml",
+    "source_sha256": "62ccae1768678cfddaee8e2a1b621365d7ac8a58b4a7607aed680ed572c8a423"
+  },
+  {
+    "path": "src/universal_robot/config/ur3/joint_limits.yaml",
+    "source_sha256": "3ca03a6b107fab1d20a18a4e3a967ed0f14de228208a95c4735a6c966ea18534"
+  },
+  {
+    "path": "src/universal_robot/config/ur3/physical_parameters.yaml",
+    "source_sha256": "45ab62cfa834874f8a3ed4b23b5df5e3258629c6a218b0cc39de67cda2138388"
+  },
+  {
+    "path": "src/universal_robot/config/ur3/visual_parameters.yaml",
+    "source_sha256": "ac9e72781000de32323066ded38da480687112517a4a75f80c69315cc2b7290b"
+  },
+  {
+    "path": "src/universal_robot/config/ur30/default_kinematics.yaml",
+    "source_sha256": "744f2e8e0c1a352aab29061f9c104927444854fe8f5958f0738f98242fce09fe"
+  },
+  {
+    "path": "src/universal_robot/config/ur30/joint_limits.yaml",
+    "source_sha256": "ba2be7ecf42ee235d83aa572ca3743532c45577affef0d75b65d9f0cd40aed66"
+  },
+  {
+    "path": "src/universal_robot/config/ur30/physical_parameters.yaml",
+    "source_sha256": "470a92d5cc7758bf0b66db224f480c6f494ab67409a18d16dbfec292a5dd2aa7"
+  },
+  {
+    "path": "src/universal_robot/config/ur30/visual_parameters.yaml",
+    "source_sha256": "d5702c38df3b92d614be119c3be507cf88a0591448d7a93a6330137d2783c92f"
+  },
+  {
+    "path": "src/universal_robot/config/ur3e/default_kinematics.yaml",
+    "source_sha256": "c0bfd5cb5bafd9df090a71a914bbeb8812a1a3b07f03fb930d6f8fa38fff9de7"
+  },
+  {
+    "path": "src/universal_robot/config/ur3e/joint_limits.yaml",
+    "source_sha256": "51f2e1d00f69154a49aca95c1f17497622861b1d14c2de5ace0a9687dc5424ca"
+  },
+  {
+    "path": "src/universal_robot/config/ur3e/physical_parameters.yaml",
+    "source_sha256": "e30962b2fb402c445805443a19e819eb8fdc8a40a46aa15d7ce772d7fedce6f8"
+  },
+  {
+    "path": "src/universal_robot/config/ur3e/visual_parameters.yaml",
+    "source_sha256": "21cd9b2a5810e36afd1174973482e7e3573b567166ad71cad81abdc078a6e469"
+  },
+  {
+    "path": "src/universal_robot/config/ur5/default_kinematics.yaml",
+    "source_sha256": "4559bd027c93ce7c0e2a343d6f71f742fe4a67ea9d7ef67535189f4efbe9c3ac"
+  },
+  {
+    "path": "src/universal_robot/config/ur5/joint_limits.yaml",
+    "source_sha256": "279609c61e61c2097d3d7f47cc7fca1bfe66c939f1dc096eff8d140f9ec0e22f"
+  },
+  {
+    "path": "src/universal_robot/config/ur5/physical_parameters.yaml",
+    "source_sha256": "58b2a17bc1e5be5cc0ee0f093b81d58bbab5784e2f795a7cd51cdf6c3e8d0dae"
+  },
+  {
+    "path": "src/universal_robot/config/ur5/visual_parameters.yaml",
+    "source_sha256": "9dbb023fb35d688ac47fd69cf8f7f14c3e53a71dc11f713cc587965a7341ec80"
+  },
+  {
+    "path": "src/universal_robot/config/ur5e/default_kinematics.yaml",
+    "source_sha256": "4ffc6086bb0118a5a8e4a3576ef41de878de946710799ea4835789063fa9c0bc"
+  },
+  {
+    "path": "src/universal_robot/config/ur5e/joint_limits.yaml",
+    "source_sha256": "1e908454a0fb073761a0c675f708eb003ca7d5333a9e0863ef87fe40d9abb3c7"
+  },
+  {
+    "path": "src/universal_robot/config/ur5e/physical_parameters.yaml",
+    "source_sha256": "79ea65367aa306015bf2e91b60b1edf7d1a7a6309671b8051a8d419675ca93ae"
+  },
+  {
+    "path": "src/universal_robot/config/ur5e/visual_parameters.yaml",
+    "source_sha256": "ef59d6cd6744014c54301e051208c3bf4f667291940598b22eb4a8ba3436f699"
+  },
+  {
+    "path": "src/universal_robot/config/ur7e/default_kinematics.yaml",
+    "source_sha256": "4ffc6086bb0118a5a8e4a3576ef41de878de946710799ea4835789063fa9c0bc"
+  },
+  {
+    "path": "src/universal_robot/config/ur7e/joint_limits.yaml",
+    "source_sha256": "1e908454a0fb073761a0c675f708eb003ca7d5333a9e0863ef87fe40d9abb3c7"
+  },
+  {
+    "path": "src/universal_robot/config/ur7e/physical_parameters.yaml",
+    "source_sha256": "79ea65367aa306015bf2e91b60b1edf7d1a7a6309671b8051a8d419675ca93ae"
+  },
+  {
+    "path": "src/universal_robot/config/ur7e/visual_parameters.yaml",
+    "source_sha256": "ef59d6cd6744014c54301e051208c3bf4f667291940598b22eb4a8ba3436f699"
+  },
+  {
+    "path": "src/universal_robot/config/ur8long/default_kinematics.yaml",
+    "source_sha256": "9e9be2fb54f2b92f184bb3f7b10934d6a4be19c66e07cc3df5ec1a97a6040f75"
+  },
+  {
+    "path": "src/universal_robot/config/ur8long/joint_limits.yaml",
+    "source_sha256": "9f7d3294303f0bea7ed368f7d56eda27a59e088646527f3b792bdfe047780cfa"
+  },
+  {
+    "path": "src/universal_robot/config/ur8long/physical_parameters.yaml",
+    "source_sha256": "b879347632416f85431a50a5c1c8a3cee9ec4796b0c31cccd2f411d86d5bbfd4"
+  },
+  {
+    "path": "src/universal_robot/config/ur8long/visual_parameters.yaml",
+    "source_sha256": "4b22726f34da18a9aa6576ada097079000d408eafc90890f230bab68fe4823e7"
+  },
+  {
+    "path": "src/universal_robot/doc/structure.drawio",
+    "source_sha256": "c4c8771c84fa828c4ca1ecefa21d004ca3477dcbffebc8bf0e13135621b2fd89"
+  },
+  {
+    "path": "src/universal_robot/doc/structure.svg",
+    "source_sha256": "462b34fd8d9617f3ece39cf3462f1f6d733b3d760ea09f68dcda76dd82c1286f"
+  },
+  {
+    "path": "src/universal_robot/launch/view_ur.launch.py",
+    "source_sha256": "a00fc1f4f369f06002bce26c56db2fc1fe91634780fe177fb1b3d3c8e7380a2b"
+  },
+  {
+    "path": "src/universal_robot/launch/view_ur.launch.xml",
+    "source_sha256": "923918cb9c42dafc1415c683cd7535f62fecf995b8c3fc86cc8faeadea1b1ec4"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/collision/base.stl",
+    "source_sha256": "c2049e55f6ddbd827d89342c5e3d277b62493db681d28f44ca555db1a288e2cf"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/collision/forearm.stl",
+    "source_sha256": "dc90009a4863cbdb350f2a40e40ca25db0ddba1eb6811e0e0d3c914293f365d0"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/collision/shoulder.stl",
+    "source_sha256": "8f2b5085694ffb5208da1099bd9c5b381155a82c5fec1bc72bb050f3c30c0ece"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/collision/upperarm.stl",
+    "source_sha256": "c84a410a76cf8d25e1d830d9033a4e501fb16baeb2bf0116367a0cdb98c75fbb"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/collision/wrist1.stl",
+    "source_sha256": "c33737b72a82d61a9d4b1c3abb75eab8349e935c60340f59b7d1ed004ac16142"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/collision/wrist2.stl",
+    "source_sha256": "8070916b9042dce67c85fccaa94fa60308722945405a58abc6070c1bb8de9bb9"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/collision/wrist3.stl",
+    "source_sha256": "07401ab0442bb02772aca606889146ff5fc0b30c8f037e4b2878cfefb1b7c443"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/visual/base.dae",
+    "source_sha256": "30a52b32d9ac63403a18829d20d13447e08b298727c7c3c038212c6937051ddb"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/visual/forearm.dae",
+    "source_sha256": "d371c043095a04436ae058c47cd923c551937cfb44cc9a144a2053e0cf1691d4"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/visual/shoulder.dae",
+    "source_sha256": "ab45cd1eb68fc34814cff13ec1593456c03cea009812d7541b90dca098e5ee37"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/visual/upperarm.dae",
+    "source_sha256": "ee7f0295d1e8e26856344b02cc9aef28f530b854b1700640f92925847b4c13bc"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/visual/wrist1.dae",
+    "source_sha256": "572e276ae8a561c0d722f54279d4c1bb071619e61fd25452f25017f055297aa9"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/visual/wrist2.dae",
+    "source_sha256": "456996b0d0fa07b6f37b2cb14c035e354de74cfc4899abc4c2cbd7dfd51a933a"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10/visual/wrist3.dae",
+    "source_sha256": "c95c7ce0d53114c39d896ba350d832ece99498a0e2a25d9b3eff4f7d1637c347"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/collision/base.stl",
+    "source_sha256": "8a214f3f650e703fa081bd4bd8b1caeb0667598bec22d8b0e572efb97d06e957"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/collision/forearm.stl",
+    "source_sha256": "7005ed835336ec03ce6a299a356c774bfe2ba989051e37b2a66406173dcb3c96"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/collision/shoulder.stl",
+    "source_sha256": "3f7c5f7ee742cf2d57130829be9f20b25625b3513d676ac5e20ca46ae84fd528"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/collision/upperarm.stl",
+    "source_sha256": "663a935951c802b1c16ad7478e7ce754b2d48efb828bbe5d3915fb6bb51cd7db"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/collision/wrist1.stl",
+    "source_sha256": "1408c3a0a29385fefe30ed44fceca56d2254f51ea93c75c404976816992324cc"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/collision/wrist2.stl",
+    "source_sha256": "4b9e74eab991af3dc9d38c3dfaad2c5bc69591fadc855f7966627ba4d0956579"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/collision/wrist3.stl",
+    "source_sha256": "7038904dd03dfea56212191ac61d26746b379dbddfd517b905e13c01e1c12e6a"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/visual/base.dae",
+    "source_sha256": "28226d95af8c1579a49fe69b62a00d9133a2a05258dad550bb9b583c80dc938f"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/visual/forearm.dae",
+    "source_sha256": "24d909834c380cceb0490181dae40bcdfcfa4a7fb0c6807d6e58794cdfadcf6e"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/visual/shoulder.dae",
+    "source_sha256": "1c38a6afedfb8f064117da87b60c2dcb9ccd107f957e4c5e0a198f4c2bb63d36"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/visual/upperarm.dae",
+    "source_sha256": "f9d2380d14127440f4a50ed79ab4e7562f86289cd6131016c3d49a3e7483e6ed"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/visual/wrist1.dae",
+    "source_sha256": "643717d042920313dd9daa81511bd9afa66a877625967e6dd8d359ec851b4237"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/visual/wrist2.dae",
+    "source_sha256": "b820e8c8a4488563c7a21fe73bf2fa4038ec9f882dcf9db12e2d1df928253793"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur10e/visual/wrist3.dae",
+    "source_sha256": "52ace7588f131dc43b49ba88d1c83c1f871e6d00659ea84b1f437e2a7f1ab7fe"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/LICENSE.txt",
+    "source_sha256": "f173efc8bd4b0ffaec2280b2dd126805ff7dddee8758b3d869132afc1776daa8"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/collision/base.stl",
+    "source_sha256": "50e42cab54ff10ca6ff0bcbb25060d04a51f52d63c43062c03e3e9ad17f90871"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/collision/forearm.stl",
+    "source_sha256": "eef1c059cf5f28c1fc3b2decbf7dc39bbc8f5434fa971488ca8adcb6f636bd3f"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/collision/shoulder.stl",
+    "source_sha256": "41c53aa0dd560de9f1fc0dae232e0ee4c7f37e88c38aa20abab139677bb20c2d"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/collision/upperarm.stl",
+    "source_sha256": "ec72868b0649c43ff3428037a543621cfde57bb3a0e733c0afbd219b00ebdea9"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/collision/wrist1.stl",
+    "source_sha256": "e80ede083760c31b358f3ff711f2654f9a67c5cbe13ff9126c522288d2eb6501"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/collision/wrist2.stl",
+    "source_sha256": "0e7ec1e2739bf7c5f7bddcead9ee5db26a95507781a3e66cfbfbe7b7f573521f"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/collision/wrist3.stl",
+    "source_sha256": "1df1a130c9167ed2ea107f30d8d4f551c7c12e9192fcd8674758cbff797e3127"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg",
+    "source_sha256": "24f6f9408be1dc1dd60df0fce90ae85d1e5e7a19aa9da603cd6251be8ef2af46"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/visual/base.dae",
+    "source_sha256": "c9d71006313dd957a92162bc78ca8ee1b841b189fb85771d83a115d16677e482"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/visual/forearm.dae",
+    "source_sha256": "9b264db399a026a6876a4780ec3e55866c82f51b382d139080fd65105dd462ce"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/visual/shoulder.dae",
+    "source_sha256": "9327c9065dc4fbb8fb5082330bef558fee6598b03424bea4399ea8ada75f04e1"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/visual/upperarm.dae",
+    "source_sha256": "a794cc25ce3ecbaeb34ae6cd03b55bab4fd9990d2f7104986ebd6640d044b9d0"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/visual/wrist1.dae",
+    "source_sha256": "350055a89b091529493f1e9bef660ac38cc9e234ce78b7f91401221c49a98b61"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/visual/wrist2.dae",
+    "source_sha256": "07ecccfe96b1e0d065c5e2ded3fde4de0fa57d18203c9b6873feab71c5182fbc"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur15/visual/wrist3.dae",
+    "source_sha256": "a6a0181aed8602ee423ac1ab8d47fa566b0d2afab12b0e350fc017ee2fff6b25"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur16e/collision/forearm.stl",
+    "source_sha256": "fc1c07390183b3874d66e3005795063980bc4f4a786504999f2e86250dcbfe0f"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur16e/collision/upperarm.stl",
+    "source_sha256": "5c1eacd146739265039ccb0b75649b83719f67cb36cca42d1d11a8e4cd929175"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur16e/visual/forearm.dae",
+    "source_sha256": "1088ae0f09e0ada13db3f776130918ae54bf264e3a94abea8b83c3fbd3a0100d"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur16e/visual/upperarm.dae",
+    "source_sha256": "9db55f568c57b3b10c424c133a14f66037b9060b4b3504d9d45e902747f6f961"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur18/LICENSE.txt",
+    "source_sha256": "f173efc8bd4b0ffaec2280b2dd126805ff7dddee8758b3d869132afc1776daa8"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur18/collision/forearm.stl",
+    "source_sha256": "d61a0bb27279c605cb7be71c891883739891172f4cee0c0e1b452fd39bb826a9"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur18/collision/upperarm.stl",
+    "source_sha256": "67ca5caf02096bf8391ff2f8b8165119ecfb7b18cedf79247dfb88d93fee6212"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur18/visual/UR18_DIFF_8bit_2K.jpg",
+    "source_sha256": "133921636a0050bc221fbaee2eac6eba2a8fc926b095e2b631e51bf9a18f064b"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur18/visual/forearm.dae",
+    "source_sha256": "86f232de6e70897e04742a14657aadf1f8baeadddb83e1c0eed50d1f67b1a4c7"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur18/visual/upperarm.dae",
+    "source_sha256": "0b7adf13f4fdeaccd3f902f667e668759ae8a8f77e2ca020349e892a753525a7"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/LICENSE.txt",
+    "source_sha256": "f173efc8bd4b0ffaec2280b2dd126805ff7dddee8758b3d869132afc1776daa8"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/collision/base.stl",
+    "source_sha256": "455a01c50280f986471a86fefe1b2b3e86f7f1afd9fb32493a4febc42d0388f0"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/collision/forearm.stl",
+    "source_sha256": "4bd860969e56358c6aed65be1268b13a83535541aacac746323dcff217d3a815"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/collision/shoulder.stl",
+    "source_sha256": "f20bd5197388f050d5cf752ff980b4a117b8559d4dc5b0ba95a52f9c3e76d182"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/collision/upperarm.stl",
+    "source_sha256": "0093cb733ea040e9ec715b9b4a5add42961ab99efab752abd0c0b1e933a578fa"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/collision/wrist1.stl",
+    "source_sha256": "19bc042d09f58aa2a0646dead171955f4d6f3518ef9b4c5a99ba6b565536532e"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/collision/wrist2.stl",
+    "source_sha256": "0a2972fb64f334297bc8bdd42e343f572f109bdbfd867a93785763d9b4095740"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/collision/wrist3.stl",
+    "source_sha256": "d985f80bc6ab8d6979e9e9267c1ac2442a804d9905022b1fd77eb1dbb7de93f4"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/visual/UR20_DIFF_8bit_2K.png",
+    "source_sha256": "9c659b5115540ac6f0af94d504e04ca734afaa304dc0c1e8392741c20ca055ea"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/visual/base.dae",
+    "source_sha256": "dc5673ad78ac29b3c3f6ddd7465529af5eedbd3b76fdf4d2940b0ec2ce05762c"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/visual/forearm.dae",
+    "source_sha256": "1b9523f0122f7b186a0b0223636b0713e908536f4812cb7ef3ead227e310f09b"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/visual/shoulder.dae",
+    "source_sha256": "4ac24b17acd73d47d6f4c213e2786abe4d491600363591790ceaa8f601474e20"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/visual/upperarm.dae",
+    "source_sha256": "550f87116f6f75588ee1ab028a1413cffe45546e5bda39a7e22a56888de9a4ad"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/visual/wrist1.dae",
+    "source_sha256": "40e172b209db1a89f2bc74e4120ab751ba6ca7a13b80aba4fc286280902e6483"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/visual/wrist2.dae",
+    "source_sha256": "ba20b26ac45e934efc804d3376fe5bf0d2c2fda6f9563a48b60d926e76404a43"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur20/visual/wrist3.dae",
+    "source_sha256": "8440f202606a4c1325a2f31b45ae19ab439c99db0842f2ce7637dd789563ead9"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/collision/base.stl",
+    "source_sha256": "a4632b7941b0a090c0817255d01a1b3e759b47291487c5742d621395a0a8df2e"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/collision/forearm.stl",
+    "source_sha256": "08a578aa50bba584f236591b25dfdf0a03a060f05946a7d1c450d800cae5cbb8"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/collision/shoulder.stl",
+    "source_sha256": "c6a66fc64afa98f694307014cb5ec9cd73a3c4a03730cdbee700a835292ce3d0"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/collision/upperarm.stl",
+    "source_sha256": "81ccc4d6ee7cac170ace494dc88cf2930f78a1d7edf3c38a96e6b1b90c540c60"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/collision/wrist1.stl",
+    "source_sha256": "fec8baaeffb31e3de92e62a5b5ce4dba1e3d36cf253ff2a0346c32a6c2b7ef6d"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/collision/wrist2.stl",
+    "source_sha256": "efb209b3659d4864d17bbdacb1820f9be45aa7b6418c42fda447d6ff7a1da220"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/collision/wrist3.stl",
+    "source_sha256": "27ad47ace7b5318c2259de92f340e13e25a119f91fb42e5c40d608850db06883"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/visual/base.dae",
+    "source_sha256": "cebc07433aa6be5d38efa7fd7f8bef5b886add457631caa194fa3d4de7b8d764"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/visual/forearm.dae",
+    "source_sha256": "c059ae9d135dff9c2b6319d6d07c44f4470b84d61398a85a15262c9cde893393"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/visual/shoulder.dae",
+    "source_sha256": "53bfe7808ad7bfe7260818022fdf18bf2c3640fa9cc7cb3b571d527ef0d53e5a"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/visual/upperarm.dae",
+    "source_sha256": "6b8c8a4d68ce0a964abd7c3f493728b3d0d10921ee378c857bcf15b8dd2f9869"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/visual/wrist1.dae",
+    "source_sha256": "0a9302c733b031d7b33aa3c0a8ea0d8c3180bc98c819fb6e7f0e0803a851d9c5"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/visual/wrist2.dae",
+    "source_sha256": "ff6a157c9dc6174082b7a595bbf8024051ceace6c34911b405b48ebf76b4523e"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3/visual/wrist3.dae",
+    "source_sha256": "24f68bc002b640779d3632716e07867288f08c01cbd5f3351ce67b94290e44ce"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur30/LICENSE.txt",
+    "source_sha256": "f173efc8bd4b0ffaec2280b2dd126805ff7dddee8758b3d869132afc1776daa8"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur30/collision/forearm.stl",
+    "source_sha256": "acf3e7e253a043dafea387bec638f9502c17023bab30e250cdd3c716b7463a1b"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur30/collision/upperarm.stl",
+    "source_sha256": "d672523507a5d6dc70a3478f8d61b5154f93beaed5a5026ad27215ccb77e4db2"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur30/visual/UR30_DIFF_8bit_2K.png",
+    "source_sha256": "de839c03e28ef6e22a381e5132aa261e373f3fb1cfb0c327b0cc453d848bb890"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur30/visual/forearm.dae",
+    "source_sha256": "70765d5e0ead8cffb7913c949a665e902e168696e7892b3525190236e389ff02"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur30/visual/upperarm.dae",
+    "source_sha256": "e36ac8d9508459e6d6b56b488da5e2cf12525319d9e1aa5d681cbb6d564d40b0"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/collision/base.stl",
+    "source_sha256": "2838ae72d4b6f1421083209ebdd9ea5cecd3a19a9b3ca60f4e0ad3300beeb648"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/collision/forearm.stl",
+    "source_sha256": "cbb4b2d2f024d05af7dad9cbaf018a11a360693ca5b96d3de89ea7ff2480bfca"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/collision/shoulder.stl",
+    "source_sha256": "2edd8898d06fd4dd289e27dae047598ec7fa61e1860682452b57ed70c0e836d6"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/collision/upperarm.stl",
+    "source_sha256": "009baa2a00697891cdc191a3cd9d4eae9106ba09c6e78db8d509b1c84fbaa41f"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/collision/wrist1.stl",
+    "source_sha256": "458cbd3b36b0419e9fafd13bfd1f1cd9fd47e4c31191d6c078b239f220dcfd28"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/collision/wrist2.stl",
+    "source_sha256": "d2b00401f97d1a1d951a1a99c7dc74589009f80b6817d1c633cc793dcec083ad"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/collision/wrist3.stl",
+    "source_sha256": "0795382b1ff170be3ce66ab44da8f4f41fd08096661471801fc627712d9c592f"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/visual/base.dae",
+    "source_sha256": "2392d48fd62ec9ab579702ef7548c303bcf2dd41fc895cb7f410d9d2bde5ab9e"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/visual/forearm.dae",
+    "source_sha256": "410cd4771845c9434139e1fe41a4171296f7115b7a82211ebfaefc90732811c1"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/visual/shoulder.dae",
+    "source_sha256": "d047f6b253e3c5f295717818923bf337a7d2f2583395cb99a1e60b696b226191"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/visual/upperarm.dae",
+    "source_sha256": "c1b7280deb24b227903c1f5943b6d50221ef1aa30b92a0709abeb9d93852a879"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/visual/wrist1.dae",
+    "source_sha256": "de8c42623011c04ab09626f8dfd7e2d07fe05ac04b0e92b765d9b7c924faaa7e"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/visual/wrist2.dae",
+    "source_sha256": "e010c1d8c1802b150110782cc3ab993e51aeacaa096b871bd72ba8d46ea7b109"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur3e/visual/wrist3.dae",
+    "source_sha256": "2eec93dd08aa9380763bcb314851558602f015759afb43af9bb249eea0661ed5"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/collision/base.stl",
+    "source_sha256": "81c2ad265f7140313c305d9bfdf98d5b00f5978e9b01acbf12243602dc4dd151"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/collision/forearm.stl",
+    "source_sha256": "8e79aa80a532494ba5320c30b40363ff63d228e3d59e2904703dca341dcba2ac"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/collision/shoulder.stl",
+    "source_sha256": "1d62e23a8c3ff9e6334fb157c805e6202037bcfca65bc6a36c5c9ae866751b3b"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/collision/upperarm.stl",
+    "source_sha256": "55c11ac0ad1e144f230849b2033532e8b140b2e818ea497296d08dfb88757440"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/collision/wrist1.stl",
+    "source_sha256": "0a1fd12150140efdee91650dcb4c2d0443065551a9207a2d2dbde58ff1fb4eb7"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/collision/wrist2.stl",
+    "source_sha256": "c1d9f7843366068cb331f3f5c43fa716d3eceeb8c80216eccbbc878905dab123"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/collision/wrist3.stl",
+    "source_sha256": "cf7220397b56f1d3047be9465eea1181d471b40fc82728052e31c97588585b4b"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/visual/base.dae",
+    "source_sha256": "366e6cb99a2bf5027dae92d2bd428d27224b0a5af96ca9f1e68f5b92860c2011"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/visual/forearm.dae",
+    "source_sha256": "2fabc6738b33365b5c54b59304f128907c5e214d25d5e4cc40487b67718a3dbe"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/visual/shoulder.dae",
+    "source_sha256": "fd15be6d2edbc6403e00f4f6e00bd3970491d3d53cc77eeb55c98bcd8f6b49ca"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/visual/upperarm.dae",
+    "source_sha256": "06b46dce3dadb55a71dc55dc710a3a6206006a902e507f05267dde6ffe4c9c8c"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/visual/wrist1.dae",
+    "source_sha256": "3eb98c0a440ea8f4e91fd2cbb3bf39bd8b96acbb5ebdb697e64603395f1d0a79"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/visual/wrist2.dae",
+    "source_sha256": "2a60ae57fd85ee06e77482029b10fe09fd53dc68169138380e64d98d5f134f09"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5/visual/wrist3.dae",
+    "source_sha256": "23430d8b8ec0c94c5a69fe5e70931399d3d8e07d40f277334fe62d82b959cef5"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/collision/base.stl",
+    "source_sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/collision/forearm.stl",
+    "source_sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/collision/shoulder.stl",
+    "source_sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/collision/upperarm.stl",
+    "source_sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/collision/wrist1.stl",
+    "source_sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/collision/wrist2.stl",
+    "source_sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/collision/wrist3.stl",
+    "source_sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/visual/base.dae",
+    "source_sha256": "c30e4d7228ef633dca2a02c26df2316741f6642cb6333e8289dba6e6d0b22819"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/visual/forearm.dae",
+    "source_sha256": "04694bf57dac46e9b8bc7c30f2eec75a1bc762e1f1a879ea30c944f24cacbad8"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/visual/shoulder.dae",
+    "source_sha256": "c581bfa55b86061d9b99d315ed53817b6b693e6a500643bbf9bbb783322d585d"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/visual/upperarm.dae",
+    "source_sha256": "c040a05bb224f14cfab6aa6704d70cbb773ada940eca9a3e34e6ce486c4c4c29"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/visual/wrist1.dae",
+    "source_sha256": "a07a3d96d2540f9be12e4a07bcb8577d9f1e36005920c396a407804343a3b588"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/visual/wrist2.dae",
+    "source_sha256": "982fa42933c6f81629882ad7975e9ba5dac5d474a6b56694e233708376cf840e"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur5e/visual/wrist3.dae",
+    "source_sha256": "7a7664ac4adcd53b0870fe6a2b8b975693d846dd4d07a5f44194c7d16f4890ba"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur8long/LICENSE.txt",
+    "source_sha256": "f173efc8bd4b0ffaec2280b2dd126805ff7dddee8758b3d869132afc1776daa8"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur8long/collision/forearm.stl",
+    "source_sha256": "c31c6dd7c959a419549e1263e014c34d1cff7d0cde434eefaa7956e52b7aeff7"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur8long/collision/upperarm.stl",
+    "source_sha256": "9079b7efe1eb9e3e332a6cdf5eed369bb88516fa1e183191efafd1fe7ece47e5"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg",
+    "source_sha256": "b69dd0410ed0896c63ecbeb38effc1c293242ed2b9796b74ed90580bbf49bc11"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur8long/visual/forearm.dae",
+    "source_sha256": "376292ca4c516a049a9bacc54f0cf07368108e73b250c67405a4f4ed8b4a2575"
+  },
+  {
+    "path": "src/universal_robot/meshes/ur8long/visual/upperarm.dae",
+    "source_sha256": "46d97b64ebe9c99a8e11d3c07acd22c34b0f3b2c37b55be0c394295b27801ba5"
+  },
+  {
+    "path": "src/universal_robot/model.pdf",
+    "source_sha256": "a341def4eaac76bc6862ba1e5667422d97f948e0c5e1a6769e31eb22ed2e0baa"
+  },
+  {
+    "path": "src/universal_robot/package.xml",
+    "source_sha256": "54caa1cbe898e19f33d6ed008467ab4f71c14aa277285d1b1a7e0e9f433f0f14"
+  },
+  {
+    "path": "src/universal_robot/rviz/view_robot.rviz",
+    "source_sha256": "9378b776fc07395884909267a98e8d8347067012ea981c188f1b22a6bd717b54"
+  },
+  {
+    "path": "src/universal_robot/test/test_ur_urdf_xacro.py",
+    "source_sha256": "86de4cbffbd45369604dc69acbc9754526e9780991efc686b44572fa13a0f54a"
+  },
+  {
+    "path": "src/universal_robot/test/test_view_ur_launch.py",
+    "source_sha256": "5abcdabfa94d2e5231cd112b8aba239ec86c7e0e347b6c63ad4d995ec97c8a60"
+  },
+  {
+    "path": "src/universal_robot/urdf/inc/ur_common.xacro",
+    "source_sha256": "6f01bf71dc8073b5cd7458c12ed39d87eb99ffec7d6bb31d534d96f83c534304"
+  },
+  {
+    "path": "src/universal_robot/urdf/inc/ur_transmissions.xacro",
+    "source_sha256": "85096b2102ef26cb11313956e9ba737f3fae63a0b702108f8cf3253de1cdadf3"
+  },
+  {
+    "path": "src/universal_robot/urdf/ur.ros2_control.xacro",
+    "source_sha256": "1827dbf32ee48c312f7a47667fc1b4470a4b0b7fd778119068339d18813ed294"
+  },
+  {
+    "path": "src/universal_robot/urdf/ur.urdf.xacro",
+    "source_sha256": "126f5d1631709d6940ebef8e3942a483054efbd2afeb81970c8d6e8e0333d2e8"
+  },
+  {
+    "path": "src/universal_robot/urdf/ur_macro.xacro",
+    "source_sha256": "e5ef4dd07523e5832fd34ca564e882a3980a95845ee4af3f3690e418d6c3ce98"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/config/ur5e_camera_workspace.yaml",
+    "source_sha256": "ebd074be724caf15d4f18f63446b00688a57f7af217c535eb82a9feb6d299f44"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/launch/ur5e_camera_workspace.launch.py",
+    "source_sha256": "be0144d6626d5cf72f938429833f7242d57b839780c397d3ab99358282c40890"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/package.xml",
+    "source_sha256": "9334397e2f670ce59a73e3b4d4c2eba6bfcefe0f9e2397debd51f9305e154518"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/resource/ur5e_camera_workspace",
+    "source_sha256": "1ec5c749caae132b48957ed5bcbdcd92510ed4a713ed3de5a855a061aab7acb3"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/rviz/ur5e_camera_workspace.rviz",
+    "source_sha256": "4ef0af58d046926a5556b3562591704c2e245e45623a4bbbbc0ec2cb011143e9"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/setup.cfg",
+    "source_sha256": "f282856a17e9838486b956bad65b316efad21f64ca8e1e4f7754fbece52d1310"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/setup.py",
+    "source_sha256": "f388ed90e44837d42d01e1a4a1461b8b9bb2e7c1e2caa97ff60c17a9e2007fd9"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/ur5e_camera_workspace/__init__.py",
+    "source_sha256": "03f518b2d98120b4628820178a02a9498d968fe34997ff2383bfaa01604eecf4"
+  },
+  {
+    "path": "src/ur5e_camera_workspace/ur5e_camera_workspace/workspace_visualizer.py",
+    "source_sha256": "e6c2defaaca03b18b798f984b242aa0b044de649f894892716a036a2fa26703b"
+  }
+]

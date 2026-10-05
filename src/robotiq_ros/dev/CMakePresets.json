@@ -1,0 +1,42 @@
+{
+  "version": 4,
+  "configurePresets": [
+    {
+      "name": "ide",
+      "displayName": "Workspace (all C++ packages)",
+      "description": "Every C++ package as one project, installed into build/ide/prefix so plugins and tests resolve.",
+      "binaryDir": "${sourceDir}/../build/ide",
+      "installDir": "${sourceDir}/../build/ide/prefix",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "ide",
+      "configurePreset": "ide"
+    },
+    {
+      "name": "ide-install",
+      "displayName": "Build and install",
+      "description": "Tests that load the ros2_control plugin by name need the install tree, not the build tree.",
+      "configurePreset": "ide",
+      "targets": ["install"]
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "ide",
+      "configurePreset": "ide",
+      "environment": {
+        "LD_LIBRARY_PATH": "${sourceDir}/../build/ide/prefix/lib:$penv{LD_LIBRARY_PATH}",
+        "PYTHONPATH": "${sourceDir}/../build/ide/prefix/lib/python3.12/site-packages:$penv{PYTHONPATH}"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    }
+  ]
+}

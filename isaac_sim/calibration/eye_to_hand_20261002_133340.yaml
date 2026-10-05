@@ -1,0 +1,12 @@
+convention: 'T_A_B maps coordinates from frame B to frame A'
+parent_frame: base
+child_frame: camera_color_optical_frame
+method: PARK
+samples: 25
+T_base_camera:
+  - [0.7090812908, 0.6269672898, -0.3226697082, 0.8208134095]
+  - [0.7051250350, -0.6294749081, 0.3264353305, -0.3230794742]
+  - [0.0015517895, -0.4589916748, -0.8884392125, 0.8754206829]
+  - [0.0000000000, 0.0000000000, 0.0000000000, 1.0000000000]
+translation_error_mm: 10.563693
+rotation_error_deg: 0.185405

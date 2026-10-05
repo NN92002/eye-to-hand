@@ -1,0 +1,20 @@
+workspace_visualizer:
+  ros__parameters:
+    base_frame: base_link
+    camera_link_frame: camera_link
+    camera_optical_frame: camera_color_optical_frame
+    table_width: 0.70
+    table_depth: 0.70
+    table_height: 0.35
+    workspace_center_x: 0.45
+    workspace_center_y: 0.0
+    workspace_center_z: 0.35
+    camera_front_axis_x: -1.0
+    camera_front_axis_y: 0.0
+    camera_horizontal_distance: 0.70
+    camera_height_above_table: 0.90
+    camera_hfov: 1.22
+    camera_vfov: 0.76
+    camera_near: 0.10
+    camera_far: 5.0
+    publish_rate: 10.0

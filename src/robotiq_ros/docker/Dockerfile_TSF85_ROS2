@@ -1,0 +1,15 @@
+# =============================================================================
+# DEPRECATED — do not use.
+#
+# The TSF-85 sensor image has been merged into ./Dockerfile, which builds the
+# whole workspace (TSF-85 sensor + grippers) as one ROS 2 Jazzy image:
+#
+#   Build : docker build -f docker/Dockerfile -t robotiq_ros2:jazzy .
+#   Run   : ./docker/run.sh [gripper|sensor|both]
+#
+# Kept only so old references resolve. This stub stops the build on purpose so
+# `docker build -f Dockerfile_TSF85_ROS2` surfaces the move rather than silently
+# building something stale.
+# =============================================================================
+FROM busybox
+RUN echo "Dockerfile_TSF85_ROS2 is DEPRECATED — build docker/Dockerfile instead (see the docker README)." >&2 && exit 1

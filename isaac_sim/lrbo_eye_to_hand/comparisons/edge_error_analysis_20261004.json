@@ -1,0 +1,194 @@
+[
+  {
+    "group": 1,
+    "source": "OpenCV",
+    "file": "edge_path_20261004_205551_943563.json",
+    "edge_id": "edge_3_7",
+    "pixel_max": 1.105715450120456,
+    "pixel_angle": 0.22946569804346445,
+    "coverage": 94.79815737328316,
+    "edge_rms": 2.8767711564257454,
+    "p_errors": [
+      2.845072595453863,
+      2.916304817338836
+    ],
+    "nearest_edge_rms": 2.2438524870075165,
+    "perception_endpoint_rms": 3.0946127263798697,
+    "rgb_endpoint_rms": 2.6196911461970984,
+    "depth_endpoint_rms": 1.4154776245545537,
+    "depth_bias_mm": [
+      -1.451280773612007,
+      -1.351722737456873
+    ],
+    "calibration_endpoint_rms": 1.8853053327777083,
+    "length_bias": -0.18527005731822044
+  },
+  {
+    "group": 1,
+    "source": "LRBO",
+    "file": "edge_path_20261004_204609_954806.json",
+    "edge_id": "edge_3_7",
+    "pixel_max": 1.105715450120456,
+    "pixel_angle": 0.22946569804346445,
+    "coverage": 94.79815737328316,
+    "edge_rms": 3.185718853789659,
+    "p_errors": [
+      3.223626807957986,
+      3.1501888046164206
+    ],
+    "nearest_edge_rms": 1.8840225465055478,
+    "perception_endpoint_rms": 3.0949167217062747,
+    "rgb_endpoint_rms": 2.6196911461970984,
+    "depth_endpoint_rms": 1.4160398386659498,
+    "depth_bias_mm": [
+      -1.4516713192183062,
+      -1.3524553795067895
+    ],
+    "calibration_endpoint_rms": 2.337513561866198,
+    "length_bias": -0.18521966963760406
+  },
+  {
+    "group": 2,
+    "source": "OpenCV",
+    "file": "edge_path_20261004_205551_198120.json",
+    "edge_id": "edge_4_6",
+    "pixel_max": 1.1875511433239756,
+    "pixel_angle": 0.25182304117022614,
+    "coverage": 88.36689218891273,
+    "edge_rms": 4.24428260510248,
+    "p_errors": [
+      4.986359006328175,
+      3.456699432410608
+    ],
+    "nearest_edge_rms": 4.237406274622545,
+    "perception_endpoint_rms": 5.704903395993448,
+    "rgb_endpoint_rms": 3.0773667243545666,
+    "depth_endpoint_rms": 4.3293399750767465,
+    "depth_bias_mm": [
+      -4.896794557926132,
+      -3.5214451927899626
+    ],
+    "calibration_endpoint_rms": 1.9881939581337218,
+    "length_bias": -0.11834305669663081
+  },
+  {
+    "group": 2,
+    "source": "LRBO",
+    "file": "edge_path_20261004_204629_405517.json",
+    "edge_id": "edge_4_6",
+    "pixel_max": 1.1875511433239756,
+    "pixel_angle": 0.25182304117022614,
+    "coverage": 88.36689218891273,
+    "edge_rms": 5.42340544555454,
+    "p_errors": [
+      6.018507158791222,
+      4.805006912929364
+    ],
+    "nearest_edge_rms": 5.406173512408737,
+    "perception_endpoint_rms": 5.755581622784136,
+    "rgb_endpoint_rms": 3.0773667243545666,
+    "depth_endpoint_rms": 4.3881717054903975,
+    "depth_bias_mm": [
+      -4.87998288767677,
+      -3.6821404542359826
+    ],
+    "calibration_endpoint_rms": 2.6153031417129515,
+    "length_bias": -0.1701116181186535
+  },
+  {
+    "group": 3,
+    "source": "OpenCV",
+    "file": "edge_path_20261004_205554_519142.json",
+    "edge_id": "edge_4_6",
+    "pixel_max": 5.128426509932271,
+    "pixel_angle": 0.7102044386142128,
+    "coverage": 100.0,
+    "edge_rms": 33.011629547006514,
+    "p_errors": [
+      30.293203344153902,
+      35.947519901581856
+    ],
+    "nearest_edge_rms": 32.68003100575211,
+    "perception_endpoint_rms": 34.43789937710575,
+    "rgb_endpoint_rms": 12.545092948326719,
+    "depth_endpoint_rms": 30.93648222347346,
+    "depth_bias_mm": [
+      -28.21381065674544,
+      -32.58569693141122
+    ],
+    "calibration_endpoint_rms": 1.9397066746669034,
+    "length_bias": 7.10203081937361
+  },
+  {
+    "group": 3,
+    "source": "LRBO",
+    "file": "edge_path_20261004_204632_169025.json",
+    "edge_id": "edge_4_6",
+    "pixel_max": 5.128426509932271,
+    "pixel_angle": 0.7102044386142128,
+    "coverage": 100.0,
+    "edge_rms": 33.891095284645075,
+    "p_errors": [
+      30.916491722913364,
+      37.05518167869513
+    ],
+    "nearest_edge_rms": 33.64302523340689,
+    "perception_endpoint_rms": 34.30706643904666,
+    "rgb_endpoint_rms": 12.545092948326719,
+    "depth_endpoint_rms": 30.79642326871466,
+    "depth_bias_mm": [
+      -28.022570066086217,
+      -32.49289253103249
+    ],
+    "calibration_endpoint_rms": 2.574353832203448,
+    "length_bias": 7.1037832271942705
+  },
+  {
+    "group": 4,
+    "source": "OpenCV",
+    "file": "edge_path_20261004_205626_824276.json",
+    "edge_id": "edge_3_7",
+    "pixel_max": 1.2189651581424574,
+    "pixel_angle": 0.8988927861999121,
+    "coverage": 96.33060283082409,
+    "edge_rms": 2.6893279685353884,
+    "p_errors": [
+      3.5209622913038077,
+      1.8421839664499848
+    ],
+    "nearest_edge_rms": 2.006788393507601,
+    "perception_endpoint_rms": 2.950160261687623,
+    "rgb_endpoint_rms": 2.477111016931966,
+    "depth_endpoint_rms": 1.3831757122850146,
+    "depth_bias_mm": [
+      -1.6779992686880574,
+      -0.9780648072578169
+    ],
+    "calibration_endpoint_rms": 1.8899953287399371,
+    "length_bias": -0.45384620707837087
+  },
+  {
+    "group": 4,
+    "source": "LRBO",
+    "file": "edge_path_20261004_204633_151169.json",
+    "edge_id": "edge_3_7",
+    "pixel_max": 1.2189651581424574,
+    "pixel_angle": 0.8988927861999121,
+    "coverage": 96.33060283082409,
+    "edge_rms": 3.0701229858756034,
+    "p_errors": [
+      3.7935245216063063,
+      2.446006839823673
+    ],
+    "nearest_edge_rms": 1.6969724045184547,
+    "perception_endpoint_rms": 2.950454622681381,
+    "rgb_endpoint_rms": 2.477111016931966,
+    "depth_endpoint_rms": 1.3837046036247773,
+    "depth_bias_mm": [
+      -1.6789282876170653,
+      -0.9779549108323016
+    ],
+    "calibration_endpoint_rms": 2.3353802296369013,
+    "length_bias": -0.4542434494524059
+  }
+]

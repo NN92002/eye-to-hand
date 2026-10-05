@@ -1,0 +1,43 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Reference Frame: base_link
+      Plane Cell Count: 20
+      Cell Size: 0.1
+    - Class: rviz_default_plugins/RobotModel
+      Name: UR5e RobotModel
+      Robot Description: robot_description
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Frame Timeout: 15
+      Marker Scale: 0.15
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Workspace camera frustum
+      Marker Topic: /workspace_markers
+    - Class: rviz_default_plugins/Image
+      Name: D435 RGB Image
+      Topic: /camera/color/image_raw
+      Transport Hint: raw
+      Normalize Range: true
+  Global Options:
+    Fixed Frame: base_link
+    Background Color: 48; 48; 48
+  Name: UR5e camera workspace
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.8
+      Focal Point: 0.25; 0; 0.45
+      Pitch: 0.55
+      Yaw: 0.7

@@ -1,0 +1,397 @@
+[
+  {
+    "scan": "lrbo_scan_20261002_165210_720795.npz",
+    "points": 3673,
+    "fitness": 1.0,
+    "rmse_mm": 1.6895243915249638,
+    "error_mm": 1746.8843617429281,
+    "error_deg": 179.48019526600015,
+    "base_bounds": [
+      [
+        -0.051684620911600976,
+        -0.07565733001245595,
+        0.0009864657024438728
+      ],
+      [
+        0.07319603958494436,
+        0.07420810603952982,
+        0.2346877300039537
+      ]
+    ],
+    "estimate": [
+      [
+        -0.7134907215484299,
+        -0.6232888900302199,
+        0.32006553989645126,
+        -0.8106015726984485
+      ],
+      [
+        -0.7006620977976749,
+        0.6334566218357597,
+        -0.3283372244540719,
+        0.32597592777527007
+      ],
+      [
+        0.0019013085167361428,
+        -0.4585233558035283,
+        -0.8886803234057733,
+        0.8713096223898165
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "required_model_to_base": [
+      [
+        -0.9999567198374312,
+        0.009072813526523168,
+        0.0020597346112663445,
+        -0.0021458936180194232
+      ],
+      [
+        -0.009071535203713146,
+        -0.999958654872763,
+        0.0006291216793585921,
+        -0.00013715332131530866
+      ],
+      [
+        0.002065357354960229,
+        0.0006104094958311855,
+        0.9999976808469355,
+        0.00016757825764746048
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "labels": [
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e067_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e001_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e068_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e013_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e066_rEo6"
+    ]
+  },
+  {
+    "scan": "lrbo_scan_20261002_165240_625260.npz",
+    "points": 2862,
+    "fitness": 1.0,
+    "rmse_mm": 2.322666571699135,
+    "error_mm": 1592.291851126429,
+    "error_deg": 132.68366566354402,
+    "base_bounds": [
+      [
+        -0.047127812374798905,
+        -0.07556880090361931,
+        0.0008765143184729096
+      ],
+      [
+        0.09176248859944536,
+        0.07223228860056202,
+        0.2346680511936774
+      ]
+    ],
+    "estimate": [
+      [
+        0.04044098499038656,
+        -0.8926784728898285,
+        0.44887600823848095,
+        -0.7778403076216386
+      ],
+      [
+        -0.9991805230118108,
+        -0.036883877297294074,
+        0.016669194023458418,
+        -0.3813125697021792
+      ],
+      [
+        0.0016760569444000289,
+        -0.44918228330446885,
+        -0.8934385637515909,
+        0.8793405293384184
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "required_model_to_base": [
+      [
+        -0.6778860954696879,
+        -0.7351079574971358,
+        0.009313022775914347,
+        -0.002609570186049681
+      ],
+      [
+        0.7350782849188181,
+        -0.6779466894051679,
+        -0.006942720313831201,
+        0.0011708972603063361
+      ],
+      [
+        0.011417381908665002,
+        0.002139427244045935,
+        0.9999325308446649,
+        0.00041546620922983113
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "labels": [
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e067_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e001_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e068_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e013_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e066_rEo6"
+    ]
+  },
+  {
+    "scan": "lrbo_scan_20261002_165315_423248.npz",
+    "points": 2349,
+    "fitness": 1.0,
+    "rmse_mm": 1.607390189113278,
+    "error_mm": 1682.217558047475,
+    "error_deg": 149.12445875040098,
+    "base_bounds": [
+      [
+        -0.05170120852505655,
+        -0.06364397725934207,
+        0.03337016797330172
+      ],
+      [
+        0.0852869504645003,
+        0.07899595587989156,
+        0.23467388156796232
+      ]
+    ],
+    "estimate": [
+      [
+        -0.24401648320768418,
+        -0.8634168801400827,
+        0.4415509563030371,
+        -0.8598806575737706
+      ],
+      [
+        -0.9697601621841434,
+        0.21509195119716276,
+        -0.11532857569046272,
+        -0.14289433101958643
+      ],
+      [
+        0.004602582269465352,
+        -0.45634060045032915,
+        -0.8897932752145812,
+        0.8740879000774464
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "required_model_to_base": [
+      [
+        -0.8582701021378094,
+        -0.5131665574312864,
+        0.005702289932074058,
+        -0.003149972854503913
+      ],
+      [
+        0.5131786821429181,
+        -0.8582814161786486,
+        0.0008067443353416733,
+        -0.00027433470405274774
+      ],
+      [
+        0.004480175265070804,
+        0.0036186981756305926,
+        0.9999834163890434,
+        0.0002960797928679426
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "labels": [
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e067_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e001_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e068_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e013_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e066_rEo6"
+    ]
+  },
+  {
+    "scan": "lrbo_scan_20261002_165341_010224.npz",
+    "points": 3648,
+    "fitness": 1.0,
+    "rmse_mm": 1.8508602187995242,
+    "error_mm": 1741.7194178232805,
+    "error_deg": 174.69070089885858,
+    "base_bounds": [
+      [
+        -0.05287794166240778,
+        -0.07564747452235765,
+        0.0008697954553223974
+      ],
+      [
+        0.07309107248436908,
+        0.07456661381719765,
+        0.23468238277587639
+      ]
+    ],
+    "estimate": [
+      [
+        -0.6386348103400231,
+        -0.6861055696977026,
+        0.34843181004574675,
+        -0.8364949754531971
+      ],
+      [
+        -0.7695051191369512,
+        0.5678057693001489,
+        -0.2923328239720955,
+        0.24051383956624614
+      ],
+      [
+        0.0027295867810436815,
+        -0.4548139790939355,
+        -0.8905822779377243,
+        0.8748840565777435
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "required_model_to_base": [
+      [
+        -0.995693634221363,
+        -0.09253596570974273,
+        0.005593015395816456,
+        -0.002357000198286552
+      ],
+      [
+        0.09252762403493565,
+        -0.995708610089249,
+        -0.0017327967503893782,
+        0.00019854664321028448
+      ],
+      [
+        0.005729359606652473,
+        -0.0012078262679974443,
+        0.9999828576501723,
+        0.00021399727628179654
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "labels": [
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e067_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e001_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e068_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e013_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e066_rEo6"
+    ]
+  },
+  {
+    "scan": "lrbo_scan_20261002_165400_458720.npz",
+    "points": 3647,
+    "fitness": 1.0,
+    "rmse_mm": 1.8678636591366629,
+    "error_mm": 1742.3968887987608,
+    "error_deg": 175.1966833443992,
+    "base_bounds": [
+      [
+        -0.05308307514188382,
+        -0.07565157151009808,
+        0.0009299027632153622
+      ],
+      [
+        0.07314546388778065,
+        0.07456911088135121,
+        0.23469522848787794
+      ]
+    ],
+    "estimate": [
+      [
+        -0.6453898990384658,
+        -0.6815104419724722,
+        0.34498608044618784,
+        -0.8334083950287667
+      ],
+      [
+        -0.7638219253509865,
+        0.5716996151890732,
+        -0.2995590364949829,
+        0.25162521582585395
+      ],
+      [
+        0.006924201921870181,
+        -0.4568403085052468,
+        -0.8895217748614084,
+        0.8743359610972947
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "required_model_to_base": [
+      [
+        -0.9964647822557042,
+        -0.08372423847901356,
+        0.006941874039634629,
+        -0.0022917339097490164
+      ],
+      [
+        0.08374563401692234,
+        -0.9964830875902533,
+        0.002850426226885548,
+        -0.00015568684077715833
+      ],
+      [
+        0.00667881031149124,
+        0.003421700992222759,
+        0.9999718423311377,
+        0.0003938253256084989
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "labels": [
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e067_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e001_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/shoulder_link/shoulder/tn__eSeriesUR5e068_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e013_rEo6",
+      "/ur5e_robotiq_2f140/Geometry/world/base_link/base_link_inertia/base/tn__eSeriesUR5e066_rEo6"
+    ]
+  }
+]

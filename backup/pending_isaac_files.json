@@ -1,0 +1,1117 @@
+[
+  {
+    "path": "isaac_sim/BACKUP_GUIDE.md",
+    "bytes": 3477,
+    "sha256": "a2f781212aa19df6af7f633320335cc28fe617440acc2df9bf5ff3452f31e476"
+  },
+  {
+    "path": "isaac_sim/README.md",
+    "bytes": 7190,
+    "sha256": "cfb82ea50247e77f6645be0ef342200536344e104c61f6b68e972d46e6e22fc9"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_133340.yaml",
+    "bytes": 470,
+    "sha256": "23aeb0b7de9e93a7f01765cb8390e4117918fe3748961da9b66161ee87b9770c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_133340_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "75a8d0b2d66359b8e3fb75578ef7343907b561c6ab8d32783d23a722d88360f6"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_133340_T_base_camera_GT.npy",
+    "bytes": 256,
+    "sha256": "db0a10ebe04c349ae72c788a7de81872e18fdc461accdff1fb56410bbdae134c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_133340_samples.npz",
+    "bytes": 7412,
+    "sha256": "4f69c3335c8c90a7709a1e674d2a25b7cbe831572516ba93ac0b55ed77c0b8e9"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142722.yaml",
+    "bytes": 1224,
+    "sha256": "fc0219ee85919d14ecd6d1e76257ecefcfac6745e3c1eb583dc78e4726c20946"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142722_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "7df8e3e9b589b32e07097e45ec474c369b4e2973b7f7057d073d7044cd853033"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142722_T_base_camera_GT.npy",
+    "bytes": 256,
+    "sha256": "db0a10ebe04c349ae72c788a7de81872e18fdc461accdff1fb56410bbdae134c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142722_samples.npz",
+    "bytes": 7444,
+    "sha256": "bc67a5ee7862b23ed5a02aea0c7e8ce56fca847eb12999a5113c9d2d4e512d90"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142914.yaml",
+    "bytes": 1228,
+    "sha256": "86deff21446949032b019e8026546c1a4e34479e94a693853cd21a3d73cc4eda"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142914_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "9bb7e4279e46845a842409e04b3636cb3936ad5b9a45c4a1d2d938c3458ba3ee"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142914_T_base_camera_GT.npy",
+    "bytes": 256,
+    "sha256": "db0a10ebe04c349ae72c788a7de81872e18fdc461accdff1fb56410bbdae134c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_142914_samples.npz",
+    "bytes": 8532,
+    "sha256": "1061eec565624330831ffb2a452922a425f3aed08a4b260e687151e110afb220"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_143515.yaml",
+    "bytes": 1229,
+    "sha256": "c5a22969697fa4accef270675628dcf37dffb58b2f45b099c17aca93ef3e1f7b"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_143515_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "b36d068e3a889bab486fea1f2b4fc0b5528d52374875ea4446cc97c5a2f52884"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_143515_T_base_camera_GT.npy",
+    "bytes": 256,
+    "sha256": "db0a10ebe04c349ae72c788a7de81872e18fdc461accdff1fb56410bbdae134c"
+  },
+  {
+    "path": "isaac_sim/calibration/eye_to_hand_20261002_143515_samples.npz",
+    "bytes": 11252,
+    "sha256": "e6e5a69b57d17432e7c96c54391e960aff55f85581b0397d6a6584f19fbe77f6"
+  },
+  {
+    "path": "isaac_sim/charuco_board.png",
+    "bytes": 29307,
+    "sha256": "8ec14fb98705e0092ccfc4879f0350f8d3921ab2eb93a49c683972eede9db8f7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/CUBE_EDGE.md",
+    "bytes": 11619,
+    "sha256": "7ff79c1748203cadc107b69db937a620178d9cfb51ad13684d6e1aa0d2efe5cd"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/README.md",
+    "bytes": 3105,
+    "sha256": "2fc6a7daf8e5d88fff239d0af27310d966b6d560f98d7f63c0eedadd87de7be2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/calibration_comparison.py",
+    "bytes": 6887,
+    "sha256": "5606f43078afabd63ab4109247436df65716ce5294d1a2a52dbf69336ab5bd0d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150826_062892.npz",
+    "bytes": 238618,
+    "sha256": "f4b8b66b7c9f52f32eabab83a75c84070b324182888987f63f659c8fe3221ca8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150841_763310.npz",
+    "bytes": 513104,
+    "sha256": "9ef3bd922b8b705bb5b2dfd1df376b8ef79a0665b35d10b22dd877108159d0d8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150852_255081.npz",
+    "bytes": 328549,
+    "sha256": "bc7a317c340ed4bafff5d39358550bc649fce4b7e54f498277c358642eb52214"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150930_626869.npz",
+    "bytes": 518002,
+    "sha256": "cb11968d77521ce9acbbe4f640bd2fa04951917ff74d99f7f57a5ce73c696373"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_150943_985190.npz",
+    "bytes": 387434,
+    "sha256": "c79be2a48d4f06c2541a83f2100c5a0a7da1f750b2a269d88168abb560a0bd78"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151027_106255.npz",
+    "bytes": 293505,
+    "sha256": "3baa2f93f39767ab50f49449d38b5652e2a2945992ba38e1561d899a58dcd6b1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151036_844761.npz",
+    "bytes": 293505,
+    "sha256": "3baa2f93f39767ab50f49449d38b5652e2a2945992ba38e1561d899a58dcd6b1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151646_103707.npz",
+    "bytes": 208849,
+    "sha256": "75920c6d4ec9eb42c346dacf2569b17a7d6ebb45f4a785a10655302b82c91a98"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151920_442977.npz",
+    "bytes": 441123,
+    "sha256": "7ac36ed8c4d49269509443c6b086437981f66764c3a9bdd1e3589acef06fd39e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_151947_854256.npz",
+    "bytes": 289533,
+    "sha256": "e6e68c4eb42599ba1b5fa2fe481f4090f0651a73f8c4b18fc868943d48139d87"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_152007_457693.npz",
+    "bytes": 311876,
+    "sha256": "24458b2f7c3ac4c211d06be826e4d3f39b4d50ffea9e8b94ebbad5d061b2226c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_152028_135363.npz",
+    "bytes": 234585,
+    "sha256": "87a0d290b9917e81dd95e84edfc8baa13e832fd4710befe1236a8bacfc83c5eb"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154134_204170.npz",
+    "bytes": 208849,
+    "sha256": "75920c6d4ec9eb42c346dacf2569b17a7d6ebb45f4a785a10655302b82c91a98"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154210_639472.npz",
+    "bytes": 500500,
+    "sha256": "139d8090ad53274a45516ac976cc264af99a8abb0672510230aa14d05b984a5e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154232_708448.npz",
+    "bytes": 308068,
+    "sha256": "dc7436a43e144259c169a6f6011744ce2bd3ceb66cc0936b747a4ead03cddf6d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154247_495119.npz",
+    "bytes": 273637,
+    "sha256": "d008c6d08388b03fd6979689347a24955806294e304509d8ac84d364104d3e1f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_154327_268207.npz",
+    "bytes": 291379,
+    "sha256": "c97aaee2821ab7e3f677297f218697f91c74b40efe01e09a09be65dc42c30574"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164538_133941.npz",
+    "bytes": 40647,
+    "sha256": "f545f6044a17fa23e57de754e389240a461dcd195678c5287e3be0a093dafa9b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164650_838790.npz",
+    "bytes": 38739,
+    "sha256": "fe263a5444ed44fb675d62d9110180539458fe58abfdc5931110f5e2accf2b03"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164707_897593.npz",
+    "bytes": 40751,
+    "sha256": "3330576d2c37718cf3fd17c833541b1da1c8c11c71433b5cfe0b4295bea15cf9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164738_625128.npz",
+    "bytes": 13295,
+    "sha256": "5d2579ed100227bba984cef6a4201ba2c75d4eb95ede5a6405e7d166e564bf61"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_164801_947564.npz",
+    "bytes": 11884,
+    "sha256": "844f72da421a7ee73b8a9daa78160eb2d9ea35f0fa69ae9a24957aca378febd1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165210_720795.npz",
+    "bytes": 40651,
+    "sha256": "69d5d5be7189ed2e37633b3577de7bde962b8b2cf5b04d74e825ca6982b99282"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165240_625260.npz",
+    "bytes": 32194,
+    "sha256": "66268bc2178faf7d2924b599b5696ab3b5eb17f1daa6620441001970f5d5683b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165315_423248.npz",
+    "bytes": 26985,
+    "sha256": "3ea4cb6871e1b9fd1dc21e182ca5be6cb1434f2a82a94222dd7491191d591f77"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165341_010224.npz",
+    "bytes": 40379,
+    "sha256": "7e0407b8daa324558862d54cbfa4bcbab8abc31e1e08f295ed6e6bb58753be67"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_165400_458720.npz",
+    "bytes": 40409,
+    "sha256": "60d2966d3cbf0f6ee82652dd4f87f0b77aabb828a1bac07f76de25e52d8339ce"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_194821_526906.npz",
+    "bytes": 485603,
+    "sha256": "af8e39008d4041e040dea15272def41f67804769e9d9e5d962f7edf27330514a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_194940_437801.npz",
+    "bytes": 484585,
+    "sha256": "d06cf238b1bb71756edda0657e309d0a52a3169bb82f0ba65accb355ddc74b53"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195025_779908.npz",
+    "bytes": 484612,
+    "sha256": "be76c26333be6404802a23aa414a45ed38898d988d88f8f9aea592806b100658"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195102_060198.npz",
+    "bytes": 486227,
+    "sha256": "7f583d265e1b87c47f4603eb22d367f4c2e86b973aee7a85bc94794032ea09b9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195105_376863.npz",
+    "bytes": 486227,
+    "sha256": "ce5bced68ec7cd460b16b3a61b7d5bc1d85b2354f81149fee6c7a5389a9fa343"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195138_093659.npz",
+    "bytes": 487113,
+    "sha256": "9ee30bef9887114df15e891c52c3a1b09eb40d3b5bfc2417c43e47ef04ee6112"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195422_553229.npz",
+    "bytes": 485605,
+    "sha256": "e9221034ea5069b2a24bf65697edb4eca57ea588dffb797599a1cdb6d0d21761"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195452_808715.npz",
+    "bytes": 484338,
+    "sha256": "574d10c2db8b939d32a0e0557de58a9d746fd9acc96b9bec5c624241498c4a9d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_195535_366845.npz",
+    "bytes": 484430,
+    "sha256": "812285295518002eca5cc51769170dbfda1b83c62af2c737c7d48a706d95333f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_203921_292019.npz",
+    "bytes": 485608,
+    "sha256": "2061cc5bbb34bdd1739e6d92f8731bb5ae24cfe9b7d8d5edd2e2095c04d95e1f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_203934_450717.npz",
+    "bytes": 484277,
+    "sha256": "951c8cbc07212d68fdc6d20ade1363f7cd33477affc4d95f7f9894c94edde71d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204004_693756.npz",
+    "bytes": 482655,
+    "sha256": "5288485e63815668ce5418662927475be47acc57d345aac62f8904be16577b69"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204040_222567.npz",
+    "bytes": 486786,
+    "sha256": "5bda619f5c459249b6fd20a7d699ad1f49ab4f1fdae2a1bdb8fd8d35b7ddbb86"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204051_929150.npz",
+    "bytes": 486724,
+    "sha256": "57977e67443fd7249d849b204c64a49d3b023672f44953b6eb03be537e8da6b9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204128_891875.npz",
+    "bytes": 487077,
+    "sha256": "465c6a52e7800d95a1d5aa6bfa3dbcb731239a181ae0ed6743df9f5f6327e7f1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204133_807548.npz",
+    "bytes": 485174,
+    "sha256": "9bc33d0bda1999cdacaee786187e2657527ca9b7eb08a9f6c6d03b54f3d57851"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204139_096997.npz",
+    "bytes": 485131,
+    "sha256": "d55bb68454869202b021c7f522d5f752a4b0615269e496e8314f0fc5bf1b7cdf"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204143_123554.npz",
+    "bytes": 486939,
+    "sha256": "ccfd0cdf04dd35a94ee8f9265634c883179fbc0f10acb814f97f2518c18ff0b3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_204154_311451.npz",
+    "bytes": 485665,
+    "sha256": "f0c3e03055de49ba9e44881437078ea5274902f881fd5d5b1367fb47bbb473d6"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205116_813877.npz",
+    "bytes": 472231,
+    "sha256": "1eb13db7a1603abf08b49060c9648cbe1dda8a3c20f163740886f8b8d943817c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205135_577037.npz",
+    "bytes": 469178,
+    "sha256": "62f8b2aad6ab9edf2e8874b9314fd75fe51325db4d9a80152cf0e22256153488"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205140_863755.npz",
+    "bytes": 481073,
+    "sha256": "91ba7027a2400b128509683357decef5463b9461066cd64146b2c869ca2c2805"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205216_684037.npz",
+    "bytes": 485957,
+    "sha256": "7a7d076cddcaa42d884dbe916650a6944adcbb2ccebda2d46ad1186cdd25fed9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205241_289714.npz",
+    "bytes": 486562,
+    "sha256": "746a4cee9b78e6d0594af9b6692f6779e4212a5126219a32edef21c01d76ee1f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205406_486580.npz",
+    "bytes": 484598,
+    "sha256": "e47cc7e0fd5eb1e4097387f070ae63b8f7b9ce7ffd6dfede0a5367689ea52f57"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205418_211241.npz",
+    "bytes": 486875,
+    "sha256": "747984adf5a32f405c2a2229ea29d02ad2b3c0cb73aee3fe4b9ea94754f7fab2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205441_261791.npz",
+    "bytes": 484332,
+    "sha256": "cd6cc832d8177c0c0d65f8c8d99a1355ae715058de73fbae1372f9e9d14605c9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205505_545241.npz",
+    "bytes": 468605,
+    "sha256": "af8e00eabb32e911a58d4a9d7e30807eb0685ea90eb8315b53c9916a00d75cc5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205512_142388.npz",
+    "bytes": 485241,
+    "sha256": "998fdc9df9954ba66967a85c9e28f5f3964547cbb12dba08ec08b632e819b1ba"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205709_424969.npz",
+    "bytes": 484206,
+    "sha256": "478b90022f0bd323098bd9f3aa5def1da4512f4cbaaddfdfecb98a23df2efa89"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205735_728924.npz",
+    "bytes": 459792,
+    "sha256": "4d121a35ba15334b0bc28a49ac04acce1cedc93d64df2cbdd135ca574dc919c6"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205755_154753.npz",
+    "bytes": 486305,
+    "sha256": "24778aca8e2e5fa9bc4642bdec537548de2fa02b13b0f04c6d943ce422f508d4"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205825_988672.npz",
+    "bytes": 462704,
+    "sha256": "91480c994dcf19772d5a97d1369780a19085f37657c65523cadf33e54150e49c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/captures/lrbo_scan_20261002_205846_716374.npz",
+    "bytes": 487095,
+    "sha256": "efe9291d2fa0ce52310160cd593e0da3545d7bee9ce17a493cfab392f9033bda"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/analyze_cube_edges_20261004.py",
+    "bytes": 6263,
+    "sha256": "0f492f43394234e5ad82672a55fa7fd12475e04e64bb05560ab5246185b495e5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_error_analysis_20261004.json",
+    "bytes": 5620,
+    "sha256": "7f44731032436a4db137daea51f3b7c186d9a3b1dff520d33c13b520e1965266"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_error_analysis_20261004.md",
+    "bytes": 4708,
+    "sha256": "1af1cd0385a79a0466b16cb76771fe3118410f3e71d3e5c6dba90e31c2345fbf"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_error_new_samples_20261004.json",
+    "bytes": 3196,
+    "sha256": "426293f0e089f6705b9904bb8eb43be4f41d8e4ba085570e7cbcec32dacc126e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_161858_288395.json",
+    "bytes": 25276,
+    "sha256": "5cf28ac0ed6953de2cd3d42c56ef869bcc6b04dee32967cd1c267b1558b38cf3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_161905_734452.json",
+    "bytes": 25276,
+    "sha256": "5cf28ac0ed6953de2cd3d42c56ef869bcc6b04dee32967cd1c267b1558b38cf3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163913_004030.json",
+    "bytes": 27840,
+    "sha256": "05802a885940b7a1fc595e3efdc8d65799671afea203380f8755895a0e43360c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163923_695168.json",
+    "bytes": 25933,
+    "sha256": "620da5dcdbfe8d6926ad9e7817563d4c9864f45b8b404a85bc73ed8a50d3b6f7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163935_309102.json",
+    "bytes": 24166,
+    "sha256": "c09227847832a11bf39fca528c39e68eff4258ac44b7c1151c60f1e5cd2dd54f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163938_951808.json",
+    "bytes": 27088,
+    "sha256": "39cb3ae011719ddc6efbd2d0f43eeda7c50dc691f0ee6fdb9144609aec2e4b0f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163940_025419.json",
+    "bytes": 29312,
+    "sha256": "656b3686dc01e280be1e0d6eb0dd4506cd24a9dc34cef527e17b0b4aa30f321b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163940_903045.json",
+    "bytes": 27135,
+    "sha256": "c4d3874a0f03b7195d747f893cb48d2d06334af2b1ebea1b6dc7ad4daa16c1d9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_163946_408065.json",
+    "bytes": 27135,
+    "sha256": "c4d3874a0f03b7195d747f893cb48d2d06334af2b1ebea1b6dc7ad4daa16c1d9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_164953_646023.json",
+    "bytes": 26049,
+    "sha256": "6c3065698b77c2fb681f263e48bd577067cda65152d05a848a7cce0dafd38176"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_165219_695498.json",
+    "bytes": 25434,
+    "sha256": "5b7a44d3eda64a4fbfa332ebb65d1eb275ce00fabe222751720d3df19a85d11f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_165225_160224.json",
+    "bytes": 25434,
+    "sha256": "5b7a44d3eda64a4fbfa332ebb65d1eb275ce00fabe222751720d3df19a85d11f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170010_066242.json",
+    "bytes": 25440,
+    "sha256": "26227b4c094e29978764d3177135d020e152d1a51ae48634b440e3df83e716d7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170012_889945.json",
+    "bytes": 26543,
+    "sha256": "f96fef5625dfee2c287f8e45211b6f96681d9e21a2efc9ffb6e8835c06ccfc0f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170013_861454.json",
+    "bytes": 222,
+    "sha256": "42eecf1b7cbe1e174dcaeee2c21bab8a3086c6c41e41691aa98e32bcd05c7f66"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170020_592070.json",
+    "bytes": 26545,
+    "sha256": "3b895b671241aba8426d10afa3299a7b652b1e7f03ce0df12c41bad50678046e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170028_251395.json",
+    "bytes": 29414,
+    "sha256": "a91e9eb60d8ee19faf2d8b8b7cb87535b463b1bb273895cabcbaaf15fb649076"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_170035_487598.json",
+    "bytes": 29414,
+    "sha256": "a91e9eb60d8ee19faf2d8b8b7cb87535b463b1bb273895cabcbaaf15fb649076"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_175810_170972.json",
+    "bytes": 24285,
+    "sha256": "66aeee3d57ee2fad1de375d069e11a5cb6578dea8e4419a8401647b86276fce7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_175839_531268.json",
+    "bytes": 24285,
+    "sha256": "66aeee3d57ee2fad1de375d069e11a5cb6578dea8e4419a8401647b86276fce7"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180356_718768.json",
+    "bytes": 25187,
+    "sha256": "adba37150b002d0360c424d816c2f1a11a3484983e8ebb7cf0b7c02684123f01"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180402_397701.json",
+    "bytes": 25187,
+    "sha256": "adba37150b002d0360c424d816c2f1a11a3484983e8ebb7cf0b7c02684123f01"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180933_034313.json",
+    "bytes": 28531,
+    "sha256": "cfe2d06f02565eec8cfabcb98b5a655a77f1273eab93b0f6ba5a7abd0e8015b5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180940_463836.json",
+    "bytes": 25950,
+    "sha256": "98169976a37788edb95212c40b755f3241cc54145b84ecbf05740cc690fc78c8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_180945_206038.json",
+    "bytes": 25950,
+    "sha256": "98169976a37788edb95212c40b755f3241cc54145b84ecbf05740cc690fc78c8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_181631_866271.json",
+    "bytes": 223,
+    "sha256": "daf6fb9fe1ec6a0b7339b6aac61629e59984bc158d2db146d0d7be474a60baa3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_181703_675051.json",
+    "bytes": 223,
+    "sha256": "daf6fb9fe1ec6a0b7339b6aac61629e59984bc158d2db146d0d7be474a60baa3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_181737_112455.json",
+    "bytes": 223,
+    "sha256": "daf6fb9fe1ec6a0b7339b6aac61629e59984bc158d2db146d0d7be474a60baa3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_182258_681109.json",
+    "bytes": 24725,
+    "sha256": "82d16b22e3907a418971d11945232cdd8c8f35ca5c230a2341fd2859e8fd374d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_182307_364554.json",
+    "bytes": 24725,
+    "sha256": "82d16b22e3907a418971d11945232cdd8c8f35ca5c230a2341fd2859e8fd374d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_183048_725109.json",
+    "bytes": 28561,
+    "sha256": "1cb91d272cea156044356e846776ad491a6d3c87cc57c5e4dfa0fcb4df26c995"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_183058_310979.json",
+    "bytes": 28561,
+    "sha256": "1cb91d272cea156044356e846776ad491a6d3c87cc57c5e4dfa0fcb4df26c995"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_184213_628537.json",
+    "bytes": 26424,
+    "sha256": "8d5eb0fcd4b9fb20be2ab9eb92bccbdc13443e78896355b99797b1f5c7238b13"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261003_184223_572444.json",
+    "bytes": 26424,
+    "sha256": "8d5eb0fcd4b9fb20be2ab9eb92bccbdc13443e78896355b99797b1f5c7238b13"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204609_954806.json",
+    "bytes": 25502,
+    "sha256": "947c84c3bdb8d6197701a752c2ab2c63a174aa1a6fff0227297f6a59ce714b02"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204629_405517.json",
+    "bytes": 24465,
+    "sha256": "697dce404ca9507f78dd063d8ec7732f017cb8b00623cdd89f439f5bfac7470a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204632_169025.json",
+    "bytes": 28503,
+    "sha256": "54841de5fab920ff29b4a5a01bdbf2d3007990f1bd4d65367a51bcb39222ab25"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204633_151169.json",
+    "bytes": 25903,
+    "sha256": "4a8df25795f4784782ae702217ae51895b87862828be1fccb022b07972238f24"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204634_389292.json",
+    "bytes": 25619,
+    "sha256": "3a90c0161e250ce6b7ff61f63e50573bc5874b644aa1ee63427c82247b4f24ef"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_204639_800334.json",
+    "bytes": 25619,
+    "sha256": "3a90c0161e250ce6b7ff61f63e50573bc5874b644aa1ee63427c82247b4f24ef"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205240_086117.json",
+    "bytes": 25619,
+    "sha256": "3a90c0161e250ce6b7ff61f63e50573bc5874b644aa1ee63427c82247b4f24ef"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205548_245402.json",
+    "bytes": 25124,
+    "sha256": "3e73b9d64396aa1b0a51550aef10adba2624afa67e39a0a6fd35887be52fa512"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205549_173800.json",
+    "bytes": 24259,
+    "sha256": "a506dfcf19d78d31451000057cbf8574912429c967ee013099cbc70a8bd0fbbd"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205549_930792.json",
+    "bytes": 24376,
+    "sha256": "5d44534665b9267e1dd1afa213ba554686a4fba583641880aec3610b6b78acc5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205550_568497.json",
+    "bytes": 25015,
+    "sha256": "0983d8b99978a8a15792d67f8a8d27071f2cf0824ed79afef605ba87624c7f55"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205551_198120.json",
+    "bytes": 24439,
+    "sha256": "6e9fcddf8211468e62cb2dd0bd4e73143cf3ca97fd67f49e3d492d63e0b7c3f3"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205551_943563.json",
+    "bytes": 25490,
+    "sha256": "7fa3d6563ef149f14dfc6af4001fada762de33c98a7d0756ed07545db91e9361"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205552_645475.json",
+    "bytes": 15325,
+    "sha256": "81cf21c018e9d2d39238bef19e2b6257059928aafa10342d8fd3aa3c5d1ece29"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205553_749028.json",
+    "bytes": 25522,
+    "sha256": "b656a9cb0562f1c6c543c85de0ab346d145687e3a5c13eb32788006ec3a7669e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205554_519142.json",
+    "bytes": 28459,
+    "sha256": "08056db07a4aafd35baf6bd23abb53fcfdfced8ce4109aa2877b456561b4f94e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205555_324181.json",
+    "bytes": 25893,
+    "sha256": "da77fe1cd7784fc62b9751b6e8697dd561671a1e878f4e89f2101be48f607f1c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205625_753590.json",
+    "bytes": 25893,
+    "sha256": "da77fe1cd7784fc62b9751b6e8697dd561671a1e878f4e89f2101be48f607f1c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_205626_824276.json",
+    "bytes": 25893,
+    "sha256": "da77fe1cd7784fc62b9751b6e8697dd561671a1e878f4e89f2101be48f607f1c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210110_585344.json",
+    "bytes": 24188,
+    "sha256": "aa4e8c76586344a8f29631e092f918ad692d61149eb86b72123aee3421cfc250"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210111_732043.json",
+    "bytes": 21988,
+    "sha256": "0f45460c92374f2066319c5dd6e057d572ca5394f1c6c23f2c4f279c6f6efd3a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210112_730776.json",
+    "bytes": 25192,
+    "sha256": "73a6ec1875277c6e17912ac7bb879a876107e45a214e18f9a2527ace52abc21b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210113_482851.json",
+    "bytes": 24431,
+    "sha256": "bc3541e9b0a950845669b76f83afe6df2a632ef38ff8474797f6af5318f3c305"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210114_082620.json",
+    "bytes": 27006,
+    "sha256": "994aea609ecc00e17a08746c2b307c715d2768b63c9136f2db4d38fd5e1322e2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_210115_273945.json",
+    "bytes": 25309,
+    "sha256": "1c94712f245a9fd282efd7ed2b4ab0b82ef337ed34e8e498808fa015c88f9d22"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211035_834128.json",
+    "bytes": 26787,
+    "sha256": "1c5dd27c5ffc3b6be70c11a8de6d74135553c1d1fbde2fcfd07d26e24fa57f4d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211048_520578.json",
+    "bytes": 26787,
+    "sha256": "1c5dd27c5ffc3b6be70c11a8de6d74135553c1d1fbde2fcfd07d26e24fa57f4d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211236_191718.json",
+    "bytes": 26031,
+    "sha256": "b76dbdf9e911444ce213559bac0b452be065053d114a7a23ea3d2e048004f21c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211249_898075.json",
+    "bytes": 22839,
+    "sha256": "292d98a84195acd13a19bbfdd3d10464496cdcf0a3209981ea06168ac727d1ff"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211250_949956.json",
+    "bytes": 27898,
+    "sha256": "9a8bb40137e355e2e9e80c54dd09e6a13f332b648d1bf1cd5680c92af62d85e1"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211302_826720.json",
+    "bytes": 27924,
+    "sha256": "92ac91ceab211a27368e98e36b71f5a38ca13f0d179db77b3d0709ed785a8161"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211359_474382.json",
+    "bytes": 26071,
+    "sha256": "683858fb0f8e7a10654bf0f5f4ae9cc638487059c035b0b1b09318151e1b33ec"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211400_615862.json",
+    "bytes": 25328,
+    "sha256": "f6223519ae0a4e19c621bfbf3aee112283285f19ad1e7b9b78b2b6e30cde7eff"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211409_289386.json",
+    "bytes": 27526,
+    "sha256": "f2a14201d21730432c0c8eaba068b5a2fd0f9b78e0604325ce37b562eca30414"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/edge_paths/edge_path_20261004_211430_691599.json",
+    "bytes": 27526,
+    "sha256": "f2a14201d21730432c0c8eaba068b5a2fd0f9b78e0604325ce37b562eca30414"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_175842_174037.jsonl",
+    "bytes": 128,
+    "sha256": "9058bc15c5f7e6d059643523b290ac78366486c8c2f912b555273200c4157412"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_175913_302294.jsonl",
+    "bytes": 129,
+    "sha256": "a9135857e114e6c10f2c904434d5b24cdc4ea6fbd570ce71e313c2a4bd473d59"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_175924_437528.jsonl",
+    "bytes": 201,
+    "sha256": "9f89c8fc856da3923eefec7ab5fa483e502274ebef8376cb34711ad83d0e6f88"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_180405_341335.jsonl",
+    "bytes": 128,
+    "sha256": "9058bc15c5f7e6d059643523b290ac78366486c8c2f912b555273200c4157412"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_180428_286349.jsonl",
+    "bytes": 201,
+    "sha256": "9f89c8fc856da3923eefec7ab5fa483e502274ebef8376cb34711ad83d0e6f88"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_180949_030474.jsonl",
+    "bytes": 359643,
+    "sha256": "7e44642ae0554c289a0f6442fd9887983d355208a0d1d46c76e2b362f345d4a5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_181711_335046.jsonl",
+    "bytes": 594,
+    "sha256": "02ef41b03c7774afef5e951b5d56abef251cd5c44560332e0c89efe239277485"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_181738_238871.jsonl",
+    "bytes": 594,
+    "sha256": "b43b2ebee6e48a16aa7c61de742b37e9bb6a0eaba24c78e91123e5540f648f8a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_182317_043692.jsonl",
+    "bytes": 1504,
+    "sha256": "733e2ebba2c5e80054e4b4a0368f58d5f7edff616b207d78217c63d6c980aab6"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_183104_483022.jsonl",
+    "bytes": 289864,
+    "sha256": "d9382ad3f9b4f030fa356a39a3a99a956f739ddb0f634bff5ef77774562fee66"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_183231_069109.jsonl",
+    "bytes": 305307,
+    "sha256": "2d7cbc5e714fa87dcd2b76822d9f1ddcadb786109a82d7dd7ef33201f9c235fd"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_184225_218012.jsonl",
+    "bytes": 565453,
+    "sha256": "511b31dadaad57e3721114d08ee54a0e6940c57045f86474f95c1acc34a5113e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_184523_794230.jsonl",
+    "bytes": 569756,
+    "sha256": "a9337b30bce112bd6504e2df8d1625a5fc36fd6c59931f5e75849604fed29082"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261003_184756_517168.jsonl",
+    "bytes": 569819,
+    "sha256": "7a921f743fee31b1eb2f1f79ae44f86c395df5e8f6bb91145f063de858bc6355"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_204648_133185.jsonl",
+    "bytes": 502991,
+    "sha256": "2d22bfe20e0abe0027aa8f977195dcba2b4049181c305c12320d453916bdfa26"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_205311_205849.jsonl",
+    "bytes": 512122,
+    "sha256": "d95fb23cee7da24d223435336c4ae772f3a6ee50dd9b997aa767fdafda907ef5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_205630_102332.jsonl",
+    "bytes": 401905,
+    "sha256": "40b2d858c43d27debeed50748827eded00ba24fd1a4b0f22a33ba3d0f0b1754e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_205846_690276.jsonl",
+    "bytes": 402102,
+    "sha256": "e4d52b4fc356806ee5e2f319c29e69ad2c47fdef08f7134bd8b4418f96522af5"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_211054_485061.jsonl",
+    "bytes": 460766,
+    "sha256": "1363f3870d53b5733933f785bdda7ef9aa0585386f7fe5f0ba8dff3383c4edcc"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_211324_243066.jsonl",
+    "bytes": 50392,
+    "sha256": "dace7fccf2beb92b79f41bb330788a626afc8b9515899759ee70b37fb71237bc"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/executions/execution_20261004_211436_931700.jsonl",
+    "bytes": 453818,
+    "sha256": "3422de8deeca204bc987d548e2849e389b0e71b06a05a1c2ad404b289a0e1078"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261003_144849_642845.json",
+    "bytes": 2182,
+    "sha256": "21fe7c9558136962c2029cdbcae6cc7640f96ff9b5273b9cbe401414c04ba516"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261003_150137_184265.json",
+    "bytes": 2180,
+    "sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261004_210040_398500.json",
+    "bytes": 2180,
+    "sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261004_211244_449951.json",
+    "bytes": 2180,
+    "sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261004_211316_077495.json",
+    "bytes": 2180,
+    "sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/opencv_lrbo_20261004_211419_348165.json",
+    "bytes": 2180,
+    "sha256": "a2ae968e200eac06da7af3ad4684bbbf51aeb3ed207a28868c538332b85be9a2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/comparisons/path_comparison_20261004.md",
+    "bytes": 1613,
+    "sha256": "aa729ddba0128b2ba77c6159159d1f8689dfddbf48e515fef2178ca0037c07c9"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/diagnostics/five_scan_review.json",
+    "bytes": 10147,
+    "sha256": "c3c9426714ffa97d302e576f99a4242cf4c115e3324d88e75010b79b5f523356"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/diagnostics/later_results_review.json",
+    "bytes": 8085,
+    "sha256": "fc184c5b412ddb09bee426648158990680373fd36905766725528a9cfccd549e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/diagnostics/lrbo25_vs_opencv.json",
+    "bytes": 1598,
+    "sha256": "e3bf5568951bd76a040ef34493937a1fb801fb4a1b984e8370029dd1ac96cb4c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/diagnostics/three_scan_height_review.json",
+    "bytes": 5237,
+    "sha256": "37a0d3861c887494597d1b0c9ba7b73642827582693a91d24d7a4cc94be21601"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/edge_path_evaluation.py",
+    "bytes": 9218,
+    "sha256": "ccfcf6904249f959ec4d17b0d9591b9296321cef9c3f6e8d44afbb1fea5503f2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/edge_surface_depth.py",
+    "bytes": 4450,
+    "sha256": "b1131285536e154656548e8d53db198655a93c802663ee56767cb0cd774c9d54"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/edge_tip_path.py",
+    "bytes": 37078,
+    "sha256": "a4212bfd2f68076f2bf1e1872aa7a8b4f37c76b57d2f6eaeaa517e339a882306"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/kernels/dispositions/k_015_center_3D.ply",
+    "bytes": 482,
+    "sha256": "583cc2a44a94f3d57b7e2633bc3dbcd1b83fe03b13f1e4f4122c567dda0500f2"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/lrbo_core.py",
+    "bytes": 8955,
+    "sha256": "ea9be8f64dbac9cb5ae08fa67dfc3799bbd3adf7b628b34789dfd15a3b9cab3d"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/predator_worker.py",
+    "bytes": 9381,
+    "sha256": "d3c2bea41fa11511123a822cb4f3197eef88cdf21d11c44d5061bb59593b839a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_195436_454693.json",
+    "bytes": 2614,
+    "sha256": "c271c98d5d8ddabeb3881b8c5d6fcd406e4962a41741ab84664a6a21766f1b2e"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_195436_454693_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "7f70fad0522c2ba93e6a0154a28c9e5c6049792ff353b39560370acea41f3ffa"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_195515_956453.json",
+    "bytes": 4118,
+    "sha256": "31fae8c91cc57cfa92881e55c0a9f24db62189cb0b24d65b4e825cb677cad9ae"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_195515_956453_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "7dc4b7f6959a4e03278b8f3da76389cf23fd8523d7b0cee0eb6d2d496304f086"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204015_234157.json",
+    "bytes": 5618,
+    "sha256": "06b44f588f93b526af2844e6b62581f5a1ecccf4cd84a9e2c326c7960c8c2616"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204015_234157_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "c460def0586340a7697e2b38ae73a415e5703d30e61031578b23bd492bbd5b5a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204104_387195.json",
+    "bytes": 8588,
+    "sha256": "e71417ee7c77db1f5eaf9596fd73c4b875e2fd247220dfebb36e29f6ae756a66"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204104_387195_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "3fe620bbedda9cd72b06f84afaf519df84f409ed39c2baf621a598399f846849"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204204_921092.json",
+    "bytes": 16030,
+    "sha256": "a4c6865632c6aff3254eb9d9076efde8e691bb6f994b02f2aba5965eea3b8207"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_204204_921092_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "4f3c6d519384ebbb41375fed9d9344462b3743db549dacd3c222bc6f0c0f768f"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_210826_822078.json",
+    "bytes": 38354,
+    "sha256": "1682088a3d12c9c7324ff028f4022db6c28e365b655c0d10d29f94c894b5e4d8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_210826_822078_T_base_camera.npy",
+    "bytes": 256,
+    "sha256": "bc5c7a831388ee2ac5d98130ea9586913da68c4d23b4d9dad1f5af88f167bdaf"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/run_lrbo_cube_edge.py",
+    "bytes": 46441,
+    "sha256": "106df60fdc71bf6f962710de0ecdd84198a5e31ba20903a4f7ea92a7b11fc216"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/run_lrbo_isaac.py",
+    "bytes": 28685,
+    "sha256": "d8f61f785994c7eb89d6d6b0247fc03012c4465c5a3e664cb058b6ba0b31a24a"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_calibration_source.py",
+    "bytes": 1505,
+    "sha256": "5cd39515808d9df0b1a3d7d94d3c5b2ee6e0316f78767294dccb74dd8ec400a6"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_cube_edge_comparison.py",
+    "bytes": 6230,
+    "sha256": "b1e28e3ff3318a479a97c9fda0b5bdf813871490c1f2c11d3e5c7fd5a505b15b"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_edge_collision_geometry.py",
+    "bytes": 1028,
+    "sha256": "ce4d38a0be644c3a7704b9204719a34bb52ac5778fb00132bdafcf13acd0dff8"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_edge_path_evaluation.py",
+    "bytes": 4121,
+    "sha256": "797bb7886ef23e5c98927a352c653ccf15a28367c31ab167666a04a8adcc4f39"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_edge_surface_depth.py",
+    "bytes": 2035,
+    "sha256": "7a89dca9f37670a0dd017e38b229ea64d70ab9b5a96533134f3515a1ba2fc25c"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_edge_tip_path.py",
+    "bytes": 8184,
+    "sha256": "0cfe2d9ead6a7efeb41c5a4dd3344bedf7ab7c80b9773eac283887a553b54497"
+  },
+  {
+    "path": "isaac_sim/lrbo_eye_to_hand/test_lrbo.py",
+    "bytes": 7885,
+    "sha256": "c4c46e33bbb8b1ee45223617fce3547c7b34f4a01b85ab7b7b2efe40493c5dac"
+  },
+  {
+    "path": "isaac_sim/setup_scene.py",
+    "bytes": 135,
+    "sha256": "857f51222c4ebbdd8591b64d0e8883644858df4d28299c0ff51f22a8c0eb0f6a"
+  },
+  {
+    "path": "isaac_sim/test_ur5e.py",
+    "bytes": 2097,
+    "sha256": "bd26ba0ceef676212554f47a2490cbe273c3f4187b5ea229e6df9f0d23dc38d7"
+  },
+  {
+    "path": "isaac_sim/ur5e.urdf",
+    "bytes": 27744,
+    "sha256": "22c472f096a2781ce3c80ad8807802dfadf215417c7703e997fd821de0cbf0dc"
+  },
+  {
+    "path": "isaac_sim/ur5e_camera_scene.py",
+    "bytes": 71946,
+    "sha256": "d0923d91f02fb0874a61207c3493d14ebd1f1f38592ee7b1712a8cd3e1c384fb"
+  },
+  {
+    "path": "isaac_sim/ur5e_camera_scene_charuco_calibration.py",
+    "bytes": 108790,
+    "sha256": "6c010971b228694c68f267588344a8def803e9c3f3a205034c79b06c68765291"
+  },
+  {
+    "path": "isaac_sim/ur5e_robotiq_2f140.urdf",
+    "bytes": 41336,
+    "sha256": "d1d1e1e5e4d0d76f02b52eb6df430032eaeee536c537796a52c8dd689367927a"
+  },
+  {
+    "path": "isaac_sim/ur5e_robotiq_2f140.xacro",
+    "bytes": 898,
+    "sha256": "31780e95627b8c564f446a4fcd877cad0347504a3b1dc7306b6ab218ad7cb043"
+  },
+  {
+    "path": "isaac_sim/ur5e_robotiq_d435_live_v16.py",
+    "bytes": 54387,
+    "sha256": "c75651898bda8e0333d132a6d5431696da4e5a2d94c0484f744e36716555f6b8"
+  }
+]

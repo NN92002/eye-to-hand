@@ -1,0 +1,172 @@
+[
+  {
+    "file": "edge_path_20261004_211035_834128.json",
+    "source": "OpenCV",
+    "pixels": [
+      [
+        376,
+        252
+      ],
+      [
+        411,
+        287
+      ]
+    ],
+    "nearest_rms_mm": 2.9081152482850507,
+    "correspondence_rms_mm": 3.1941939116865723,
+    "pixel_max_px": 0.9035316571550139
+  },
+  {
+    "file": "edge_path_20261004_211048_520578.json",
+    "source": "OpenCV",
+    "pixels": [
+      [
+        376,
+        252
+      ],
+      [
+        411,
+        287
+      ]
+    ],
+    "nearest_rms_mm": 2.9081152482850507,
+    "correspondence_rms_mm": 3.1941939116865723,
+    "pixel_max_px": 0.9035316571550139
+  },
+  {
+    "file": "edge_path_20261004_211236_191718.json",
+    "source": "OpenCV",
+    "pixels": [
+      [
+        376,
+        252
+      ],
+      [
+        410,
+        285
+      ]
+    ],
+    "nearest_rms_mm": 1.026093058417039,
+    "correspondence_rms_mm": 1.7364735041680122,
+    "pixel_max_px": 0.46543104377527206
+  },
+  {
+    "file": "edge_path_20261004_211249_898075.json",
+    "source": "LRBO",
+    "pixels": [
+      [
+        408,
+        226
+      ],
+      [
+        438,
+        251
+      ]
+    ],
+    "nearest_rms_mm": 1.342669288013864,
+    "correspondence_rms_mm": 2.566246897517773,
+    "pixel_max_px": 0.4019160643591882
+  },
+  {
+    "file": "edge_path_20261004_211250_949956.json",
+    "source": "LRBO",
+    "pixels": [
+      [
+        376,
+        253
+      ],
+      [
+        413,
+        289
+      ]
+    ],
+    "nearest_rms_mm": 3.5869794283939207,
+    "correspondence_rms_mm": 6.2583208891163284,
+    "pixel_max_px": 2.7887874377066164
+  },
+  {
+    "file": "edge_path_20261004_211302_826720.json",
+    "source": "LRBO",
+    "pixels": [
+      [
+        376,
+        254
+      ],
+      [
+        414,
+        288
+      ]
+    ],
+    "nearest_rms_mm": 3.2741284158518527,
+    "correspondence_rms_mm": 6.0223603263592205,
+    "pixel_max_px": 2.6844625292938846
+  },
+  {
+    "file": "edge_path_20261004_211359_474382.json",
+    "source": "LRBO",
+    "pixels": [
+      [
+        376,
+        254
+      ],
+      [
+        410,
+        286
+      ]
+    ],
+    "nearest_rms_mm": 5.069760252081258,
+    "correspondence_rms_mm": 5.313009827987106,
+    "pixel_max_px": 1.032519700122407
+  },
+  {
+    "file": "edge_path_20261004_211400_615862.json",
+    "source": "LRBO",
+    "pixels": [
+      [
+        380,
+        257
+      ],
+      [
+        413,
+        289
+      ]
+    ],
+    "nearest_rms_mm": 3.940777804855714,
+    "correspondence_rms_mm": 6.415715002785557,
+    "pixel_max_px": 2.7887874377066164
+  },
+  {
+    "file": "edge_path_20261004_211409_289386.json",
+    "source": "LRBO",
+    "pixels": [
+      [
+        376,
+        253
+      ],
+      [
+        413,
+        288
+      ]
+    ],
+    "nearest_rms_mm": 1.55221436562966,
+    "correspondence_rms_mm": 4.641989253106633,
+    "pixel_max_px": 1.9399166152640641
+  },
+  {
+    "file": "edge_path_20261004_211430_691599.json",
+    "source": "LRBO",
+    "pixels": [
+      [
+        376,
+        253
+      ],
+      [
+        413,
+        288
+      ]
+    ],
+    "nearest_rms_mm": 1.55221436562966,
+    "correspondence_rms_mm": 4.641989253106633,
+    "pixel_max_px": 1.9399166152640641
+  }
+]

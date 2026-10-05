@@ -1,0 +1,62 @@
+{
+  "lrbo_samples": 25,
+  "lrbo": {
+    "translation_error_mm": 1.748448560656111,
+    "rotation_error_deg": 0.13231485766294263
+  },
+  "opencv": [
+    {
+      "file": "eye_to_hand_20261002_133340.yaml",
+      "samples": 25,
+      "method": "PARK",
+      "translation_error_mm": 10.563693,
+      "rotation_error_deg": 0.185405,
+      "same_GT": true
+    },
+    {
+      "file": "eye_to_hand_20261002_142722.yaml",
+      "samples": 16,
+      "method": "ANDREFF",
+      "translation_error_mm": 1.364972,
+      "rotation_error_deg": 0.125862,
+      "same_GT": true
+    },
+    {
+      "file": "eye_to_hand_20261002_142914.yaml",
+      "samples": 20,
+      "method": "ANDREFF",
+      "translation_error_mm": 1.236168,
+      "rotation_error_deg": 0.112739,
+      "same_GT": true
+    },
+    {
+      "file": "eye_to_hand_20261002_143515.yaml",
+      "samples": 30,
+      "method": "ANDREFF",
+      "translation_error_mm": 0.990817,
+      "rotation_error_deg": 0.127848,
+      "same_GT": true
+    }
+  ],
+  "translation_error_mm_per_scan": {
+    "mean": 3.435611661424567,
+    "std": 1.7956540203696771,
+    "median": 3.590335973473419,
+    "min": 1.238959687771624,
+    "max": 8.942310430226225
+  },
+  "rotation_error_deg_per_scan": {
+    "mean": 0.22796860251178097,
+    "std": 0.08435533699463177,
+    "median": 0.22386613697540939,
+    "min": 0.0854604366230741,
+    "max": 0.3829664258894917
+  },
+  "inlier_rmse_m_per_scan": {
+    "mean": 0.0017870739946433726,
+    "std": 1.8667430927569137e-05,
+    "median": 0.001789840098291181,
+    "min": 0.001725255295739215,
+    "max": 0.0018184292384305785
+  }
+}

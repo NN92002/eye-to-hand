@@ -1,0 +1,35 @@
+# Repo-wide pre-commit formatting/linting checks.
+#
+# A single root .pre-commit-config.yaml drives clang-format (C/C++), black +
+# flake8 (Python), codespell, and the standard whitespace/eol/yaml hooks. Its
+# top-level `files` allow-list scopes the run to the trees we own and leaves the
+# extern/tactile_sensors submodule out.
+name: Format
+
+on:
+  pull_request:
+    paths:
+      - "grippers/**"
+      - "robotiq_tsf/**"
+      - "docker/**"
+      - ".clang-format"
+      - ".flake8"
+      - ".pre-commit-config.yaml"
+      - ".github/workflows/ci-format.yml"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  pre-commit:
+    name: Format
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run pre-commit
+        run: |
+          python -m pip install --upgrade pre-commit
+          pre-commit run --all-files --show-diff-on-failure

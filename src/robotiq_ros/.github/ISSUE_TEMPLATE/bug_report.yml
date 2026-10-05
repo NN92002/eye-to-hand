@@ -1,0 +1,51 @@
+name: Bug report
+description: A driver, launch file or build misbehaves
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: ros-distro
+    attributes:
+      label: ROS distro
+      options:
+        - Humble  # Humble EOL: delete this option.
+        - Jazzy
+        - Lyrical
+        - Rolling
+        - Noetic (ROS 1, `noetic` branch)
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      description: Gripper or sensor model and firmware version — or `use_fake_hardware` / `use_dummy` if none.
+      placeholder: 2F-85, firmware GC3-1.6.9
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Setup
+      description: How the workspace runs — Docker (`docker/run.sh`) or source build, which OS — and how the device is connected (USB serial, RS-485 coupling…).
+      placeholder: source build on Ubuntu 24.04, gripper on /dev/ttyUSB0
+  - type: input
+    id: command
+    attributes:
+      label: Exact command
+      description: The launch or run command that triggers the problem.
+      placeholder: ros2 launch robotiq_description robotiq_control.launch.py com_port:=/dev/ttyUSB0
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output
+      description: Everything from bringup to the failure. Rendered as code automatically — no backticks needed.
+      render: shell

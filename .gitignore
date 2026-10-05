@@ -1,0 +1,38 @@
+# ROS / colcon outputs
+/build/
+/install/
+/log/
+
+# Isaac Sim generated assets and resolved absolute paths
+/isaac_sim/generated_*/
+/isaac_sim/*_isaac_resolved.urdf
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp
+
+# Generated TF diagrams
+/frames_*.gv
+/frames_*.pdf
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Nested Git metadata is retained locally, not published
+.git
+
+# Isaac recordings (keep calibration samples/results and comparison reports)
+/isaac_sim/recordings/
+/isaac_sim/lrbo_eye_to_hand/recordings/

@@ -1,0 +1,7 @@
+{
+  "matched": false,
+  "reason": "RGB candidate does not reliably match a visible physical cube edge",
+  "nearest_edge_id": "edge_4_6",
+  "pixel_max_error_px": 10.306460394460085,
+  "pixel_angle_deg": 2.978939721577543
+}

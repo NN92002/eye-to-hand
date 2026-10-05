@@ -1,0 +1,3 @@
+{"event": "preflight_rejected", "phase": "pre-start", "fraction": 0.47317073170731705, "joint_blend": 0.25, "joints_rad": [-0.10756334378487903, -1.109914925726218, 1.0517759885347617, -1.2350428502355941, -1.882854298802156, 0.33724070450947063], "reason": "Predicted upper_arm_link intersects tabletop at world [0.3765, 0.0418, 0.0308]"}
+{"event": "stop", "reason": "Execution stopped: pre-start preflight: Predicted upper_arm_link intersects tabletop at world [0.3765, 0.0418, 0.0308]", "elapsed_s": 0.5500000286847353}
+{"event": "stop", "reason": "Closed", "elapsed_s": 0.5500000286847353}

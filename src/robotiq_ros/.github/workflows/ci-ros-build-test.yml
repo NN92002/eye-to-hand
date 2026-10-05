@@ -1,0 +1,76 @@
+# Build robotiq_tsf and the gripper packages and run their unit tests
+# (colcon test) inside a ROS container.
+# Running in ros:<distro>-ros-base gives a complete, consistent ROS environment.
+# The previous setup-ros-on-a-bare-runner approach intermittently produced an
+# incomplete ROS install (missing ament_package / rosidl_typesupport_c /
+# librcl_action.so), which flaked this job; the container removes that class of
+# failure.
+# Distro policy: the three live LTS distros are what we support, and their jobs
+# gate merges (see ros-driver distro-compat policy; each distro pairs with its
+# Ubuntu LTS). Rolling is built too, but non-blocking: it is a moving target that
+# goes red for upstream reasons unrelated to the PR under review, so it buys early
+# warning without putting someone on triage duty. Kilted and other non-LTS
+# releases are deliberately not built.
+name: ROS Build & Test
+
+on:
+  pull_request:
+    paths:
+      - "robotiq_tsf/**"
+      - "grippers/**"
+      - ".github/workflows/ci-ros-build-test.yml"
+  workflow_dispatch:
+
+jobs:
+  build_and_test:
+    name: colcon test (${{ matrix.ros_distro }})
+    # Humble EOL: simplify this comment and delete the matrix entry below.
+    # The distro comes entirely from the container image (humble = jammy,
+    # jazzy = noble, lyrical and rolling = resolute), so the host runner only has
+    # to provide Docker. Pinning every job to one current runner label keeps the
+    # matrix off the retirement schedule of the older ubuntu-* images.
+    runs-on: ubuntu-24.04
+    container:
+      image: ros:${{ matrix.ros_distro }}-ros-base
+    # Only the supported (LTS) distros gate the merge; see the header comment.
+    continue-on-error: ${{ !matrix.blocking }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Humble EOL: delete this entry.
+          - ros_distro: humble
+            blocking: true
+          - ros_distro: jazzy
+            blocking: true
+          - ros_distro: lyrical
+            blocking: true
+          - ros_distro: rolling
+            blocking: false
+    steps:
+      # ros-base is minimal: it lacks git (needed by actions/checkout) and the
+      # colcon coverage plugins that action-ros-ci invokes by default
+      # (colcon lcov-result / coveragepy-result). Install them up front.
+      - name: Install tooling missing from ros-base
+        run: |
+          apt-get update
+          apt-get install -y git lcov \
+            python3-colcon-lcov-result python3-colcon-coveragepy-result
+      - uses: actions/checkout@v5
+        with:
+          # Both SDKs are compiled from source out of extern/: tactile_sensors
+          # by robotiq_tsf's poll_data_sdk_node, grippers by robotiq_driver.
+          submodules: true
+      # action-ros-ci runs git against the checkout as root inside the container;
+      # mark it safe to avoid git's "dubious ownership" error.
+      - run: git config --global --add safe.directory '*'
+      - uses: ros-tooling/action-ros-ci@v0.4
+        with:
+          package-name: >-
+            robotiq_tsf
+            robotiq_driver
+            robotiq_msgs
+            robotiq_controllers
+            robotiq_description
+            robotiq_hardware_tests
+          target-ros2-distro: ${{ matrix.ros_distro }}

@@ -1,0 +1,64 @@
+# ament linters for the C++ packages: the vendored gripper tree (grippers/) and
+# robotiq_tsf. Adapted from PickNik's ros2_robotiq_gripper CI: distribution ->
+# jazzy, runner -> ubuntu-24.04 (Noble).
+#
+# Humble EOL: simplify the distro list in the next line.
+# Deliberately not matrixed over humble/jazzy/lyrical like ci-ros-build-test:
+# these linters check style, not API, so a second and third distro would only
+# re-run the same checks against different linter versions. Jazzy is the
+# reference; .pre-commit-config.yaml (ci-format) is the formatting authority.
+name: ROS Lint
+
+on:
+  pull_request:
+    paths:
+      - "grippers/**"
+      - "robotiq_tsf/**"
+      - ".github/workflows/ci-ros-lint.yml"
+  workflow_dispatch:
+
+jobs:
+  ament_lint:
+    name: ament_${{ matrix.linter }}
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        linter: [copyright, lint_cmake]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ros-tooling/setup-ros@v0.7
+      - uses: ros-tooling/action-ros-lint@v0.1
+        with:
+          distribution: jazzy
+          linter: ${{ matrix.linter }}
+          package-name: >-
+            robotiq_driver
+            robotiq_msgs
+            robotiq_controllers
+            robotiq_description
+            robotiq_hardware_tests
+            robotiq_tsf
+
+  ament_cpplint:
+    name: ament_cpplint
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ros-tooling/setup-ros@v0.7
+      - uses: ros-tooling/action-ros-lint@v0.1
+        with:
+          distribution: jazzy
+          linter: cpplint
+          # -whitespace/newline and -whitespace/comments: clang-format is the
+          # C++ formatting authority; suppress the cpplint checks it disagrees
+          # with (Allman newlines; 1 space before trailing comments /
+          # namespace-closing comments vs cpplint's 2).
+          arguments: "--linelength=121 --filter=-whitespace/newline,-whitespace/comments"
+          package-name: >-
+            robotiq_driver
+            robotiq_msgs
+            robotiq_controllers
+            robotiq_description
+            robotiq_hardware_tests
+            robotiq_tsf

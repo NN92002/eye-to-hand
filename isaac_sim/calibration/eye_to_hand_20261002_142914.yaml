@@ -1,0 +1,31 @@
+convention: 'T_A_B maps coordinates from frame B to frame A'
+parent_frame: base
+child_frame: camera_color_optical_frame
+method: ANDREFF
+samples: 20
+camera_matrix_source: Isaac camera API
+opencv_version: 4.14.0
+camera_resolution: 640 x 480
+camera_matrix:
+  - [327.8473815918, 0.0000000000, 320.0000000000]
+  - [0.0000000000, 327.8474121094, 240.0000000000]
+  - [0.0000000000, 0.0000000000, 1.0000000000]
+dist_coeffs: [0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000]
+T_base_camera:
+  - [0.7084327068, 0.6266182491, -0.3247655612, 0.8139704027]
+  - [0.7057782864, -0.6291913359, 0.3255691527, -0.3187764358]
+  - [-0.0003321049, -0.4598563174, -0.8879932753, 0.8692534020]
+  - [0.0000000000, 0.0000000000, 0.0000000000, 1.0000000000]
+method_diagnostics:
+  PARK:
+    closure_translation_rms_mm: 5.4233728788940025
+    closure_rotation_rms_deg: 0.2071161873430437
+    translation_error_mm: 22.491258048707365
+    rotation_error_deg: 0.11434810799595484
+  ANDREFF:
+    closure_translation_rms_mm: 8.902796959629764
+    closure_rotation_rms_deg: 0.20712378684191152
+    translation_error_mm: 1.236168138804275
+    rotation_error_deg: 0.11273924981079222
+translation_error_mm: 1.236168
+rotation_error_deg: 0.112739

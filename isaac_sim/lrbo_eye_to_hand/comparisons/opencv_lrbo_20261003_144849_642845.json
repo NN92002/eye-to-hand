@@ -1,0 +1,97 @@
+{
+  "opencv_file": "/home/n/ur5e_camera_ws/isaac_sim/calibration/eye_to_hand_20261002_143515.yaml",
+  "lrbo_file": "/home/n/ur5e_camera_ws/isaac_sim/lrbo_eye_to_hand/results/lrbo_eye_to_hand_20261002_210826_822078.json",
+  "opencv_method": "ANDREFF",
+  "lrbo_method": "LRBO PREDATOR + Open3D ICP",
+  "frame_check": "Common base/camera pose verified from capture GT (GT is not used to fit)",
+  "convention": "T_A_B maps coordinates from frame B to frame A",
+  "translation_delta_lrbo_minus_opencv_mm": [
+    2.0005425796973952,
+    -1.0927931932619428,
+    0.41356655902613504
+  ],
+  "translation_difference_mm": 2.3167660380726107,
+  "rotation_difference_deg": 0.1487942587249585,
+  "T_base_camera_opencv": [
+    [
+      0.7072544028,
+      0.628929859,
+      -0.3228597872,
+      0.812870586
+    ],
+    [
+      0.7069580775,
+      -0.6284040156,
+      0.3245283808,
+      -0.3174740201
+    ],
+    [
+      0.001219202,
+      -0.4577724606,
+      -0.8890685507,
+      0.8693948427
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_base_camera_lrbo": [
+    [
+      0.7063112453991351,
+      0.6293463682251084,
+      -0.3241104339952478,
+      0.8148711285796973
+    ],
+    [
+      0.7078985828128285,
+      -0.6266331958093184,
+      0.3258994236898674,
+      -0.3185668132932619
+    ],
+    [
+      0.002005261656286674,
+      -0.45962374472133777,
+      -0.8881114751054752,
+      0.8698084092590261
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_relative_inv_opencv_times_lrbo": [
+    [
+      0.9999988039690016,
+      0.0015442162485689694,
+      8.591126171135629e-05,
+      0.0006428377937099383
+    ],
+    [
+      -0.0015440336293796762,
+      0.9999966317084262,
+      -0.0020862608199300192,
+      0.0017555972120067431
+    ],
+    [
+      -8.913265535862415e-05,
+      0.002086125690238305,
+      0.9999978200754618,
+      -0.00136822617840604
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "opencv_gt_translation_error_mm": 0.9908172125003185,
+  "opencv_gt_rotation_error_deg": 0.1278469465436122,
+  "lrbo_gt_translation_error_mm": 1.748448560656111,
+  "lrbo_gt_rotation_error_deg": 0.13231485766294263
+}

@@ -1,0 +1,395 @@
+#!/usr/bin/env python3
+"""Minimal RViz visualization for the Robotiq TSF-85.
+
+Subscribes to the raw ``robotiq_tsf/StaticData`` topic (two 4x7 taxel pads) and
+republishes it in forms RViz can draw:
+  * a ``visualization_msgs/MarkerArray`` of colored CUBE markers (one per taxel)
+    on ``/tactile/markers``, with static TFs standing the two pads up facing each
+    other, and
+  * one ``sensor_msgs/Image`` heatmap per finger for RViz Image displays.
+
+"""
+from __future__ import annotations
+
+import math
+from typing import List, Sequence, Tuple
+
+import numpy as np
+import rclpy
+from builtin_interfaces.msg import Duration
+from geometry_msgs.msg import Point, Quaternion, TransformStamped, Vector3
+from rclpy.node import Node
+from rclpy.qos import QoSProfile, qos_profile_sensor_data
+from rclpy.time import Time
+from robotiq_tsf.msg import StaticData
+from sensor_msgs.msg import Image
+from std_msgs.msg import ColorRGBA, Empty
+from tf2_ros import StaticTransformBroadcaster
+from visualization_msgs.msg import Marker, MarkerArray
+
+_GRID_ROWS = 7
+_GRID_COLS = 4
+_TAXELS = _GRID_ROWS * _GRID_COLS
+
+
+def _rpy_to_quat(roll: float, pitch: float, yaw: float) -> Quaternion:
+    # Hand-rolled: rclpy has no euler->quat helper; the alternative is the
+    # tf_transformations package (+ transforms3d), two deps for one call site.
+    cr, sr = math.cos(roll * 0.5), math.sin(roll * 0.5)
+    cp, sp = math.cos(pitch * 0.5), math.sin(pitch * 0.5)
+    cy, sy = math.cos(yaw * 0.5), math.sin(yaw * 0.5)
+    q = Quaternion()
+    q.w = cr * cp * cy + sr * sp * sy
+    q.x = sr * cp * cy - cr * sp * sy
+    q.y = cr * sp * cy + sr * cp * sy
+    q.z = cr * cp * sy - sr * sp * cy
+    return q
+
+
+def _colormap(t: float) -> Tuple[float, float, float]:
+    """Map a scalar in [0,1] to (r,g,b) via a 4-stop navy->cyan->yellow->red ramp."""
+    t = max(0.0, min(1.0, t))
+    stops = (
+        (0.0, (0.05, 0.05, 0.35)),
+        (1.0 / 3.0, (0.0, 0.7, 0.9)),
+        (2.0 / 3.0, (1.0, 0.95, 0.2)),
+        (1.0, (0.9, 0.1, 0.1)),
+    )
+    for i in range(len(stops) - 1):
+        x0, c0 = stops[i]
+        x1, c1 = stops[i + 1]
+        if t <= x1:
+            f = 0.0 if x1 == x0 else (t - x0) / (x1 - x0)
+            return (
+                c0[0] + f * (c1[0] - c0[0]),
+                c0[1] + f * (c1[1] - c0[1]),
+                c0[2] + f * (c1[2] - c0[2]),
+            )
+    return stops[-1][1]
+
+
+class TactileVizNode(Node):
+
+    def __init__(self, **node_kwargs) -> None:
+        super().__init__("tactile_viz", **node_kwargs)
+
+        self.declare_parameter("input_topic", "TactileSensor/StaticData")
+        self.declare_parameter("marker_topic", "/tactile/markers")
+        self.declare_parameter("frame_id_world", "tactile_world")
+        self.declare_parameter("frame_id_finger_0", "tactile_finger_0")
+        self.declare_parameter("frame_id_finger_1", "tactile_finger_1")
+        self.declare_parameter("frame_id_tip", "tactile_tip")
+        # 4x7 array: Y = 4 cols x 5.5 mm, Z = 7 rows x ~5.29 mm.
+        self.declare_parameter("taxel_pitch_y_m", 0.022 / 4)
+        self.declare_parameter("taxel_pitch_z_m", 0.037 / 7)
+        self.declare_parameter("taxel_size_m", 0.005)
+        # Pads sit ±42.5 mm along X, finger 1 yawed by pi to face finger 0.
+        self.declare_parameter("finger_0_xyz", [-0.0425, 0.0, 0.0])
+        self.declare_parameter("finger_0_rpy", [0.0, 0.0, 0.0])
+        self.declare_parameter("finger_1_xyz", [0.0425, 0.0, 0.0])
+        self.declare_parameter("finger_1_rpy", [0.0, 0.0, math.pi])
+        self.declare_parameter("tip_xyz", [0.0, 0.0, 0.0209])
+        self.declare_parameter("tip_rpy", [0.0, 0.0, 0.0])
+        self.declare_parameter("vmin", 0.0)
+        self.declare_parameter("vmax", 700.0)
+        # Set true only if one pad is physically wired with reversed columns.
+        self.declare_parameter("flip_finger_1", False)
+        self.declare_parameter("publish_2d_heatmaps", True)
+        self.declare_parameter("heatmap_topic_finger_0", "/tactile_viz/finger0_heatmap")
+        self.declare_parameter("heatmap_topic_finger_1", "/tactile_viz/finger1_heatmap")
+        self.declare_parameter("heatmap_scale_px", 20)
+        self.declare_parameter("heatmap_publish_hz", 30.0)
+        self.declare_parameter("heatmap_autoscale", True)
+        # Extra heatmap-only floor on top of noise_floor (which already zeroes
+        # small residuals for markers AND heatmaps). Leave at 0 unless the
+        # heatmaps specifically need a harsher cutoff than the 3D view.
+        self.declare_parameter("heatmap_floor", 0.0)
+        self.declare_parameter("publish_static_tfs", True)
+        self.declare_parameter("qos", "sensor_data")
+        # Baseline zeroing: raw StaticData carries a large per-taxel offset, so
+        # without subtraction every cell saturates. Capture a baseline over the
+        # first N frames (keep the sensor untouched at startup) and subtract it;
+        # re-zero any time by publishing std_msgs/Empty on ``zero_topic``.
+        self.declare_parameter("zero_on_start", True)
+        self.declare_parameter("baseline_frames", 500)
+        self.declare_parameter("zero_topic", "/tactile_viz/zero")
+        # Residuals below this (post-baseline) render as zero, so sensor noise
+        # doesn't flash the display. Mirrors the demo's noise floor. Raise if
+        # noise still shows; lower for sensitivity to light touches.
+        self.declare_parameter("noise_floor", 50.0)
+
+        p = self.get_parameter
+        input_topic = str(p("input_topic").value)
+        marker_topic = str(p("marker_topic").value)
+        self._world_frame = str(p("frame_id_world").value)
+        self._frame_ids = [
+            str(p("frame_id_finger_0").value),
+            str(p("frame_id_finger_1").value),
+        ]
+        self._tip_frame_id = str(p("frame_id_tip").value)
+        self._pitch_y = float(p("taxel_pitch_y_m").value)
+        self._pitch_z = float(p("taxel_pitch_z_m").value)
+        self._size = float(p("taxel_size_m").value)
+        self._poses = [
+            (list(p("finger_0_xyz").value), list(p("finger_0_rpy").value)),
+            (list(p("finger_1_xyz").value), list(p("finger_1_rpy").value)),
+        ]
+        self._tip_pose = (list(p("tip_xyz").value), list(p("tip_rpy").value))
+        self._vmin = float(p("vmin").value)
+        self._vmax = float(p("vmax").value)
+        if self._vmax <= self._vmin:
+            self._vmax = self._vmin + 1.0
+            self.get_logger().warning(
+                f'vmax ({p("vmax").value}) <= vmin ({self._vmin}); '
+                f"using vmax = {self._vmax}"
+            )
+        self._flip_f1 = bool(p("flip_finger_1").value)
+        self._publish_2d_heatmaps = bool(p("publish_2d_heatmaps").value)
+        heatmap_topics = [
+            str(p("heatmap_topic_finger_0").value),
+            str(p("heatmap_topic_finger_1").value),
+        ]
+        self._heatmap_scale = max(1, int(p("heatmap_scale_px").value))
+        heatmap_hz = float(p("heatmap_publish_hz").value)
+        self._heatmap_interval_ns = int(1e9 / heatmap_hz) if heatmap_hz > 0.0 else 0
+        self._heatmap_autoscale = bool(p("heatmap_autoscale").value)
+        self._heatmap_floor = float(p("heatmap_floor").value)
+        self._heatmap_scale_max = [1.0, 1.0]
+        self._last_heatmap_publish_ns = 0
+
+        self._baseline_frames = max(1, int(p("baseline_frames").value))
+        zero_topic = str(p("zero_topic").value)
+        self._noise_floor = float(p("noise_floor").value)
+        self._baseline = None  # (2, _TAXELS) once captured
+        self._baseline_accum = None
+        self._baseline_n = 0
+        self._collecting = bool(p("zero_on_start").value)
+
+        # Subscription QoS matches the driver (SensorDataQoS = best effort).
+        sub_qos = (
+            QoSProfile(depth=10)
+            if str(p("qos").value).lower() == "reliable"
+            else qos_profile_sensor_data
+        )
+        # RViz's MarkerArray/Image displays subscribe RELIABLE by default, and a
+        # best-effort publisher can't satisfy a reliable subscriber (RViz would
+        # receive nothing). Publish the viz topics RELIABLE — they're low-rate.
+        pub_qos = QoSProfile(depth=10)
+
+        if bool(p("publish_static_tfs").value):
+            self._tf_broadcaster = StaticTransformBroadcaster(self)
+            self._publish_static_tfs()
+
+        self._marker_pub = self.create_publisher(MarkerArray, marker_topic, pub_qos)
+        self._heatmap_pubs = []
+        if self._publish_2d_heatmaps:
+            self._heatmap_pubs = [
+                self.create_publisher(Image, heatmap_topics[0], pub_qos),
+                self.create_publisher(Image, heatmap_topics[1], pub_qos),
+            ]
+
+        self._sub = self.create_subscription(
+            StaticData, input_topic, self._on_data, sub_qos
+        )
+        self._zero_sub = self.create_subscription(
+            Empty, zero_topic, self._on_zero, pub_qos
+        )
+
+        self.get_logger().info(
+            f'tactile_viz: subscribed to "{input_topic}", publishing MarkerArray on '
+            f'"{marker_topic}"'
+            + (
+                f' and 2D heatmaps on "{heatmap_topics[0]}", "{heatmap_topics[1]}"'
+                if self._publish_2d_heatmaps
+                else ""
+            )
+        )
+
+    def _publish_static_tfs(self) -> None:
+        now = self.get_clock().now().to_msg()
+        transforms: List[TransformStamped] = []
+        for fi in (0, 1):
+            xyz, rpy = self._poses[fi]
+            t = TransformStamped()
+            t.header.stamp = now
+            t.header.frame_id = self._world_frame
+            t.child_frame_id = self._frame_ids[fi]
+            # float(): rosidl float64 fields reject ints, and *_xyz parameter
+            # overrides like [0, 0, -1] arrive as integer arrays.
+            t.transform.translation = Vector3(
+                x=float(xyz[0]), y=float(xyz[1]), z=float(xyz[2])
+            )
+            t.transform.rotation = _rpy_to_quat(rpy[0], rpy[1], rpy[2])
+            transforms.append(t)
+        tip_xyz, tip_rpy = self._tip_pose
+        tip = TransformStamped()
+        tip.header.stamp = now
+        tip.header.frame_id = self._world_frame
+        tip.child_frame_id = self._tip_frame_id
+        tip.transform.translation = Vector3(
+            x=float(tip_xyz[0]), y=float(tip_xyz[1]), z=float(tip_xyz[2])
+        )
+        tip.transform.rotation = _rpy_to_quat(tip_rpy[0], tip_rpy[1], tip_rpy[2])
+        transforms.append(tip)
+        self._tf_broadcaster.sendTransform(transforms)
+
+    def _extract_values(self, msg) -> List[np.ndarray]:
+        out: List[np.ndarray] = []
+        for fi in (0, 1):
+            values = msg.taxels[fi].values
+            if len(values) != _TAXELS:
+                self.get_logger().warning(
+                    f"finger_{fi}: expected {_TAXELS} taxels, got {len(values)}",
+                    throttle_duration_sec=2.0,
+                )
+                return []
+            out.append(np.asarray(values, dtype=np.float64))
+        return out
+
+    def _on_zero(self, msg) -> None:
+        del msg
+        self._baseline = None
+        self._baseline_accum = None
+        self._baseline_n = 0
+        self._collecting = True
+        self.get_logger().info("re-zeroing: recapturing baseline")
+
+    def _on_data(self, msg) -> None:
+        values = self._extract_values(msg)
+        if not values:
+            return
+
+        # Baseline capture / subtraction. While collecting, accumulate the
+        # first N frames; once done, subtract the per-taxel baseline (clamped
+        # at 0) so the display shows pressure deltas rather than raw offsets.
+        stack = np.stack(values).astype(np.float64)  # (2, _TAXELS)
+        if self._collecting:
+            if self._baseline_accum is None:
+                self._baseline_accum = np.zeros((2, _TAXELS))
+                self._baseline_n = 0
+            self._baseline_accum += stack
+            self._baseline_n += 1
+            if self._baseline_n == 1 or self._baseline_n % 100 == 0:
+                self.get_logger().info(
+                    f"calibrating baseline: {self._baseline_n}/"
+                    f"{self._baseline_frames} (keep the sensor untouched)"
+                )
+            if self._baseline_n >= self._baseline_frames:
+                self._baseline = self._baseline_accum / self._baseline_n
+                self._collecting = False
+                self.get_logger().info(
+                    f"baseline captured over {self._baseline_n} frames; "
+                    "showing pressure deltas"
+                )
+            # While calibrating, display zeros so the panels don't saturate.
+            stack = np.zeros((2, _TAXELS))
+        elif self._baseline is not None:
+            stack = np.clip(stack - self._baseline, 0.0, None)
+            if self._noise_floor > 0.0:
+                stack = np.where(stack >= self._noise_floor, stack, 0.0)
+        values = [stack[0], stack[1]]
+
+        stamp = Time().to_msg()  # "latest available transform" for RViz
+        array = MarkerArray()
+        grids: List[np.ndarray] = []
+        for fi in (0, 1):
+            grid = values[fi].reshape(_GRID_ROWS, _GRID_COLS)
+            if fi == 1 and self._flip_f1:
+                grid = grid[:, ::-1]
+            grids.append(grid)
+            array.markers.extend(self._build_markers(fi, grid, stamp))
+        self._marker_pub.publish(array)
+        self._publish_heatmaps(grids)
+
+    def _build_markers(self, fi: int, grid: np.ndarray, stamp) -> Sequence[Marker]:
+        markers: List[Marker] = []
+        frame = self._frame_ids[fi]
+        y_half = (_GRID_COLS - 1) * 0.5 * self._pitch_y
+        z_half = (_GRID_ROWS - 1) * 0.5 * self._pitch_z
+        span = self._vmax - self._vmin
+        for r in range(_GRID_ROWS):
+            for c in range(_GRID_COLS):
+                idx = r * _GRID_COLS + c
+                rr, gg, bb = _colormap((float(grid[r, c]) - self._vmin) / span)
+                m = Marker()
+                m.header.frame_id = frame
+                m.header.stamp = stamp
+                m.ns = f"tactile_finger_{fi}"
+                m.id = idx
+                m.type = Marker.CUBE
+                m.action = Marker.ADD
+                m.pose.position = Point(
+                    x=0.0, y=y_half - c * self._pitch_y, z=z_half - r * self._pitch_z
+                )
+                m.pose.orientation.w = 1.0
+                m.scale = Vector3(x=self._size, y=self._size, z=self._size)
+                m.color = ColorRGBA(r=rr, g=gg, b=bb, a=1.0)
+                m.lifetime = Duration(sec=0, nanosec=0)
+                # Re-transform every render frame — the pad frames move with
+                # the gripper fingers between marker updates.
+                m.frame_locked = True
+                markers.append(m)
+        return markers
+
+    def _publish_heatmaps(self, grids: Sequence[np.ndarray]) -> None:
+        if not self._publish_2d_heatmaps:
+            return
+        for fi, grid in enumerate(grids):
+            local_max = float(np.nanmax(grid)) if grid.size else 0.0
+            if local_max > self._heatmap_scale_max[fi]:
+                self._heatmap_scale_max[fi] = local_max
+        now = self.get_clock().now()
+        now_ns = now.nanoseconds
+        if (
+            self._heatmap_interval_ns > 0
+            and self._last_heatmap_publish_ns
+            and now_ns - self._last_heatmap_publish_ns < self._heatmap_interval_ns
+        ):
+            return
+        self._last_heatmap_publish_ns = now_ns
+        stamp = now.to_msg()
+        for fi, grid in enumerate(grids):
+            msg = self._grid_to_image(fi, grid)
+            msg.header.stamp = stamp
+            msg.header.frame_id = self._frame_ids[fi]
+            self._heatmap_pubs[fi].publish(msg)
+
+    def _grid_to_image(self, fi: int, grid: np.ndarray) -> Image:
+        if self._heatmap_floor > 0.0:
+            grid = np.where(grid >= self._heatmap_floor, grid, 0.0)
+        if self._heatmap_autoscale:
+            norm = np.clip(grid / max(self._heatmap_scale_max[fi], 1.0), 0.0, 1.0)
+        else:
+            norm = np.clip((grid - self._vmin) / (self._vmax - self._vmin), 0.0, 1.0)
+        rgb = np.empty((_GRID_ROWS, _GRID_COLS, 3), dtype=np.uint8)
+        for r in range(_GRID_ROWS):
+            for c in range(_GRID_COLS):
+                rr, gg, bb = _colormap(float(norm[r, c]))
+                rgb[r, c] = (round(rr * 255.0), round(gg * 255.0), round(bb * 255.0))
+        scale = self._heatmap_scale
+        if scale > 1:
+            rgb = np.repeat(np.repeat(rgb, scale, axis=0), scale, axis=1)
+        msg = Image()
+        msg.height = int(rgb.shape[0])
+        msg.width = int(rgb.shape[1])
+        msg.encoding = "rgb8"
+        msg.is_bigendian = 0
+        msg.step = int(msg.width * 3)
+        msg.data = rgb.tobytes()
+        return msg
+
+
+def main(args=None) -> None:
+    rclpy.init(args=args)
+    node = TactileVizNode()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.try_shutdown()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,7 @@
+StaticData staticdata
+Dynamic dynamic
+Accelerometer accelerometer
+Gyroscope gyroscope
+Quaternion quaternion
+EulerAngle eulerangle
+Timestamp timestamp
