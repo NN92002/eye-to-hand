@@ -2,6 +2,8 @@
 
 獨立備份 repository，來源 `/home/n/ur5e_camera_ws`；原專案未修改。包含 OpenCV eye-to-hand、LRBO eye-to-hand、校正後 cube edge 路徑執行。
 
+新增 [UR5e + D435 實機校正入口](real_robot/README.md)：ROS 2 手動採樣、ChArUco 求解、LRBO 深度擷取與既有 PREDATOR worker 離線求解。實機連線與精度尚待現場驗證。
+
 | 用途 | 入口 |
 |---|---|
 | OpenCV 校正 | `isaac_sim/ur5e_camera_scene_charuco_calibration.py` |

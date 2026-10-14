@@ -39,3 +39,7 @@ venv/
 
 # Launcher diagnostic logs
 /logs/
+
+# Real hardware RGB-D sessions and site-specific CAD models
+/real_robot/data/
+/real_robot/models/
